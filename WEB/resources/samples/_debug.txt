@@ -1,0 +1,29 @@
+>>>: SELECT instanceid,id,iu_urok_def_theclassnum,iu_urok_def_iu_urok_stage,iu_urok_def_testpageref,iu_urok_def_subject,iu_urok_def_rtheme,iu_urok_def_ucode,iu_urok_def_schooldate ,DATE_FORMAT(iu_urok_def_datecreated,'%Y-%m-%d %H:%i:%s') iu_urok_def_datecreated,iu_urok_def_mainref,iu_urok_def_topstage,iu_urok_def_coursetype,iu_urok_def_isdone,iu_urok_def_methodist,iu_urok_def_processtype,iu_urok_def_maketown,iu_urok_def_curator,iu_urok_def_thequarter,iu_urok_def_theteacher,iu_urok_def_methodist2,iu_urok_def_classtheme,iu_urok_def_plannum,iu_urok_def_manualcontrol,iu_urok_def_taskdelayed,iu_urok_def_laststate,iu_urok_def_lastmessage
+                     FROM v_autoiu_urok_def
+                      WHERE 1   and  (iu_urok_access_f('{D254C78A-0690-11E4-8FBF-00155D0ED711}',v_autoiu_urok_def.instanceid)<>0 and instance_archived=0) 
+					  ORDER BY iu_urok_def_datecreated DESC LIMIT 0,30
+			 sort :[iu_urok_def_datecreated DESC] 
+
+			 >>>: SELECT count(*) FROM v_autoiu_urok_def WHERE 1   and  (iu_urok_access_f('{D254C78A-0690-11E4-8FBF-00155D0ED711}',v_autoiu_urok_def.instanceid)<>0 and instance_archived=0) 
+					
+>>>: SELECT instanceid,id,iu_urok_def_theclassnum,iu_urok_def_iu_urok_stage,iu_urok_def_testpageref,iu_urok_def_subject,iu_urok_def_rtheme,iu_urok_def_ucode,iu_urok_def_schooldate ,DATE_FORMAT(iu_urok_def_datecreated,'%Y-%m-%d %H:%i:%s') iu_urok_def_datecreated,iu_urok_def_mainref,iu_urok_def_topstage,iu_urok_def_coursetype,iu_urok_def_isdone,iu_urok_def_methodist,iu_urok_def_processtype,iu_urok_def_maketown,iu_urok_def_curator,iu_urok_def_thequarter,iu_urok_def_theteacher,iu_urok_def_methodist2,iu_urok_def_classtheme,iu_urok_def_plannum,iu_urok_def_manualcontrol,iu_urok_def_taskdelayed,iu_urok_def_laststate,iu_urok_def_lastmessage
+                     FROM v_autoiu_urok_def
+                      WHERE 1   and  (iu_urok_access_f('{28C56AEC-068F-11E4-8FBF-00155D0ED711}',v_autoiu_urok_def.instanceid)<>0 and instance_archived=0) 
+					  ORDER BY iu_urok_def_datecreated DESC LIMIT 0,30
+			 sort :[iu_urok_def_datecreated DESC] 
+
+			 >>>: SELECT count(*) FROM v_autoiu_urok_def WHERE 1   and  (iu_urok_access_f('{28C56AEC-068F-11E4-8FBF-00155D0ED711}',v_autoiu_urok_def.instanceid)<>0 and instance_archived=0) 
+					
+>>>: SELECT B2G(iu_tmdefid) as iu_tmdefid, B2G(iu_tmdefid) as id,B2G(instanceid) as instanceid, iu_tmdef_BRIEF_F(iu_tmdefid , NULL) as  brief,lastname,name,surname,subjects, iud_predmet_MREF_F(subjects, NULL) as  subjects_grid,classes,thephone,email,sendtomail, case sendtomail  when -1 then 'Да' when 0 then 'Нет'End  as sendtomail_grid,regal,ismethodist, case ismethodist  when -1 then 'Да' when 0 then 'Нет'End  as ismethodist_grid,B2G(theTown) thetown, iud_town_BRIEF_F(thetown, NULL) as thetown_grid,workat
+                     FROM iu_tmdef
+                      WHERE 1  
+					  ORDER BY lastname ASC
+			 sort :[lastname ASC] 
+
+			 >>>: SELECT B2G(iu_int_modulesid) as iu_int_modulesid, B2G(iu_int_modulesid) as id,B2G(instanceid) as instanceid, iu_int_modules_BRIEF_F(iu_int_modulesid , NULL) as  brief,sequence,theicon,groupname,name,caption,visiblecontrol, case visiblecontrol  when -1 then 'Да' when 0 then 'Нет'End  as visiblecontrol_grid,controldocmode,otherdocmode,mydocmode,allobjects, case allobjects  when -1 then 'Да' when 0 then 'Нет'End  as allobjects_grid,colegsobject, case colegsobject  when -1 then 'Да' when 0 then 'Нет'End  as colegsobject_grid,substructobjects, case substructobjects  when -1 then 'Да' when 0 then 'Нет'End  as substructobjects_grid
+                     FROM iu_int_modules
+                      WHERE 1   and instanceid=G2B('{2BADF02C-C1D7-481C-BC1B-5CA312777EDF}') 
+					  ORDER BY sequence ASC
+			 sort :[sequence ASC] 
+
+			 

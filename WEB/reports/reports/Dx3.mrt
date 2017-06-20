@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer application="StiReport" type="Flex" version="1.02">
+  <Dictionary type="Dictionary" isKey="true" Ref="1">
+    <Databases isList="true" count="1">
+      <teplo type="Stimulsoft.Report.Dictionary.StiMySqlDatabase" isKey="true" Ref="2">
+        <Alias>teplo</Alias>
+        <ConnectionStringEncrypted>w2zR60VaQYVGTKGYTRhiF4tsy0hNS3vFa1ic3OcQog/VavcpYlkx3eFJ</ConnectionStringEncrypted>
+        <Name>teplo</Name>
+      </teplo>
+    </Databases>
+    <DataSources isList="true" count="1">
+      <Суточные type="Stimulsoft.Report.Dictionary.StiMySqlSource" isKey="true" Ref="3">
+        <Alias>Суточные</Alias>
+        <Columns isList="true" count="95">
+          <value>tplc_did,System.String</value>
+          <value>changestamp,System.DateTime</value>
+          <value>tplc_d_dans4,System.Decimal</value>
+          <value>tplc_d_sp_tb2,System.Decimal</value>
+          <value>tplc_d_dcall,System.DateTime</value>
+          <value>tplc_d_g4,System.Decimal</value>
+          <value>tplc_d_dans5,System.Decimal</value>
+          <value>tplc_d_thot,System.Decimal</value>
+          <value>tplc_d_q4,System.Decimal</value>
+          <value>tplc_d_t2,System.Decimal</value>
+          <value>tplc_d_v4h,System.Decimal</value>
+          <value>tplc_d_tce2,System.Decimal</value>
+          <value>tplc_d_errtime,System.Decimal</value>
+          <value>tplc_d_dans2,System.Decimal</value>
+          <value>tplc_d_hc,System.String</value>
+          <value>tplc_d_dm12,System.Decimal</value>
+          <value>tplc_d_v3,System.Decimal</value>
+          <value>tplc_d_hc_code,System.String</value>
+          <value>tplc_d_sp_tb1,System.Decimal</value>
+          <value>tplc_d_v5,System.Decimal</value>
+          <value>tplc_d_oktime,System.Decimal</value>
+          <value>tplc_d_m3,System.Decimal</value>
+          <value>tplc_d_dp12,System.Decimal</value>
+          <value>tplc_d_v1h,System.Decimal</value>
+          <value>tplc_d_dt45,System.Decimal</value>
+          <value>tplc_d_dq45,System.Decimal</value>
+          <value>tplc_d_pxb,System.Decimal</value>
+          <value>tplc_d_p6,System.Decimal</value>
+          <value>tplc_d_q1,System.Decimal</value>
+          <value>tplc_d_g5,System.Decimal</value>
+          <value>tplc_d_worktime,System.Decimal</value>
+          <value>tplc_d_p1,System.Decimal</value>
+          <value>tplc_d_tair1,System.Decimal</value>
+          <value>tplc_d_tair2,System.Decimal</value>
+          <value>tplc_d_dm45,System.Decimal</value>
+          <value>tplc_d_dt12,System.Decimal</value>
+          <value>tplc_d_m5,System.Decimal</value>
+          <value>tplc_d_t5,System.Decimal</value>
+          <value>tplc_d_p3,System.Decimal</value>
+          <value>tplc_d_g2,System.Decimal</value>
+          <value>tplc_d_dv45,System.Decimal</value>
+          <value>tplc_d_v1,System.Decimal</value>
+          <value>tplc_d_p2,System.Decimal</value>
+          <value>tplc_d_dans1,System.Decimal</value>
+          <value>tplc_d_check_a,System.Decimal</value>
+          <value>tplc_d_v4,System.Decimal</value>
+          <value>tplc_d_v6,System.Decimal</value>
+          <value>tplc_d_datetimecounter,System.DateTime</value>
+          <value>tplc_d_dq,System.Decimal</value>
+          <value>tplc_d_dcounter,System.DateTime</value>
+          <value>tplc_d_dp45,System.Decimal</value>
+          <value>tplc_d_m4,System.Decimal</value>
+          <value>tplc_d_tce1,System.Decimal</value>
+          <value>tplc_d_v5h,System.Decimal</value>
+          <value>tplc_d_v2h,System.Decimal</value>
+          <value>tplc_d_g3,System.Decimal</value>
+          <value>tplc_d_tsum2,System.Decimal</value>
+          <value>tplc_d_q3,System.Decimal</value>
+          <value>tplc_d_v2,System.Decimal</value>
+          <value>tplc_d_q2h,System.Decimal</value>
+          <value>tplc_d_dans6,System.Decimal</value>
+          <value>tplc_d_hc_2,System.String</value>
+          <value>tplc_d_q2,System.Decimal</value>
+          <value>tplc_d_dq12,System.Decimal</value>
+          <value>tplc_d_dg45,System.Decimal</value>
+          <value>tplc_d_errtimeh,System.Decimal</value>
+          <value>tplc_d_patm,System.Decimal</value>
+          <value>tplc_d_dv12,System.Decimal</value>
+          <value>tplc_d_t1,System.Decimal</value>
+          <value>tplc_d_t3,System.Decimal</value>
+          <value>tplc_d_p5,System.Decimal</value>
+          <value>tplc_d_unitsr,System.String</value>
+          <value>tplc_d_m2,System.Decimal</value>
+          <value>tplc_d_dans3,System.Decimal</value>
+          <value>tplc_d_g6,System.Decimal</value>
+          <value>tplc_d_hc_1,System.String</value>
+          <value>tplc_d_q5,System.Decimal</value>
+          <value>tplc_d_dg12,System.Decimal</value>
+          <value>tplc_d_q1h,System.Decimal</value>
+          <value>tplc_d_p4,System.Decimal</value>
+          <value>tplc_d_g1,System.Decimal</value>
+          <value>tplc_d_m1,System.Decimal</value>
+          <value>tplc_d_tcool,System.Decimal</value>
+          <value>tplc_d_t4,System.Decimal</value>
+          <value>tplc_d_sp,System.Decimal</value>
+          <value>tplc_d_t6,System.Decimal</value>
+          <value>tplc_d_tsum1,System.Decimal</value>
+          <value>tplc_d_m6,System.Decimal</value>
+          <value>instanceid,System.String</value>
+          <value>instanceid_val,System.String</value>
+          <value>instance_archived,System.Int32</value>
+          <value>id,System.String</value>
+          <value>viewbase,System.String</value>
+          <value>statusname,System.String</value>
+          <value>intsancestatusid,System.String</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1"/>
+        <Name>Суточные</Name>
+        <NameInSource>teplo</NameInSource>
+        <Parameters isList="true" count="0"/>
+        <SqlCommand>select v_autotplc_d.* from v_autotplc_d 
+  JOIN tplc_header ON v_autotplc_d.instanceid_val= tplc_header.instanceid WHERE b2g(tplc_header.id_bd) like'%{id}%' and tplc_d_dcounter&gt;=str_to_date('{dfrom}','%m/%d/%Y') and tplc_d_dcounter&lt;=str_to_date('{dto}','%m/%d/%Y') order by tplc_d_dcounter desc</SqlCommand>
+      </Суточные>
+    </DataSources>
+    <Relations isList="true" count="0"/>
+    <Report isRef="0"/>
+    <Variables isList="true" count="4">
+      <value>,dfrom,dfrom,System.DateTime,_x0030_8_x002F_27_x002F_2014_x0020_09_x003A_45_x003A_42_x0020_PM,False,False</value>
+      <value>,dto,dto,System.DateTime,_x0030_8_x002F_27_x002F_2014_x0020_09_x003A_45_x003A_18_x0020_PM,False,False</value>
+      <value>,hdr,hdr,System.String,,False,False</value>
+      <value>,id,id,System.String,,False,False</value>
+    </Variables>
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0"/>
+  <MetaTags isList="true" count="0"/>
+  <Pages isList="true" count="1">
+    <Page1 type="Page" isKey="true" Ref="4">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="8">
+        <ReportTitleBand1 type="ReportTitleBand" isKey="true" Ref="5">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.4,27.7,2</ClientRectangle>
+          <Components isList="true" count="2">
+            <Text1 type="Text" isKey="true" Ref="6">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,27.6,1.2</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Font>Arial,16</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text1</Name>
+              <Page isRef="4"/>
+              <Parent isRef="5"/>
+              <Text>Отчет по суточным архивам</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text1>
+            <Text36 type="Text" isKey="true" Ref="7">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,1.2,27.6,0.8</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Font>Arial,12</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text36</Name>
+              <Page isRef="4"/>
+              <Parent isRef="5"/>
+              <Text>{hdr}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text36>
+          </Components>
+          <Conditions isList="true" count="0"/>
+          <Name>ReportTitleBand1</Name>
+          <Page isRef="4"/>
+          <Parent isRef="4"/>
+        </ReportTitleBand1>
+        <HeaderBand1 type="HeaderBand" isKey="true" Ref="8">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,3.2,27.7,1.8</ClientRectangle>
+          <Components isList="true" count="23">
+            <Text14 type="Text" isKey="true" Ref="9">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3.6,0.2,3.2,0.6</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Font>Arial,10</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text14</Name>
+              <Page isRef="4"/>
+              <Parent isRef="8"/>
+              <Text>Канал 1</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text14>
+            <Text16 type="Text" isKey="true" Ref="10">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>13,0.2,3,0.6</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Font>Arial,10</Font>
+              <Guid>eff308170b2fae6879f318a2ab081d53</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text16</Name>
+              <Page isRef="4"/>
+              <Parent isRef="8"/>
+              <Text>Канал 2</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text16>
+            <Text27 type="Text" isKey="true" Ref="11">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>21.2,0.2,3.2,0.6</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Font>Arial,10</Font>
+              <Guid>a51c2c73296c81f4a08a18a55e492ca0</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text27</Name>
+              <Page isRef="4"/>
+              <Parent isRef="8"/>
+              <Text>Канал 3</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text27>
+            <Text15 type="Text" isKey="true" Ref="12">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <ClientRectangle>11.6,1.2,0.4,0.4</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Font>Arial,10</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text15</Name>
+              <Page isRef="4"/>
+              <Parent isRef="8"/>
+              <Text>T</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text15>
+            <Text18 type="Text" isKey="true" Ref="13">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <ClientRectangle>13.2,1.2,0.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Font>Arial,10</Font>
+              <Guid>69a436e1199a1196c47918a3975ce016</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text18</Name>
+              <Page isRef="4"/>
+              <Parent isRef="8"/>
+              <Text>P</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text18>
+            <Text19 type="Text" isKey="true" Ref="14">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <ClientRectangle>14.8,1.2,0.4,0.4</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Font>Arial,10</Font>
+              <Guid>36122da7b9e1a234e42718a3ab44ea84</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text19</Name>
+              <Page isRef="4"/>
+              <Parent isRef="8"/>
+              <Text>M</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text19>
+            <Text20 type="Text" isKey="true" Ref="15">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <ClientRectangle>16.4,1.2,0.4,0.4</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Font>Arial,10</Font>
+              <Guid>cfdc2e1e5b46337e305118a3bbe04e33</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text20</Name>
+              <Page isRef="4"/>
+              <Parent isRef="8"/>
+              <Text>V</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text20>
+            <Text21 type="Text" isKey="true" Ref="16">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <ClientRectangle>17.8,1.2,0.4,0.6</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Font>Arial,10</Font>
+              <Guid>9b08e0eabb2bf0a249be18a3ced032be</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text21</Name>
+              <Page isRef="4"/>
+              <Parent isRef="8"/>
+              <Text>Q</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text21>
+            <Text32 type="Text" isKey="true" Ref="17">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <ClientRectangle>19.6,1.2,0.4,0.4</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Font>Arial,10</Font>
+              <Guid>9e24614925bdaa6f2b75890b39d7df85</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text32</Name>
+              <Page isRef="4"/>
+              <Parent isRef="8"/>
+              <Text>T</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text32>
+            <Text24 type="Text" isKey="true" Ref="18">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <ClientRectangle>21.2,1.2,0.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Font>Arial,10</Font>
+              <Guid>4dc586b0a2eab213f13d890b39d7fc94</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text24</Name>
+              <Page isRef="4"/>
+              <Parent isRef="8"/>
+              <Text>P</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text24>
+            <Text28 type="Text" isKey="true" Ref="19">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <ClientRectangle>23,1.2,0.4,0.4</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Font>Arial,10</Font>
+              <Guid>3360f0fe52da3f051d68890b39d78d4b</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text28</Name>
+              <Page isRef="4"/>
+              <Parent isRef="8"/>
+              <Text>M</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text28>
+            <Text29 type="Text" isKey="true" Ref="20">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <ClientRectangle>24.8,1.2,0.4,0.4</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Font>Arial,10</Font>
+              <Guid>f411598a059080cdf1df890b39d7cc64</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text29</Name>
+              <Page isRef="4"/>
+              <Parent isRef="8"/>
+              <Text>V</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text29>
+            <Text30 type="Text" isKey="true" Ref="21">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <ClientRectangle>26.6,1.2,0.4,0.6</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Font>Arial,10</Font>
+              <Guid>9b617d4bb7dd973c03ba890b39d73f70</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text30</Name>
+              <Page isRef="4"/>
+              <Parent isRef="8"/>
+              <Text>Q</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text30>
+            <Text38 type="Text" isKey="true" Ref="22">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <ClientRectangle>3.2,1.2,0.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Font>Arial,10</Font>
+              <Guid>46cb46d5456097385707890b6b715541</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text38</Name>
+              <Page isRef="4"/>
+              <Parent isRef="8"/>
+              <Text>T</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text38>
+            <Text31 type="Text" isKey="true" Ref="23">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <ClientRectangle>4.8,1.2,0.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Font>Arial,10</Font>
+              <Guid>e43c562bd12f3f700488890b6b719e53</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text31</Name>
+              <Page isRef="4"/>
+              <Parent isRef="8"/>
+              <Text>P</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text31>
+            <Text33 type="Text" isKey="true" Ref="24">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <ClientRectangle>6.6,1.2,0.4,0.4</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Font>Arial,10</Font>
+              <Guid>d4dbfb05a6c3efc4205a890b6b71413a</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text33</Name>
+              <Page isRef="4"/>
+              <Parent isRef="8"/>
+              <Text>M</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text33>
+            <Text34 type="Text" isKey="true" Ref="25">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <ClientRectangle>8.4,1.2,0.4,0.4</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Font>Arial,10</Font>
+              <Guid>e9fe3e01272b2198af5e890b6b710e6f</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text34</Name>
+              <Page isRef="4"/>
+              <Parent isRef="8"/>
+              <Text>V</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text34>
+            <Text35 type="Text" isKey="true" Ref="26">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <ClientRectangle>9.6,1.2,0.4,0.6</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Font>Arial,10</Font>
+              <Guid>41fd5775338aaf22f515890b6b72f036</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text35</Name>
+              <Page isRef="4"/>
+              <Parent isRef="8"/>
+              <Text>Q</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text35>
+            <Text37 type="Text" isKey="true" Ref="27">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.4,1,2,0.6</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Font>Arial,10</Font>
+              <Guid>40bd4f1737ebc0f504cc891777ba371d</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text37</Name>
+              <Page isRef="4"/>
+              <Parent isRef="8"/>
+              <Text>Дата</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text37>
+            <StartPointPrimitive4 type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true" Ref="28">
+              <ClientRectangle>10.8,0,0,0</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Name>StartPointPrimitive4</Name>
+              <Page isRef="4"/>
+              <Parent isRef="8"/>
+              <ReferenceToGuid>8cb8c9dff2342ccdbc3d18aedc63237b</ReferenceToGuid>
+            </StartPointPrimitive4>
+            <StartPointPrimitive5 type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true" Ref="29">
+              <ClientRectangle>19,0,0,0</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Name>StartPointPrimitive5</Name>
+              <Page isRef="4"/>
+              <Parent isRef="8"/>
+              <ReferenceToGuid>2f431ec8f29497f4f75518af049b9f49</ReferenceToGuid>
+            </StartPointPrimitive5>
+            <EndPointPrimitive5 type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true" Ref="30">
+              <ClientRectangle>19.03,1.8,0,0</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Name>EndPointPrimitive5</Name>
+              <Page isRef="4"/>
+              <Parent isRef="8"/>
+              <ReferenceToGuid>2f431ec8f29497f4f75518af049b9f49</ReferenceToGuid>
+            </EndPointPrimitive5>
+            <EndPointPrimitive4 type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true" Ref="31">
+              <ClientRectangle>10.83,1.8,0,0</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Name>EndPointPrimitive4</Name>
+              <Page isRef="4"/>
+              <Parent isRef="8"/>
+              <ReferenceToGuid>8cb8c9dff2342ccdbc3d18aedc63237b</ReferenceToGuid>
+            </EndPointPrimitive4>
+          </Components>
+          <Conditions isList="true" count="0"/>
+          <Name>HeaderBand1</Name>
+          <Page isRef="4"/>
+          <Parent isRef="4"/>
+        </HeaderBand1>
+        <DataBand1 type="DataBand" isKey="true" Ref="32">
+          <Brush>Transparent</Brush>
+          <CanBreak>True</CanBreak>
+          <ClientRectangle>0,5.8,27.7,0.8</ClientRectangle>
+          <Components isList="true" count="20">
+            <Text2 type="Text" isKey="true" Ref="33">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <ClientRectangle>2.8,0,1.4,0.6</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text2</Name>
+              <Page isRef="4"/>
+              <Parent isRef="32"/>
+              <Text>{Суточные.tplc_d_t1}</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text2>
+            <Text3 type="Text" isKey="true" Ref="34">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <ClientRectangle>4.4,0,1.4,0.6</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text3</Name>
+              <Page isRef="4"/>
+              <Parent isRef="32"/>
+              <Text>{Суточные.tplc_d_p1}</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text3>
+            <Text4 type="Text" isKey="true" Ref="35">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <ClientRectangle>7.6,0,1.4,0.6</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text4</Name>
+              <Page isRef="4"/>
+              <Parent isRef="32"/>
+              <Text>{Суточные.tplc_d_v1}</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text4>
+            <Text5 type="Text" isKey="true" Ref="36">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <ClientRectangle>9.2,0,1.4,0.6</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text5</Name>
+              <Page isRef="4"/>
+              <Parent isRef="32"/>
+              <Text>{Суточные.tplc_d_q1}</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text5>
+            <Text6 type="Text" isKey="true" Ref="37">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <ClientRectangle>6,0,1.4,0.6</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text6</Name>
+              <Page isRef="4"/>
+              <Parent isRef="32"/>
+              <Text>{Суточные.tplc_d_m1}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text6>
+            <Text12 type="Text" isKey="true" Ref="38">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <ClientRectangle>11,0,1.4,0.6</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Font>Arial,10</Font>
+              <Guid>587d48944498994f6f9a189e9d8e6b37</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text12</Name>
+              <Page isRef="4"/>
+              <Parent isRef="32"/>
+              <Text>{Суточные.tplc_d_t2}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text12>
+            <Text7 type="Text" isKey="true" Ref="39">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <ClientRectangle>12.6,0,1.4,0.6</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Font>Arial,10</Font>
+              <Guid>cd3cb566970c32076b57189e9d8e2df8</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text7</Name>
+              <Page isRef="4"/>
+              <Parent isRef="32"/>
+              <Text>{Суточные.tplc_d_p2}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text7>
+            <Text8 type="Text" isKey="true" Ref="40">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <ClientRectangle>15.8,0,1.4,0.6</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Font>Arial,10</Font>
+              <Guid>bed5cab7378517a03b77189e9d8eb0ca</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text8</Name>
+              <Page isRef="4"/>
+              <Parent isRef="32"/>
+              <Text>{Суточные.tplc_d_v2}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text8>
+            <Text9 type="Text" isKey="true" Ref="41">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <ClientRectangle>17.4,0,1.4,0.6</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Font>Arial,10</Font>
+              <Guid>cbb1e69813d6a0608278189e9d8ef860</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text9</Name>
+              <Page isRef="4"/>
+              <Parent isRef="32"/>
+              <Text>{Суточные.tplc_d_q2}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text9>
+            <Text10 type="Text" isKey="true" Ref="42">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <ClientRectangle>14.2,0,1.4,0.6</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Font>Arial,10</Font>
+              <Guid>dcf2ba6c3d660caa3118189e9d8ee854</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text10</Name>
+              <Page isRef="4"/>
+              <Parent isRef="32"/>
+              <Text>{Суточные.tplc_d_m2}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text10>
+            <Text11 type="Text" isKey="true" Ref="43">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <ClientRectangle>0.2,0,2.4,0.6</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Font>Arial,10</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text11</Name>
+              <Page isRef="4"/>
+              <Parent isRef="32"/>
+              <Text>{Суточные.tplc_d_dcounter}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat type="DateFormat" isKey="true" Ref="44">
+                <StringFormat>dd.MM.yy</StringFormat>
+              </TextFormat>
+            </Text11>
+            <Text25 type="Text" isKey="true" Ref="45">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <ClientRectangle>19.2,0,1.4,0.6</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Font>Arial,10</Font>
+              <Guid>1a4dfc7846a516d61dc018a4eaff13f6</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text25</Name>
+              <Page isRef="4"/>
+              <Parent isRef="32"/>
+              <Text>{Суточные.tplc_d_t3}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text25>
+            <Text17 type="Text" isKey="true" Ref="46">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <ClientRectangle>20.8,0,1.4,0.6</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Font>Arial,10</Font>
+              <Guid>952b0db06674a30991e718a4eaff38d6</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text17</Name>
+              <Page isRef="4"/>
+              <Parent isRef="32"/>
+              <Text>{Суточные.tplc_d_p3}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text17>
+            <Text23 type="Text" isKey="true" Ref="47">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <ClientRectangle>22.4,0,1.6,0.6</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Font>Arial,10</Font>
+              <Guid>ac9ad81fd643388795bf18a4eafff59f</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text23</Name>
+              <Page isRef="4"/>
+              <Parent isRef="32"/>
+              <Text>{Суточные.tplc_d_m3}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text23>
+            <Text22 type="Text" isKey="true" Ref="48">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <ClientRectangle>24.2,0,1.6,0.6</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Font>Arial,10</Font>
+              <Guid>796ce9a732b27780d1aa18a4eaff2ef3</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text22</Name>
+              <Page isRef="4"/>
+              <Parent isRef="32"/>
+              <Text>{Суточные.tplc_d_v3}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text22>
+            <Text26 type="Text" isKey="true" Ref="49">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <ClientRectangle>26,0,1.4,0.6</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Font>Arial,10</Font>
+              <Guid>2d3b2411ea5c5aafafb718a536c8248f</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text26</Name>
+              <Page isRef="4"/>
+              <Parent isRef="32"/>
+              <Text>{Суточные.tplc_d_q3}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text26>
+            <StartPointPrimitive9 type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true" Ref="50">
+              <ClientRectangle>10.8,0,0,0</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Name>StartPointPrimitive9</Name>
+              <Page isRef="4"/>
+              <Parent isRef="32"/>
+              <ReferenceToGuid>bda41b14dba6f73dcd1d18b16c5b99fb</ReferenceToGuid>
+            </StartPointPrimitive9>
+            <StartPointPrimitive10 type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true" Ref="51">
+              <ClientRectangle>19,0,0,0</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Name>StartPointPrimitive10</Name>
+              <Page isRef="4"/>
+              <Parent isRef="32"/>
+              <ReferenceToGuid>73b4815f00002b1fc6d318b187f1191f</ReferenceToGuid>
+            </StartPointPrimitive10>
+            <EndPointPrimitive9 type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true" Ref="52">
+              <ClientRectangle>10.83,0.8,0,0</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Name>EndPointPrimitive9</Name>
+              <Page isRef="4"/>
+              <Parent isRef="32"/>
+              <ReferenceToGuid>bda41b14dba6f73dcd1d18b16c5b99fb</ReferenceToGuid>
+            </EndPointPrimitive9>
+            <EndPointPrimitive10 type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true" Ref="53">
+              <ClientRectangle>19.03,0.8,0,0</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Name>EndPointPrimitive10</Name>
+              <Page isRef="4"/>
+              <Parent isRef="32"/>
+              <ReferenceToGuid>73b4815f00002b1fc6d318b187f1191f</ReferenceToGuid>
+            </EndPointPrimitive10>
+          </Components>
+          <Conditions isList="true" count="0"/>
+          <DataSourceName>Суточные</DataSourceName>
+          <Filters isList="true" count="0"/>
+          <Name>DataBand1</Name>
+          <Page isRef="4"/>
+          <Parent isRef="4"/>
+          <Sort isList="true" count="0"/>
+        </DataBand1>
+        <FooterBand1 type="FooterBand" isKey="true" Ref="54">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,7.4,27.7,1</ClientRectangle>
+          <Components isList="true" count="10">
+            <Text43 type="Text" isKey="true" Ref="55">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <ClientRectangle>7.4,0.2,1.6,0.6</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Font>Arial,10</Font>
+              <Guid>342956a3c2e6cf8abd4a18b7f47d69ea</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text43</Name>
+              <Page isRef="4"/>
+              <Parent isRef="54"/>
+              <Text>{Sum(DataBand1,Суточные.tplc_d_v1)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat type="NumberFormat" isKey="true" Ref="56">
+                <GroupSeparator></GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <UseLocalSetting>False</UseLocalSetting>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text43>
+            <Text40 type="Text" isKey="true" Ref="57">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <ClientRectangle>9,0.2,1.6,0.6</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Font>Arial,10</Font>
+              <Guid>b96d246cd58926103a1d18b7f47d437f</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text40</Name>
+              <Page isRef="4"/>
+              <Parent isRef="54"/>
+              <Text>{Sum(DataBand1,Суточные.tplc_d_q1)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat type="NumberFormat" isKey="true" Ref="58">
+                <DecimalSeparator>,</DecimalSeparator>
+                <GroupSeparator></GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <UseLocalSetting>False</UseLocalSetting>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text40>
+            <Text41 type="Text" isKey="true" Ref="59">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <ClientRectangle>5.8,0.2,1.6,0.6</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Font>Arial,10</Font>
+              <Guid>753aed2c5478fefd595e18b7f47d10cc</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text41</Name>
+              <Page isRef="4"/>
+              <Parent isRef="54"/>
+              <Text>{Sum(DataBand1,Суточные.tplc_d_m1)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat type="NumberFormat" isKey="true" Ref="60">
+                <GroupSeparator></GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <UseLocalSetting>False</UseLocalSetting>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text41>
+            <Text46 type="Text" isKey="true" Ref="61">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <ClientRectangle>15.6,0.2,1.6,0.6</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Font>Arial,10</Font>
+              <Guid>6e2cc92c3f2099a22e4618b82b045d0a</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text46</Name>
+              <Page isRef="4"/>
+              <Parent isRef="54"/>
+              <Text>{Sum(DataBand1,Суточные.tplc_d_v2)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat type="NumberFormat" isKey="true" Ref="62">
+                <GroupSeparator></GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <UseLocalSetting>False</UseLocalSetting>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text46>
+            <Text42 type="Text" isKey="true" Ref="63">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <ClientRectangle>17.2,0.2,1.6,0.6</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Font>Arial,10</Font>
+              <Guid>548f88c3ca27494cb09618b82b043f6c</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text42</Name>
+              <Page isRef="4"/>
+              <Parent isRef="54"/>
+              <Text>{Sum(DataBand1,Суточные.tplc_d_q2)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat type="NumberFormat" isKey="true" Ref="64">
+                <DecimalSeparator>,</DecimalSeparator>
+                <GroupSeparator></GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <UseLocalSetting>False</UseLocalSetting>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text42>
+            <Text44 type="Text" isKey="true" Ref="65">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <ClientRectangle>14,0.2,1.6,0.6</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Font>Arial,10</Font>
+              <Guid>5dbe50ed7d50539ff63318b82b04c405</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text44</Name>
+              <Page isRef="4"/>
+              <Parent isRef="54"/>
+              <Text>{Sum(DataBand1,Суточные.tplc_d_m2)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat type="NumberFormat" isKey="true" Ref="66">
+                <GroupSeparator></GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <UseLocalSetting>False</UseLocalSetting>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text44>
+            <Text48 type="Text" isKey="true" Ref="67">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.4,0.2,2.2,0.8</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Font>Arial,10</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text48</Name>
+              <Page isRef="4"/>
+              <Parent isRef="54"/>
+              <Text>Итого</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text48>
+            <Text53 type="Text" isKey="true" Ref="68">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <ClientRectangle>24,0,1.8,0.6</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Font>Arial,10</Font>
+              <Guid>a3e63a5f1f1cf50e641018bd992b1ec0</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text53</Name>
+              <Page isRef="4"/>
+              <Parent isRef="54"/>
+              <Text>{Sum(DataBand1,Суточные.tplc_d_v3)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat type="NumberFormat" isKey="true" Ref="69">
+                <GroupSeparator></GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <UseLocalSetting>False</UseLocalSetting>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text53>
+            <Text50 type="Text" isKey="true" Ref="70">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <ClientRectangle>25.8,0,1.6,0.6</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Font>Arial,10</Font>
+              <Guid>7723adc0658ba7fa2c7518bd992b27b5</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text50</Name>
+              <Page isRef="4"/>
+              <Parent isRef="54"/>
+              <Text>{Sum(DataBand1,Суточные.tplc_d_q3)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat type="NumberFormat" isKey="true" Ref="71">
+                <DecimalSeparator>,</DecimalSeparator>
+                <GroupSeparator></GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <UseLocalSetting>False</UseLocalSetting>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text50>
+            <Text51 type="Text" isKey="true" Ref="72">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <ClientRectangle>22.2,0,1.8,0.6</ClientRectangle>
+              <Conditions isList="true" count="0"/>
+              <Font>Arial,10</Font>
+              <Guid>5748c5ed5fb4fdce413818bd992b4ebf</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text51</Name>
+              <Page isRef="4"/>
+              <Parent isRef="54"/>
+              <Text>{Sum(DataBand1,Суточные.tplc_d_m3)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat type="NumberFormat" isKey="true" Ref="73">
+                <GroupSeparator></GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <UseLocalSetting>False</UseLocalSetting>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text51>
+          </Components>
+          <Conditions isList="true" count="0"/>
+          <Name>FooterBand1</Name>
+          <Page isRef="4"/>
+          <Parent isRef="4"/>
+        </FooterBand1>
+        <VerticalLinePrimitive5 type="VerticalLinePrimitive" isKey="true" Ref="74">
+          <ClientRectangle>10.8,3.2,0.0254,1.8</ClientRectangle>
+          <Color>Black</Color>
+          <Conditions isList="true" count="0"/>
+          <EndCap type="Cap" isKey="true" Ref="75">
+            <Color>Black</Color>
+          </EndCap>
+          <Guid>8cb8c9dff2342ccdbc3d18aedc63237b</Guid>
+          <Name>VerticalLinePrimitive5</Name>
+          <Page isRef="4"/>
+          <Parent isRef="4"/>
+          <StartCap type="Cap" isKey="true" Ref="76">
+            <Color>Black</Color>
+          </StartCap>
+        </VerticalLinePrimitive5>
+        <VerticalLinePrimitive6 type="VerticalLinePrimitive" isKey="true" Ref="77">
+          <ClientRectangle>19,3.2,0.0254,1.8</ClientRectangle>
+          <Color>Black</Color>
+          <Conditions isList="true" count="0"/>
+          <EndCap type="Cap" isKey="true" Ref="78">
+            <Color>Black</Color>
+          </EndCap>
+          <Guid>2f431ec8f29497f4f75518af049b9f49</Guid>
+          <Name>VerticalLinePrimitive6</Name>
+          <Page isRef="4"/>
+          <Parent isRef="4"/>
+          <StartCap type="Cap" isKey="true" Ref="79">
+            <Color>Black</Color>
+          </StartCap>
+        </VerticalLinePrimitive6>
+        <VerticalLinePrimitive10 type="VerticalLinePrimitive" isKey="true" Ref="80">
+          <ClientRectangle>10.8,5.8,0.0254,0.8</ClientRectangle>
+          <Color>Black</Color>
+          <Conditions isList="true" count="0"/>
+          <EndCap type="Cap" isKey="true" Ref="81">
+            <Color>Black</Color>
+          </EndCap>
+          <Guid>bda41b14dba6f73dcd1d18b16c5b99fb</Guid>
+          <Name>VerticalLinePrimitive10</Name>
+          <Page isRef="4"/>
+          <Parent isRef="4"/>
+          <StartCap type="Cap" isKey="true" Ref="82">
+            <Color>Black</Color>
+          </StartCap>
+        </VerticalLinePrimitive10>
+        <VerticalLinePrimitive11 type="VerticalLinePrimitive" isKey="true" Ref="83">
+          <ClientRectangle>19,5.8,0.0254,0.8</ClientRectangle>
+          <Color>Black</Color>
+          <Conditions isList="true" count="0"/>
+          <EndCap type="Cap" isKey="true" Ref="84">
+            <Color>Black</Color>
+          </EndCap>
+          <Guid>73b4815f00002b1fc6d318b187f1191f</Guid>
+          <Name>VerticalLinePrimitive11</Name>
+          <Page isRef="4"/>
+          <Parent isRef="4"/>
+          <StartCap type="Cap" isKey="true" Ref="85">
+            <Color>Black</Color>
+          </StartCap>
+        </VerticalLinePrimitive11>
+      </Components>
+      <Conditions isList="true" count="0"/>
+      <Guid>88361d2d770dd2dd3d2b188f922a6e81</Guid>
+      <Margins>1,1,1,1</Margins>
+      <Name>Page1</Name>
+      <Orientation>Landscape</Orientation>
+      <PageHeight>21</PageHeight>
+      <PageWidth>29.7</PageWidth>
+      <Report isRef="0"/>
+      <Watermark type="Stimulsoft.Report.Components.StiWatermark" isKey="true" Ref="86">
+        <Font>Arial,100</Font>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </Page1>
+  </Pages>
+  <PrinterSettings type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" Ref="87"/>
+  <ReportAlias>Report</ReportAlias>
+  <ReportChanged>09/18/2014 06:07:54 PM</ReportChanged>
+  <ReportCreated>08/27/2014 09:42:15 PM</ReportCreated>
+  <ReportFile>C:\bami\TEPLO\WEB\reports\reports\Dx3.mrt</ReportFile>
+  <ReportGuid>1dfb19e46401060f957b89173d3117f3</ReportGuid>
+  <ReportName>Report</ReportName>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2014.1.1900</ReportVersion>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="0"/>
+</StiSerializer>
