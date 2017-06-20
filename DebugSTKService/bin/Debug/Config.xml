@@ -1,0 +1,9 @@
+<Config DataSource="ora92apo" 
+UserID="COUNTERS"
+Password="counters" 
+RequestInterval="55000">
+</Config>
+
+
+
+        

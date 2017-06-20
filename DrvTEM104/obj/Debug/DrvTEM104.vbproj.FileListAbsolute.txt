@@ -1,0 +1,69 @@
+C:\BAMI\Projects\SZT_2010\Service_1.30\DrvTEM104\bin\Debug\DrvTEM104.dll
+C:\BAMI\Projects\SZT_2010\Service_1.30\DrvTEM104\bin\Debug\DrvTEM104.pdb
+C:\BAMI\Projects\SZT_2010\Service_1.30\DrvTEM104\bin\Debug\DrvTEM104.xml
+C:\BAMI\Projects\SZT_2010\Service_1.30\DrvTEM104\bin\Debug\STKTVMain.dll
+C:\BAMI\Projects\SZT_2010\Service_1.30\DrvTEM104\bin\Debug\STKTVMain.pdb
+C:\BAMI\Projects\SZT_2010\Service_1.30\DrvTEM104\bin\Debug\STKTVMain.xml
+C:\BAMI\Projects\SZT_2010\Service_1.30\DrvTEM104\obj\Debug\ResolveAssemblyReference.cache
+C:\BAMI\Projects\SZT_2010\Service_1.30\DrvTEM104\obj\Debug\DrvTEM104.vbproj.GenerateResource.Cache
+C:\BAMI\Projects\SZT_2010\Service_1.30\DrvTEM104\obj\Debug\DrvTEM104.dll
+C:\BAMI\Projects\SZT_2010\Service_1.30\DrvTEM104\obj\Debug\DrvTEM104.xml
+C:\BAMI\Projects\SZT_2010\Service_1.30\DrvTEM104\obj\Debug\DrvTEM104.pdb
+C:\BAMI\Projects\SZT_2010\Service_1.30\DrvTEM104\bin\Debug\ConfigDrvTEM104.xml
+C:\BAMI\Projects\SZT_2010\Service_1.30\DrvTEM104\obj\Debug\DrvTEM104.Resources.resources
+C:\BAMI\Projects\SZT_2010\Service_1.32\DrvTEM104\bin\Debug\ConfigDrvTEM104.xml
+C:\BAMI\Projects\SZT_2010\Service_1.32\DrvTEM104\bin\Debug\DrvTEM104.dll
+C:\BAMI\Projects\SZT_2010\Service_1.32\DrvTEM104\bin\Debug\DrvTEM104.pdb
+C:\BAMI\Projects\SZT_2010\Service_1.32\DrvTEM104\bin\Debug\DrvTEM104.xml
+C:\BAMI\Projects\SZT_2010\Service_1.32\DrvTEM104\bin\Debug\STKTVMain.dll
+C:\BAMI\Projects\SZT_2010\Service_1.32\DrvTEM104\bin\Debug\STKTVMain.pdb
+C:\BAMI\Projects\SZT_2010\Service_1.32\DrvTEM104\bin\Debug\STKTVMain.xml
+C:\BAMI\Projects\SZT_2010\Service_1.32\DrvTEM104\obj\Debug\ResolveAssemblyReference.cache
+C:\BAMI\Projects\SZT_2010\Service_1.32\DrvTEM104\obj\Debug\DrvTEM104.Resources.resources
+C:\BAMI\Projects\SZT_2010\Service_1.32\DrvTEM104\obj\Debug\DrvTEM104.vbproj.GenerateResource.Cache
+C:\BAMI\Projects\SZT_2010\Service_1.32\DrvTEM104\obj\Debug\DrvTEM104.dll
+C:\BAMI\Projects\SZT_2010\Service_1.32\DrvTEM104\obj\Debug\DrvTEM104.xml
+C:\BAMI\Projects\SZT_2010\Service_1.32\DrvTEM104\obj\Debug\DrvTEM104.pdb
+C:\BAMI\Projects\TEPLO\TEPLO\DrvTEM104\bin\Debug\ConfigDrvTEM104.xml
+C:\BAMI\Projects\TEPLO\TEPLO\DrvTEM104\bin\Debug\DrvTEM104.dll
+C:\BAMI\Projects\TEPLO\TEPLO\DrvTEM104\bin\Debug\DrvTEM104.pdb
+C:\BAMI\Projects\TEPLO\TEPLO\DrvTEM104\bin\Debug\DrvTEM104.xml
+C:\BAMI\Projects\TEPLO\TEPLO\DrvTEM104\bin\Debug\LTOBJMan.dll
+C:\BAMI\Projects\TEPLO\TEPLO\DrvTEM104\bin\Debug\TVMain.dll
+C:\BAMI\Projects\TEPLO\TEPLO\DrvTEM104\bin\Debug\TPLT.dll
+C:\BAMI\Projects\TEPLO\TEPLO\DrvTEM104\bin\Debug\TPLD.dll
+C:\BAMI\Projects\TEPLO\TEPLO\DrvTEM104\bin\Debug\TVMain.pdb
+C:\BAMI\Projects\TEPLO\TEPLO\DrvTEM104\bin\Debug\TVMain.xml
+C:\BAMI\Projects\TEPLO\TEPLO\DrvTEM104\bin\Debug\TPLT.pdb
+C:\BAMI\Projects\TEPLO\TEPLO\DrvTEM104\bin\Debug\TPLT.xml
+C:\BAMI\Projects\TEPLO\TEPLO\DrvTEM104\bin\Debug\LTOBJMan.pdb
+C:\BAMI\Projects\TEPLO\TEPLO\DrvTEM104\bin\Debug\LTOBJMan.xml
+C:\BAMI\Projects\TEPLO\TEPLO\DrvTEM104\bin\Debug\TPLD.pdb
+C:\BAMI\Projects\TEPLO\TEPLO\DrvTEM104\bin\Debug\TPLD.xml
+C:\LATIR\Generated\Generated Dlls\ConfigDrvTEM104.xml
+C:\LATIR\Generated\Generated Dlls\DrvTEM104.dll
+C:\LATIR\Generated\Generated Dlls\DrvTEM104.pdb
+C:\LATIR\Generated\Generated Dlls\DrvTEM104.xml
+c:\LATIR2\Generated\Generated Dlls\ConfigDrvTEM104.xml
+c:\LATIR2\Generated\Generated Dlls\DrvTEM104.dll
+c:\LATIR2\Generated\Generated Dlls\DrvTEM104.pdb
+c:\LATIR2\Generated\Generated Dlls\DrvTEM104.xml
+C:\bami\Projects\TEPLO\TEPLO\DrvTEM104\obj\Debug\DrvTEM104.vbprojResolveAssemblyReference.cache
+C:\bami\Projects\TEPLO\TEPLO\DrvTEM104\obj\Debug\DrvTEM104.Resources.resources
+C:\bami\Projects\TEPLO\TEPLO\DrvTEM104\obj\Debug\DrvTEM104.vbproj.GenerateResource.Cache
+C:\bami\Projects\TEPLO\TEPLO\DrvTEM104\obj\Debug\DrvTEM104.dll
+C:\bami\Projects\TEPLO\TEPLO\DrvTEM104\obj\Debug\DrvTEM104.xml
+C:\bami\Projects\TEPLO\TEPLO\DrvTEM104\obj\Debug\DrvTEM104.pdb
+C:\bami\TEPLO\DrvTEM104\obj\Debug\ResolveAssemblyReference.cache
+C:\bami\TEPLO\DrvTEM104\obj\Debug\DrvTEM104.Resources.resources
+C:\bami\TEPLO\DrvTEM104\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\bami\TEPLO\DrvTEM104\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\bami\TEPLO\DrvTEM104\obj\Debug\DrvTEM104.dll
+C:\bami\TEPLO\DrvTEM104\obj\Debug\DrvTEM104.xml
+C:\bami\TEPLO\DrvTEM104\obj\Debug\DrvTEM104.pdb
+C:\bami\projects\ELF\DrvTEM104\obj\Debug\DrvTEM104.Resources.resources
+C:\bami\projects\ELF\DrvTEM104\obj\Debug\DrvTEM104.vbproj.GenerateResource.Cache
+C:\bami\projects\ELF\DrvTEM104\obj\Debug\DrvTEM104.dll
+C:\bami\projects\ELF\DrvTEM104\obj\Debug\DrvTEM104.xml
+C:\bami\projects\ELF\DrvTEM104\obj\Debug\DrvTEM104.pdb
+C:\bami\projects\ELF\DrvTEM104\obj\Debug\DrvTEM104.vbprojResolveAssemblyReference.cache

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <StartWorkingDirectory>C:\LATIR2\Generated\Generated Dlls\</StartWorkingDirectory>
+    <StartAction>Project</StartAction>
+    <StartArguments>-S {8246B51F-079B-11E4-87EC-E8039A0069B7} -D {A46FCD6E-3416-11E4-9402-E8039A0069B7}</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <StartWorkingDirectory>C:\BAMI\Projects\TEPLO\TEPLO\BIN\</StartWorkingDirectory>
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PublishUrlHistory />
+    <InstallUrlHistory />
+    <SupportUrlHistory />
+    <UpdateUrlHistory />
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,40 @@
+C:\BAMI\Projects\TEPLO\TEPLO\TVMain\bin\Debug\TVMain.dll
+C:\BAMI\Projects\TEPLO\TEPLO\TVMain\bin\Debug\TVMain.pdb
+C:\BAMI\Projects\TEPLO\TEPLO\TVMain\bin\Debug\TVMain.xml
+C:\BAMI\Projects\TEPLO\TEPLO\TVMain\bin\Debug\LTOBJMan.dll
+C:\BAMI\Projects\TEPLO\TEPLO\TVMain\bin\Debug\TPLC.dll
+C:\BAMI\Projects\TEPLO\TEPLO\TVMain\bin\Debug\TPLD.dll
+C:\BAMI\Projects\TEPLO\TEPLO\TVMain\bin\Debug\TPLT.dll
+C:\BAMI\Projects\TEPLO\TEPLO\TVMain\bin\Debug\TPLT.xml
+C:\BAMI\Projects\TEPLO\TEPLO\TVMain\bin\Debug\LTOBJMan.pdb
+C:\BAMI\Projects\TEPLO\TEPLO\TVMain\bin\Debug\LTOBJMan.xml
+C:\BAMI\Projects\TEPLO\TEPLO\TVMain\bin\Debug\TPLC.xml
+C:\BAMI\Projects\TEPLO\TEPLO\TVMain\bin\Debug\TPLD.xml
+C:\BAMI\Projects\TEPLO\TEPLO\TVMain\bin\Debug\TPLT.pdb
+C:\BAMI\Projects\TEPLO\TEPLO\TVMain\bin\Debug\TPLC.pdb
+C:\BAMI\Projects\TEPLO\TEPLO\TVMain\bin\Debug\TPLD.pdb
+C:\LATIR\Generated\Generated Dlls\TVMain.dll
+C:\LATIR\Generated\Generated Dlls\TVMain.pdb
+C:\LATIR\Generated\Generated Dlls\TVMain.xml
+c:\LATIR2\Generated\Generated Dlls\TVMain.dll
+c:\LATIR2\Generated\Generated Dlls\TVMain.pdb
+c:\LATIR2\Generated\Generated Dlls\TVMain.xml
+C:\bami\Projects\TEPLO\TEPLO\TVMain\obj\Debug\TVMain.vbprojResolveAssemblyReference.cache
+C:\bami\Projects\TEPLO\TEPLO\TVMain\obj\Debug\TVMain.Resources.resources
+C:\bami\Projects\TEPLO\TEPLO\TVMain\obj\Debug\TVMain.vbproj.GenerateResource.Cache
+C:\bami\Projects\TEPLO\TEPLO\TVMain\obj\Debug\TVMain.dll
+C:\bami\Projects\TEPLO\TEPLO\TVMain\obj\Debug\TVMain.xml
+C:\bami\Projects\TEPLO\TEPLO\TVMain\obj\Debug\TVMain.pdb
+C:\bami\TEPLO\TVMain\obj\Debug\ResolveAssemblyReference.cache
+C:\bami\TEPLO\TVMain\obj\Debug\TVMain.Resources.resources
+C:\bami\TEPLO\TVMain\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\bami\TEPLO\TVMain\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\bami\TEPLO\TVMain\obj\Debug\TVMain.dll
+C:\bami\TEPLO\TVMain\obj\Debug\TVMain.xml
+C:\bami\TEPLO\TVMain\obj\Debug\TVMain.pdb
+C:\bami\projects\ELF\TVMain\obj\Debug\TVMain.Resources.resources
+C:\bami\projects\ELF\TVMain\obj\Debug\TVMain.vbproj.GenerateResource.Cache
+C:\bami\projects\ELF\TVMain\obj\Debug\TVMain.dll
+C:\bami\projects\ELF\TVMain\obj\Debug\TVMain.xml
+C:\bami\projects\ELF\TVMain\obj\Debug\TVMain.pdb
+C:\bami\projects\ELF\TVMain\obj\Debug\TVMain.vbprojResolveAssemblyReference.cache

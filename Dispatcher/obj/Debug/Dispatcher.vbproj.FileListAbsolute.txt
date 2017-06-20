@@ -1,0 +1,135 @@
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\Dispatcher.exe
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\Dispatcher.pdb
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\Dispatcher.xml
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\Drv942.dll
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\Drv943.dll
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\Infragistics2.Documents.v9.1.dll
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\Infragistics2.Excel.v9.1.dll
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\Infragistics2.Shared.v9.1.dll
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\Infragistics2.Win.Misc.v9.1.dll
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\Infragistics2.Win.UltraWinChart.v9.1.dll
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\Infragistics2.Win.UltraWinDock.v9.1.dll
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\Infragistics2.Win.UltraWinEditors.v9.1.dll
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\Infragistics2.Win.UltraWinGauge.v9.1.dll
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\Infragistics2.Win.UltraWinGrid.ExcelExport.v9.1.dll
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\Infragistics2.Win.UltraWinGrid.v9.1.dll
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\Infragistics2.Win.UltraWinStatusBar.v9.1.dll
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\Infragistics2.Win.UltraWinTabbedMdi.v9.1.dll
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\Infragistics2.Win.UltraWinTabControl.v9.1.dll
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\Infragistics2.Win.UltraWinToolbars.v9.1.dll
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\Infragistics2.Win.UltraWinTree.v9.1.dll
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\Infragistics2.Win.v9.1.dll
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\JournalIG.dll
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\LATIRGUIControls.dll
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\LATIRGuiManager.dll
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\LTOBJMan.dll
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\Microsoft.VisualBasic.Compatibility.dll
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\NetronLight.dll
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\TPLC.dll
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\TPLD.dll
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\TPLS.dll
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\TPLT.dll
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\TVMain.dll
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\MTZJrnl.dll
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\Infragistics2.Documents.v9.1.xml
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\LATIRGuiManager.pdb
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\LATIRGuiManager.xml
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\Infragistics2.Win.UltraWinGauge.v9.1.xml
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\Infragistics2.Win.UltraWinToolbars.v9.1.xml
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\Infragistics2.Win.UltraWinTabbedMdi.v9.1.xml
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\Infragistics2.Win.v9.1.xml
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\LTOBJMan.pdb
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\LTOBJMan.xml
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\Infragistics2.Win.UltraWinTree.v9.1.xml
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\Infragistics2.Win.UltraWinGrid.ExcelExport.v9.1.xml
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\MTZJrnl.pdb
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\MTZJrnl.xml
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\Infragistics2.Excel.v9.1.xml
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\TPLS.pdb
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\TPLS.xml
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\TPLC.xml
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\TPLT.xml
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\Infragistics2.Win.UltraWinTabControl.v9.1.xml
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\Infragistics2.Win.Misc.v9.1.xml
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\TPLD.xml
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\Infragistics2.Win.UltraWinGrid.v9.1.xml
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\TVMain.pdb
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\TVMain.xml
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\Infragistics2.Shared.v9.1.xml
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\Infragistics2.Win.UltraWinDock.v9.1.xml
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\Infragistics2.Win.UltraWinChart.v9.1.xml
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\JournalIG.pdb
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\LATIRGUIControls.pdb
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\LATIRGUIControls.xml
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\Infragistics2.Win.UltraWinEditors.v9.1.xml
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\Infragistics2.Win.UltraWinStatusBar.v9.1.xml
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\NetronLight.pdb
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\Drv943.pdb
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\Drv943.xml
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\Drv942.pdb
+C:\BAMI\Projects\TEPLO\TEPLO\Dispatcher\bin\Drv942.xml
+C:\LATIR\Generated\Generated Dlls\ConfigDrvTEM104.xml
+C:\LATIR\Generated\Generated Dlls\ConfigDrvTSRV.xml
+C:\LATIR\Generated\Generated Dlls\Dispatcher.exe
+C:\LATIR\Generated\Generated Dlls\Dispatcher.pdb
+C:\LATIR\Generated\Generated Dlls\Dispatcher.xml
+c:\LATIR2\Generated\Generated Dlls\TeploSrvCfg.xml
+c:\LATIR2\Generated\Generated Dlls\ConfigDrvMAGIKA.xml
+c:\LATIR2\Generated\Generated Dlls\ConfigDrvTEM104.xml
+c:\LATIR2\Generated\Generated Dlls\ConfigDrvTSRV02.xml
+c:\LATIR2\Generated\Generated Dlls\ConfigDrvTSRV.xml
+c:\LATIR2\Generated\Generated Dlls\ConfigDrvVKT4.xml
+c:\LATIR2\Generated\Generated Dlls\Dispatcher.exe.config
+c:\LATIR2\Generated\Generated Dlls\Dispatcher.exe
+c:\LATIR2\Generated\Generated Dlls\Dispatcher.pdb
+c:\LATIR2\Generated\Generated Dlls\Dispatcher.xml
+C:\bami\Projects\TEPLO\TEPLO\Dispatcher\obj\Debug\Dispatcher.vbprojResolveAssemblyReference.cache
+C:\bami\Projects\TEPLO\TEPLO\Dispatcher\obj\Debug\Dispatcher.ClientForm.resources
+C:\bami\Projects\TEPLO\TEPLO\Dispatcher\obj\Debug\Dispatcher.Form1.resources
+C:\bami\Projects\TEPLO\TEPLO\Dispatcher\obj\Debug\Dispatcher.frmChild.resources
+C:\bami\Projects\TEPLO\TEPLO\Dispatcher\obj\Debug\Dispatcher.frmMain.resources
+C:\bami\Projects\TEPLO\TEPLO\Dispatcher\obj\Debug\Dispatcher.frmPanelSetup.resources
+C:\bami\Projects\TEPLO\TEPLO\Dispatcher\obj\Debug\Dispatcher.frmSchema.resources
+C:\bami\Projects\TEPLO\TEPLO\Dispatcher\obj\Debug\Dispatcher.frmSelectParam.resources
+C:\bami\Projects\TEPLO\TEPLO\Dispatcher\obj\Debug\Dispatcher.frmSrvSetup.resources
+C:\bami\Projects\TEPLO\TEPLO\Dispatcher\obj\Debug\Dispatcher.Resources.resources
+C:\bami\Projects\TEPLO\TEPLO\Dispatcher\obj\Debug\Dispatcher.STKDispatcherSplash.resources
+C:\bami\Projects\TEPLO\TEPLO\Dispatcher\obj\Debug\Dispatcher.vbproj.GenerateResource.Cache
+C:\bami\Projects\TEPLO\TEPLO\Dispatcher\obj\Debug\Dispatcher.exe.licenses
+C:\bami\Projects\TEPLO\TEPLO\Dispatcher\obj\Debug\Dispatcher.exe
+C:\bami\Projects\TEPLO\TEPLO\Dispatcher\obj\Debug\Dispatcher.xml
+C:\bami\Projects\TEPLO\TEPLO\Dispatcher\obj\Debug\Dispatcher.pdb
+C:\bami\TEPLO\Dispatcher\obj\Debug\ResolveAssemblyReference.cache
+C:\bami\TEPLO\Dispatcher\obj\Debug\Dispatcher.ClientForm.resources
+C:\bami\TEPLO\Dispatcher\obj\Debug\Dispatcher.Form1.resources
+C:\bami\TEPLO\Dispatcher\obj\Debug\Dispatcher.frmChild.resources
+C:\bami\TEPLO\Dispatcher\obj\Debug\Dispatcher.frmMain.resources
+C:\bami\TEPLO\Dispatcher\obj\Debug\Dispatcher.frmPanelSetup.resources
+C:\bami\TEPLO\Dispatcher\obj\Debug\Dispatcher.frmSchema.resources
+C:\bami\TEPLO\Dispatcher\obj\Debug\Dispatcher.frmSelectParam.resources
+C:\bami\TEPLO\Dispatcher\obj\Debug\Dispatcher.frmSrvSetup.resources
+C:\bami\TEPLO\Dispatcher\obj\Debug\Dispatcher.Resources.resources
+C:\bami\TEPLO\Dispatcher\obj\Debug\Dispatcher.STKDispatcherSplash.resources
+C:\bami\TEPLO\Dispatcher\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\bami\TEPLO\Dispatcher\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\bami\TEPLO\Dispatcher\obj\Debug\Dispatcher.exe.licenses
+C:\bami\TEPLO\Dispatcher\obj\Debug\Dispatcher.exe
+C:\bami\TEPLO\Dispatcher\obj\Debug\Dispatcher.xml
+C:\bami\TEPLO\Dispatcher\obj\Debug\Dispatcher.pdb
+C:\bami\projects\ELF\Dispatcher\obj\Debug\Dispatcher.vbprojResolveAssemblyReference.cache
+C:\bami\projects\ELF\Dispatcher\obj\Debug\Dispatcher.ClientForm.resources
+C:\bami\projects\ELF\Dispatcher\obj\Debug\Dispatcher.Form1.resources
+C:\bami\projects\ELF\Dispatcher\obj\Debug\Dispatcher.frmChild.resources
+C:\bami\projects\ELF\Dispatcher\obj\Debug\Dispatcher.frmMain.resources
+C:\bami\projects\ELF\Dispatcher\obj\Debug\Dispatcher.frmPanelSetup.resources
+C:\bami\projects\ELF\Dispatcher\obj\Debug\Dispatcher.frmSchema.resources
+C:\bami\projects\ELF\Dispatcher\obj\Debug\Dispatcher.frmSelectParam.resources
+C:\bami\projects\ELF\Dispatcher\obj\Debug\Dispatcher.frmSrvSetup.resources
+C:\bami\projects\ELF\Dispatcher\obj\Debug\Dispatcher.Resources.resources
+C:\bami\projects\ELF\Dispatcher\obj\Debug\Dispatcher.STKDispatcherSplash.resources
+C:\bami\projects\ELF\Dispatcher\obj\Debug\Dispatcher.vbproj.GenerateResource.Cache
+C:\bami\projects\ELF\Dispatcher\obj\Debug\Dispatcher.exe.licenses
+C:\bami\projects\ELF\Dispatcher\obj\Debug\Dispatcher.exe
+C:\bami\projects\ELF\Dispatcher\obj\Debug\Dispatcher.xml
+C:\bami\projects\ELF\Dispatcher\obj\Debug\Dispatcher.pdb
+c:\LATIR2\Generated\Generated Dlls\latir_sites.XML

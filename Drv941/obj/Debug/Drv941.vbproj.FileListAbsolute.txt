@@ -1,0 +1,22 @@
+c:\LATIR2\Generated\Generated Dlls\Drv941.dll
+c:\LATIR2\Generated\Generated Dlls\Drv941.pdb
+c:\LATIR2\Generated\Generated Dlls\Drv941.xml
+C:\bami\Projects\TEPLO\TEPLO\Drv941\obj\Debug\Drv941.vbprojResolveAssemblyReference.cache
+C:\bami\Projects\TEPLO\TEPLO\Drv941\obj\Debug\Drv941.Resources.resources
+C:\bami\Projects\TEPLO\TEPLO\Drv941\obj\Debug\Drv941.vbproj.GenerateResource.Cache
+C:\bami\Projects\TEPLO\TEPLO\Drv941\obj\Debug\Drv941.dll
+C:\bami\Projects\TEPLO\TEPLO\Drv941\obj\Debug\Drv941.xml
+C:\bami\Projects\TEPLO\TEPLO\Drv941\obj\Debug\Drv941.pdb
+C:\bami\TEPLO\Drv941\obj\Debug\ResolveAssemblyReference.cache
+C:\bami\TEPLO\Drv941\obj\Debug\Drv941.Resources.resources
+C:\bami\TEPLO\Drv941\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\bami\TEPLO\Drv941\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\bami\TEPLO\Drv941\obj\Debug\Drv941.dll
+C:\bami\TEPLO\Drv941\obj\Debug\Drv941.xml
+C:\bami\TEPLO\Drv941\obj\Debug\Drv941.pdb
+C:\bami\projects\ELF\Drv941\obj\Debug\Drv941.Resources.resources
+C:\bami\projects\ELF\Drv941\obj\Debug\Drv941.vbproj.GenerateResource.Cache
+C:\bami\projects\ELF\Drv941\obj\Debug\Drv941.dll
+C:\bami\projects\ELF\Drv941\obj\Debug\Drv941.xml
+C:\bami\projects\ELF\Drv941\obj\Debug\Drv941.pdb
+C:\bami\projects\ELF\Drv941\obj\Debug\Drv941.vbprojResolveAssemblyReference.cache

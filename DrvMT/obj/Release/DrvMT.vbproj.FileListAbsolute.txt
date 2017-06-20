@@ -1,0 +1,7 @@
+D:\BAMI\Projects\TEPLO\TEPLO\DrvMT\obj\Release\ResolveAssemblyReference.cache
+D:\BAMI\Projects\TEPLO\TEPLO\DrvMT\obj\Release\DrvMT.Resources.resources
+D:\BAMI\Projects\TEPLO\TEPLO\DrvMT\obj\Release\GenerateResource-ResGen.read.1.tlog
+D:\BAMI\Projects\TEPLO\TEPLO\DrvMT\obj\Release\GenerateResource-ResGen.write.1.tlog
+D:\BAMI\Projects\TEPLO\TEPLO\DrvMT\obj\Release\DrvMT.dll
+D:\BAMI\Projects\TEPLO\TEPLO\DrvMT\obj\Release\DrvMT.xml
+D:\BAMI\Projects\TEPLO\TEPLO\DrvMT\obj\Release\DrvMT.pdb

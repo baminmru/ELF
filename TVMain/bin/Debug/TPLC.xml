@@ -1,0 +1,5286 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TPLC
+</name>
+</assembly>
+<members>
+<member name="M:TPLC.TPLC.TPLC_D_col.ChildPartName">
+	<summary>
+Имя раздела в базе данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_D_col.CreateDataTable">
+	<summary>
+Вернуть даные текущей коллекции в виде DataTable
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_D_col.NewItem">
+	<summary>
+Создание нового элемента коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_D_col.GetItem(System.Object)">
+	<summary>
+Получить элемент коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_D_col.Item(System.Object)">
+	<summary>
+Получить элемент коллекции, более свежий вариант
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.TPLC_D_col">
+	<summary>
+Реализация раздела Суточный архивв виде коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_DCALL">
+	<summary>
+Локальная переменная для поля Дата опроса
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_DCOUNTER">
+	<summary>
+Локальная переменная для поля Дата счетчика
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_Q1">
+	<summary>
+Локальная переменная для поля Тепловая энергия канал 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_Q2">
+	<summary>
+Локальная переменная для поля Тепловая энергия канал 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_T1">
+	<summary>
+Локальная переменная для поля Температура по каналу 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_T2">
+	<summary>
+Локальная переменная для поля Температура по каналу 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_DT12">
+	<summary>
+Локальная переменная для поля Разность Температур по каналу 1 и 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_T3">
+	<summary>
+Локальная переменная для поля Температура по каналу 3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_T4">
+	<summary>
+Локальная переменная для поля Температура по каналу 4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_T5">
+	<summary>
+Локальная переменная для поля Температура по каналу 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_DT45">
+	<summary>
+Локальная переменная для поля Разность Температур по каналу 4 и 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_T6">
+	<summary>
+Локальная переменная для поля Температура по каналу 6
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_V1">
+	<summary>
+Локальная переменная для поля Объемный расход воды по каналу 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_V2">
+	<summary>
+Локальная переменная для поля Объемный расход воды по каналу 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_DV12">
+	<summary>
+Локальная переменная для поля Разность объемов канал 1  (расход ГВС)
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_V3">
+	<summary>
+Локальная переменная для поля Объемный расход воды по каналу 3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_V4">
+	<summary>
+Локальная переменная для поля Объемный расход воды по каналу 4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_V5">
+	<summary>
+Локальная переменная для поля Объемный расход воды по каналу 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_DV45">
+	<summary>
+Локальная переменная для поля Разность объемов канал 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_V6">
+	<summary>
+Локальная переменная для поля Объемный расход воды по каналу 6
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_M1">
+	<summary>
+Локальная переменная для поля Масса воды по каналу 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_M2">
+	<summary>
+Локальная переменная для поля Масса воды по каналу 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_DM12">
+	<summary>
+Локальная переменная для поля Разность масс канал 1  (расход ГВС)
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_M3">
+	<summary>
+Локальная переменная для поля Масса воды по каналу 3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_M4">
+	<summary>
+Локальная переменная для поля Масса воды по каналу 4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_M5">
+	<summary>
+Локальная переменная для поля Масса воды по каналу 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_DM45">
+	<summary>
+Локальная переменная для поля Разность масс канал 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_M6">
+	<summary>
+Локальная переменная для поля Масса воды по каналу 6
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_P1">
+	<summary>
+Локальная переменная для поля Давление в трубопроводе 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_P2">
+	<summary>
+Локальная переменная для поля Давление в трубопроводе 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_P3">
+	<summary>
+Локальная переменная для поля Давление в трубопроводе 3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_P4">
+	<summary>
+Локальная переменная для поля Давление в трубопроводе 4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_P5">
+	<summary>
+Локальная переменная для поля Давление в трубопроводе 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_P6">
+	<summary>
+Локальная переменная для поля Давление в трубопроводе 6
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_G1">
+	<summary>
+Локальная переменная для поля Текущее значение расхода в трубопроводе 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_G2">
+	<summary>
+Локальная переменная для поля Текущее значение расхода в трубопроводе 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_G3">
+	<summary>
+Локальная переменная для поля Текущее значение расхода в трубопроводе 3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_G4">
+	<summary>
+Локальная переменная для поля Текущее значение расхода в трубопроводе 4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_G5">
+	<summary>
+Локальная переменная для поля Текущее значение расхода в трубопроводе 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_G6">
+	<summary>
+Локальная переменная для поля Текущее значение расхода в трубопроводе 6
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_TCOOL">
+	<summary>
+Локальная переменная для поля Температура холодной воды
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_TCE1">
+	<summary>
+Локальная переменная для поля Температура холодного конца канал 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_TCE2">
+	<summary>
+Локальная переменная для поля Температура холодного конца канал 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_TSUM1">
+	<summary>
+Локальная переменная для поля Тотальное время счета TB1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_TSUM2">
+	<summary>
+Локальная переменная для поля Тотальное время счета TB2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_Q1H">
+	<summary>
+Локальная переменная для поля Тепловая энергия канал 1 нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_Q2H">
+	<summary>
+Локальная переменная для поля Тепловая энергия канал 2 нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_V1H">
+	<summary>
+Локальная переменная для поля Объемный расход воды по каналу 1  нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_V2H">
+	<summary>
+Локальная переменная для поля Объемный расход воды по каналу 2  нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_V4H">
+	<summary>
+Локальная переменная для поля Объемный расход воды по каналу 4  нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_V5H">
+	<summary>
+Локальная переменная для поля Объемный расход воды по каналу 5  нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_ERRTIME">
+	<summary>
+Локальная переменная для поля Время аварии
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_ERRTIMEH">
+	<summary>
+Локальная переменная для поля Время аварии нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_HC">
+	<summary>
+Локальная переменная для поля Нештатные ситуации общ
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_SP">
+	<summary>
+Локальная переменная для поля Схема потребления
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_SP_TB1">
+	<summary>
+Локальная переменная для поля Схема потребления TB1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_SP_TB2">
+	<summary>
+Локальная переменная для поля Схема потребления TB2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_datetimeCOUNTER">
+	<summary>
+Локальная переменная для поля datetimeCOUNTER
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_DG12">
+	<summary>
+Локальная переменная для поля G1-G2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_DG45">
+	<summary>
+Локальная переменная для поля G4-G5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_DP12">
+	<summary>
+Локальная переменная для поля P1-P2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_DP45">
+	<summary>
+Локальная переменная для поля P4-P5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_UNITSR">
+	<summary>
+Локальная переменная для поля Единицы измерения расхода
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_Q3">
+	<summary>
+Локальная переменная для поля Тепловая энергия канал 3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_Q4">
+	<summary>
+Локальная переменная для поля Тепловая энергия канал 4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_PATM">
+	<summary>
+Локальная переменная для поля Атмосферное давление
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_Q5">
+	<summary>
+Локальная переменная для поля Тепловая энергия канал 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_DQ12">
+	<summary>
+Локальная переменная для поля Тепловая энергия потребитель 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_DQ45">
+	<summary>
+Локальная переменная для поля Тепловая энергия потребитель 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_PXB">
+	<summary>
+Локальная переменная для поля Давление холодной воды
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_DQ">
+	<summary>
+Локальная переменная для поля Расход энергии потребитель 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_HC_1">
+	<summary>
+Локальная переменная для поля Нештатная ситуация 1 (ТВ1 или внешняя)
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_HC_2">
+	<summary>
+Локальная переменная для поля Нештатная ситуация 2 (ТВ2 или внутренняя)
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_THOT">
+	<summary>
+Локальная переменная для поля Температура горячей воды
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_DANS1">
+	<summary>
+Локальная переменная для поля DANS1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_DANS2">
+	<summary>
+Локальная переменная для поля DANS2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_DANS3">
+	<summary>
+Локальная переменная для поля DANS3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_DANS4">
+	<summary>
+Локальная переменная для поля DANS4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_DANS5">
+	<summary>
+Локальная переменная для поля DANS5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_DANS6">
+	<summary>
+Локальная переменная для поля DANS6
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_CHECK_A">
+	<summary>
+Локальная переменная для поля Проверка архивных данных на НС (0 - не производилась, 1 - произведена)
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_OKTIME">
+	<summary>
+Локальная переменная для поля Время безошиб.работы
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_WORKTIME">
+	<summary>
+Локальная переменная для поля Время работы
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_TAIR1">
+	<summary>
+Локальная переменная для поля Температура воздуха канал 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_TAIR2">
+	<summary>
+Локальная переменная для поля Температура воздуха канал 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_D.m_HC_CODE">
+	<summary>
+Локальная переменная для поля Код нештатной ситуации тепловычислителя
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_D.CleanFields">
+	<summary>
+Очистить поля раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.Count">
+	<summary>
+Количество полей в строке раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.Value(System.Object)">
+	<summary>
+Получить \Задать поле по номеру 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_D.FieldNameByID(System.Int64)">
+	<summary>
+Название поля по номеру
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_D.FillDataTable(System.Data.DataTable@)">
+	<summary>
+Заполнить строку таблицы данными из полей
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_D.FindInside(System.String,System.String)">
+	<summary>
+Найти строку в коллекции по идентификатору
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_D.Pack(LATIR.NamedValues)">
+	<summary>
+Заполнить коллекцю именованных полей
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_D.Unpack(System.Data.DataRow)">
+	<summary>
+Заполнить поля из именованной коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.DCALL">
+	<summary>
+Доступ к полю Дата опроса
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.DCOUNTER">
+	<summary>
+Доступ к полю Дата счетчика
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.Q1">
+	<summary>
+Доступ к полю Тепловая энергия канал 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.Q2">
+	<summary>
+Доступ к полю Тепловая энергия канал 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.T1">
+	<summary>
+Доступ к полю Температура по каналу 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.T2">
+	<summary>
+Доступ к полю Температура по каналу 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.DT12">
+	<summary>
+Доступ к полю Разность Температур по каналу 1 и 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.T3">
+	<summary>
+Доступ к полю Температура по каналу 3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.T4">
+	<summary>
+Доступ к полю Температура по каналу 4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.T5">
+	<summary>
+Доступ к полю Температура по каналу 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.DT45">
+	<summary>
+Доступ к полю Разность Температур по каналу 4 и 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.T6">
+	<summary>
+Доступ к полю Температура по каналу 6
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.V1">
+	<summary>
+Доступ к полю Объемный расход воды по каналу 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.V2">
+	<summary>
+Доступ к полю Объемный расход воды по каналу 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.DV12">
+	<summary>
+Доступ к полю Разность объемов канал 1  (расход ГВС)
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.V3">
+	<summary>
+Доступ к полю Объемный расход воды по каналу 3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.V4">
+	<summary>
+Доступ к полю Объемный расход воды по каналу 4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.V5">
+	<summary>
+Доступ к полю Объемный расход воды по каналу 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.DV45">
+	<summary>
+Доступ к полю Разность объемов канал 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.V6">
+	<summary>
+Доступ к полю Объемный расход воды по каналу 6
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.M1">
+	<summary>
+Доступ к полю Масса воды по каналу 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.M2">
+	<summary>
+Доступ к полю Масса воды по каналу 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.DM12">
+	<summary>
+Доступ к полю Разность масс канал 1  (расход ГВС)
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.M3">
+	<summary>
+Доступ к полю Масса воды по каналу 3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.M4">
+	<summary>
+Доступ к полю Масса воды по каналу 4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.M5">
+	<summary>
+Доступ к полю Масса воды по каналу 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.DM45">
+	<summary>
+Доступ к полю Разность масс канал 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.M6">
+	<summary>
+Доступ к полю Масса воды по каналу 6
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.P1">
+	<summary>
+Доступ к полю Давление в трубопроводе 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.P2">
+	<summary>
+Доступ к полю Давление в трубопроводе 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.P3">
+	<summary>
+Доступ к полю Давление в трубопроводе 3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.P4">
+	<summary>
+Доступ к полю Давление в трубопроводе 4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.P5">
+	<summary>
+Доступ к полю Давление в трубопроводе 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.P6">
+	<summary>
+Доступ к полю Давление в трубопроводе 6
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.G1">
+	<summary>
+Доступ к полю Текущее значение расхода в трубопроводе 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.G2">
+	<summary>
+Доступ к полю Текущее значение расхода в трубопроводе 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.G3">
+	<summary>
+Доступ к полю Текущее значение расхода в трубопроводе 3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.G4">
+	<summary>
+Доступ к полю Текущее значение расхода в трубопроводе 4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.G5">
+	<summary>
+Доступ к полю Текущее значение расхода в трубопроводе 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.G6">
+	<summary>
+Доступ к полю Текущее значение расхода в трубопроводе 6
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.TCOOL">
+	<summary>
+Доступ к полю Температура холодной воды
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.TCE1">
+	<summary>
+Доступ к полю Температура холодного конца канал 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.TCE2">
+	<summary>
+Доступ к полю Температура холодного конца канал 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.TSUM1">
+	<summary>
+Доступ к полю Тотальное время счета TB1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.TSUM2">
+	<summary>
+Доступ к полю Тотальное время счета TB2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.Q1H">
+	<summary>
+Доступ к полю Тепловая энергия канал 1 нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.Q2H">
+	<summary>
+Доступ к полю Тепловая энергия канал 2 нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.V1H">
+	<summary>
+Доступ к полю Объемный расход воды по каналу 1  нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.V2H">
+	<summary>
+Доступ к полю Объемный расход воды по каналу 2  нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.V4H">
+	<summary>
+Доступ к полю Объемный расход воды по каналу 4  нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.V5H">
+	<summary>
+Доступ к полю Объемный расход воды по каналу 5  нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.ERRTIME">
+	<summary>
+Доступ к полю Время аварии
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.ERRTIMEH">
+	<summary>
+Доступ к полю Время аварии нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.HC">
+	<summary>
+Доступ к полю Нештатные ситуации общ
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.SP">
+	<summary>
+Доступ к полю Схема потребления
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.SP_TB1">
+	<summary>
+Доступ к полю Схема потребления TB1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.SP_TB2">
+	<summary>
+Доступ к полю Схема потребления TB2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.datetimeCOUNTER">
+	<summary>
+Доступ к полю datetimeCOUNTER
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.DG12">
+	<summary>
+Доступ к полю G1-G2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.DG45">
+	<summary>
+Доступ к полю G4-G5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.DP12">
+	<summary>
+Доступ к полю P1-P2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.DP45">
+	<summary>
+Доступ к полю P4-P5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.UNITSR">
+	<summary>
+Доступ к полю Единицы измерения расхода
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.Q3">
+	<summary>
+Доступ к полю Тепловая энергия канал 3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.Q4">
+	<summary>
+Доступ к полю Тепловая энергия канал 4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.PATM">
+	<summary>
+Доступ к полю Атмосферное давление
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.Q5">
+	<summary>
+Доступ к полю Тепловая энергия канал 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.DQ12">
+	<summary>
+Доступ к полю Тепловая энергия потребитель 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.DQ45">
+	<summary>
+Доступ к полю Тепловая энергия потребитель 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.PXB">
+	<summary>
+Доступ к полю Давление холодной воды
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.DQ">
+	<summary>
+Доступ к полю Расход энергии потребитель 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.HC_1">
+	<summary>
+Доступ к полю Нештатная ситуация 1 (ТВ1 или внешняя)
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.HC_2">
+	<summary>
+Доступ к полю Нештатная ситуация 2 (ТВ2 или внутренняя)
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.THOT">
+	<summary>
+Доступ к полю Температура горячей воды
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.DANS1">
+	<summary>
+Доступ к полю DANS1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.DANS2">
+	<summary>
+Доступ к полю DANS2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.DANS3">
+	<summary>
+Доступ к полю DANS3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.DANS4">
+	<summary>
+Доступ к полю DANS4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.DANS5">
+	<summary>
+Доступ к полю DANS5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.DANS6">
+	<summary>
+Доступ к полю DANS6
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.CHECK_A">
+	<summary>
+Доступ к полю Проверка архивных данных на НС (0 - не производилась, 1 - произведена)
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.OKTIME">
+	<summary>
+Доступ к полю Время безошиб.работы
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.WORKTIME">
+	<summary>
+Доступ к полю Время работы
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.TAIR1">
+	<summary>
+Доступ к полю Температура воздуха канал 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.TAIR2">
+	<summary>
+Доступ к полю Температура воздуха канал 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.HC_CODE">
+	<summary>
+Доступ к полю Код нештатной ситуации тепловычислителя
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_D.XMLUnpack(System.Xml.XmlNode,System.Int32)">
+	<summary>
+Заполнить поля данными из XML
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_D.XLMPack(System.Xml.XmlElement,System.Xml.XmlDocument)">
+	<summary>
+Записать данные раздела в XML файл
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_D.BatchUpdate">
+	<summary>
+Записать изменения в базу данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_D.CountOfParts">
+	<summary>
+Количество дочерних разделов
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_D.GetDocCollection_Base(System.Int64)">
+	<summary>
+Доступ к дочернему разделу по номеру
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.TPLC_D">
+	<summary>
+Реализация строки раздела Суточный архив
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_H_col.ChildPartName">
+	<summary>
+Имя раздела в базе данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_H_col.CreateDataTable">
+	<summary>
+Вернуть даные текущей коллекции в виде DataTable
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_H_col.NewItem">
+	<summary>
+Создание нового элемента коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_H_col.GetItem(System.Object)">
+	<summary>
+Получить элемент коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_H_col.Item(System.Object)">
+	<summary>
+Получить элемент коллекции, более свежий вариант
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.TPLC_H_col">
+	<summary>
+Реализация раздела Часовые архивыв виде коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_DCALL">
+	<summary>
+Локальная переменная для поля Дата опроса
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_DCOUNTER">
+	<summary>
+Локальная переменная для поля Дата счетчика
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_Q1">
+	<summary>
+Локальная переменная для поля Тепловая энергия канал 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_Q2">
+	<summary>
+Локальная переменная для поля Тепловая энергия канал 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_T1">
+	<summary>
+Локальная переменная для поля Температура по каналу 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_T2">
+	<summary>
+Локальная переменная для поля Температура по каналу 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_DT12">
+	<summary>
+Локальная переменная для поля Разность Температур по каналу 1 и 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_T3">
+	<summary>
+Локальная переменная для поля Температура по каналу 3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_T4">
+	<summary>
+Локальная переменная для поля Температура по каналу 4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_T5">
+	<summary>
+Локальная переменная для поля Температура по каналу 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_DT45">
+	<summary>
+Локальная переменная для поля Разность Температур по каналу 4 и 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_T6">
+	<summary>
+Локальная переменная для поля Температура по каналу 6
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_V1">
+	<summary>
+Локальная переменная для поля Объемный расход воды по каналу 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_V2">
+	<summary>
+Локальная переменная для поля Объемный расход воды по каналу 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_DV12">
+	<summary>
+Локальная переменная для поля Разность объемов канал 1  (расход ГВС)
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_V3">
+	<summary>
+Локальная переменная для поля Объемный расход воды по каналу 3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_V4">
+	<summary>
+Локальная переменная для поля Объемный расход воды по каналу 4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_V5">
+	<summary>
+Локальная переменная для поля Объемный расход воды по каналу 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_DV45">
+	<summary>
+Локальная переменная для поля Разность объемов канал 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_V6">
+	<summary>
+Локальная переменная для поля Объемный расход воды по каналу 6
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_M1">
+	<summary>
+Локальная переменная для поля Масса воды по каналу 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_M2">
+	<summary>
+Локальная переменная для поля Масса воды по каналу 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_DM12">
+	<summary>
+Локальная переменная для поля Разность масс канал 1  (расход ГВС)
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_M3">
+	<summary>
+Локальная переменная для поля Масса воды по каналу 3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_M4">
+	<summary>
+Локальная переменная для поля Масса воды по каналу 4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_M5">
+	<summary>
+Локальная переменная для поля Масса воды по каналу 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_DM45">
+	<summary>
+Локальная переменная для поля Разность масс канал 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_M6">
+	<summary>
+Локальная переменная для поля Масса воды по каналу 6
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_P1">
+	<summary>
+Локальная переменная для поля Давление в трубопроводе 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_P2">
+	<summary>
+Локальная переменная для поля Давление в трубопроводе 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_P3">
+	<summary>
+Локальная переменная для поля Давление в трубопроводе 3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_P4">
+	<summary>
+Локальная переменная для поля Давление в трубопроводе 4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_P5">
+	<summary>
+Локальная переменная для поля Давление в трубопроводе 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_P6">
+	<summary>
+Локальная переменная для поля Давление в трубопроводе 6
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_G1">
+	<summary>
+Локальная переменная для поля Текущее значение расхода в трубопроводе 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_G2">
+	<summary>
+Локальная переменная для поля Текущее значение расхода в трубопроводе 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_G3">
+	<summary>
+Локальная переменная для поля Текущее значение расхода в трубопроводе 3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_G4">
+	<summary>
+Локальная переменная для поля Текущее значение расхода в трубопроводе 4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_G5">
+	<summary>
+Локальная переменная для поля Текущее значение расхода в трубопроводе 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_G6">
+	<summary>
+Локальная переменная для поля Текущее значение расхода в трубопроводе 6
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_TCOOL">
+	<summary>
+Локальная переменная для поля Температура холодной воды
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_TCE1">
+	<summary>
+Локальная переменная для поля Температура холодного конца канал 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_TCE2">
+	<summary>
+Локальная переменная для поля Температура холодного конца канал 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_TSUM1">
+	<summary>
+Локальная переменная для поля Тотальное время счета TB1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_TSUM2">
+	<summary>
+Локальная переменная для поля Тотальное время счета TB2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_Q1H">
+	<summary>
+Локальная переменная для поля Тепловая энергия канал 1 нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_Q2H">
+	<summary>
+Локальная переменная для поля Тепловая энергия канал 2 нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_V1H">
+	<summary>
+Локальная переменная для поля Объемный расход воды по каналу 1  нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_V2H">
+	<summary>
+Локальная переменная для поля Объемный расход воды по каналу 2  нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_V4H">
+	<summary>
+Локальная переменная для поля Объемный расход воды по каналу 4  нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_V5H">
+	<summary>
+Локальная переменная для поля Объемный расход воды по каналу 5  нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_ERRTIME">
+	<summary>
+Локальная переменная для поля Время аварии
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_ERRTIMEH">
+	<summary>
+Локальная переменная для поля Время аварии нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_HC">
+	<summary>
+Локальная переменная для поля Нештатные ситуации общ
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_SP">
+	<summary>
+Локальная переменная для поля Схема потребления
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_SP_TB1">
+	<summary>
+Локальная переменная для поля Схема потребления TB1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_SP_TB2">
+	<summary>
+Локальная переменная для поля Схема потребления TB2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_datetimeCOUNTER">
+	<summary>
+Локальная переменная для поля datetimeCOUNTER
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_DG12">
+	<summary>
+Локальная переменная для поля G1-G2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_DG45">
+	<summary>
+Локальная переменная для поля G4-G5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_DP12">
+	<summary>
+Локальная переменная для поля P1-P2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_DP45">
+	<summary>
+Локальная переменная для поля P4-P5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_UNITSR">
+	<summary>
+Локальная переменная для поля Единицы измерения расхода
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_Q3">
+	<summary>
+Локальная переменная для поля Тепловая энергия канал 3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_Q4">
+	<summary>
+Локальная переменная для поля Тепловая энергия канал 4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_PATM">
+	<summary>
+Локальная переменная для поля Атмосферное давление
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_Q5">
+	<summary>
+Локальная переменная для поля Тепловая энергия канал 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_DQ12">
+	<summary>
+Локальная переменная для поля Тепловая энергия потребитель 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_DQ45">
+	<summary>
+Локальная переменная для поля Тепловая энергия потребитель 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_PXB">
+	<summary>
+Локальная переменная для поля Давление холодной воды
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_DQ">
+	<summary>
+Локальная переменная для поля Расход энергии потребитель 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_HC_1">
+	<summary>
+Локальная переменная для поля Нештатная ситуация 1 (ТВ1 или внешняя)
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_HC_2">
+	<summary>
+Локальная переменная для поля Нештатная ситуация 2 (ТВ2 или внутренняя)
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_THOT">
+	<summary>
+Локальная переменная для поля Температура горячей воды
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_DANS1">
+	<summary>
+Локальная переменная для поля DANS1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_DANS2">
+	<summary>
+Локальная переменная для поля DANS2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_DANS3">
+	<summary>
+Локальная переменная для поля DANS3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_DANS4">
+	<summary>
+Локальная переменная для поля DANS4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_DANS5">
+	<summary>
+Локальная переменная для поля DANS5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_DANS6">
+	<summary>
+Локальная переменная для поля DANS6
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_CHECK_A">
+	<summary>
+Локальная переменная для поля Проверка архивных данных на НС (0 - не производилась, 1 - произведена)
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_OKTIME">
+	<summary>
+Локальная переменная для поля Время безошиб.работы
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_WORKTIME">
+	<summary>
+Локальная переменная для поля Время работы
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_TAIR1">
+	<summary>
+Локальная переменная для поля Температура воздуха канал 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_TAIR2">
+	<summary>
+Локальная переменная для поля Температура воздуха канал 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_H.m_HC_CODE">
+	<summary>
+Локальная переменная для поля Код нештатной ситуации тепловычислителя
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_H.CleanFields">
+	<summary>
+Очистить поля раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.Count">
+	<summary>
+Количество полей в строке раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.Value(System.Object)">
+	<summary>
+Получить \Задать поле по номеру 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_H.FieldNameByID(System.Int64)">
+	<summary>
+Название поля по номеру
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_H.FillDataTable(System.Data.DataTable@)">
+	<summary>
+Заполнить строку таблицы данными из полей
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_H.FindInside(System.String,System.String)">
+	<summary>
+Найти строку в коллекции по идентификатору
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_H.Pack(LATIR.NamedValues)">
+	<summary>
+Заполнить коллекцю именованных полей
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_H.Unpack(System.Data.DataRow)">
+	<summary>
+Заполнить поля из именованной коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.DCALL">
+	<summary>
+Доступ к полю Дата опроса
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.DCOUNTER">
+	<summary>
+Доступ к полю Дата счетчика
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.Q1">
+	<summary>
+Доступ к полю Тепловая энергия канал 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.Q2">
+	<summary>
+Доступ к полю Тепловая энергия канал 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.T1">
+	<summary>
+Доступ к полю Температура по каналу 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.T2">
+	<summary>
+Доступ к полю Температура по каналу 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.DT12">
+	<summary>
+Доступ к полю Разность Температур по каналу 1 и 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.T3">
+	<summary>
+Доступ к полю Температура по каналу 3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.T4">
+	<summary>
+Доступ к полю Температура по каналу 4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.T5">
+	<summary>
+Доступ к полю Температура по каналу 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.DT45">
+	<summary>
+Доступ к полю Разность Температур по каналу 4 и 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.T6">
+	<summary>
+Доступ к полю Температура по каналу 6
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.V1">
+	<summary>
+Доступ к полю Объемный расход воды по каналу 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.V2">
+	<summary>
+Доступ к полю Объемный расход воды по каналу 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.DV12">
+	<summary>
+Доступ к полю Разность объемов канал 1  (расход ГВС)
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.V3">
+	<summary>
+Доступ к полю Объемный расход воды по каналу 3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.V4">
+	<summary>
+Доступ к полю Объемный расход воды по каналу 4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.V5">
+	<summary>
+Доступ к полю Объемный расход воды по каналу 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.DV45">
+	<summary>
+Доступ к полю Разность объемов канал 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.V6">
+	<summary>
+Доступ к полю Объемный расход воды по каналу 6
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.M1">
+	<summary>
+Доступ к полю Масса воды по каналу 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.M2">
+	<summary>
+Доступ к полю Масса воды по каналу 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.DM12">
+	<summary>
+Доступ к полю Разность масс канал 1  (расход ГВС)
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.M3">
+	<summary>
+Доступ к полю Масса воды по каналу 3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.M4">
+	<summary>
+Доступ к полю Масса воды по каналу 4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.M5">
+	<summary>
+Доступ к полю Масса воды по каналу 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.DM45">
+	<summary>
+Доступ к полю Разность масс канал 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.M6">
+	<summary>
+Доступ к полю Масса воды по каналу 6
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.P1">
+	<summary>
+Доступ к полю Давление в трубопроводе 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.P2">
+	<summary>
+Доступ к полю Давление в трубопроводе 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.P3">
+	<summary>
+Доступ к полю Давление в трубопроводе 3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.P4">
+	<summary>
+Доступ к полю Давление в трубопроводе 4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.P5">
+	<summary>
+Доступ к полю Давление в трубопроводе 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.P6">
+	<summary>
+Доступ к полю Давление в трубопроводе 6
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.G1">
+	<summary>
+Доступ к полю Текущее значение расхода в трубопроводе 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.G2">
+	<summary>
+Доступ к полю Текущее значение расхода в трубопроводе 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.G3">
+	<summary>
+Доступ к полю Текущее значение расхода в трубопроводе 3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.G4">
+	<summary>
+Доступ к полю Текущее значение расхода в трубопроводе 4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.G5">
+	<summary>
+Доступ к полю Текущее значение расхода в трубопроводе 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.G6">
+	<summary>
+Доступ к полю Текущее значение расхода в трубопроводе 6
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.TCOOL">
+	<summary>
+Доступ к полю Температура холодной воды
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.TCE1">
+	<summary>
+Доступ к полю Температура холодного конца канал 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.TCE2">
+	<summary>
+Доступ к полю Температура холодного конца канал 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.TSUM1">
+	<summary>
+Доступ к полю Тотальное время счета TB1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.TSUM2">
+	<summary>
+Доступ к полю Тотальное время счета TB2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.Q1H">
+	<summary>
+Доступ к полю Тепловая энергия канал 1 нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.Q2H">
+	<summary>
+Доступ к полю Тепловая энергия канал 2 нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.V1H">
+	<summary>
+Доступ к полю Объемный расход воды по каналу 1  нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.V2H">
+	<summary>
+Доступ к полю Объемный расход воды по каналу 2  нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.V4H">
+	<summary>
+Доступ к полю Объемный расход воды по каналу 4  нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.V5H">
+	<summary>
+Доступ к полю Объемный расход воды по каналу 5  нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.ERRTIME">
+	<summary>
+Доступ к полю Время аварии
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.ERRTIMEH">
+	<summary>
+Доступ к полю Время аварии нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.HC">
+	<summary>
+Доступ к полю Нештатные ситуации общ
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.SP">
+	<summary>
+Доступ к полю Схема потребления
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.SP_TB1">
+	<summary>
+Доступ к полю Схема потребления TB1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.SP_TB2">
+	<summary>
+Доступ к полю Схема потребления TB2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.datetimeCOUNTER">
+	<summary>
+Доступ к полю datetimeCOUNTER
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.DG12">
+	<summary>
+Доступ к полю G1-G2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.DG45">
+	<summary>
+Доступ к полю G4-G5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.DP12">
+	<summary>
+Доступ к полю P1-P2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.DP45">
+	<summary>
+Доступ к полю P4-P5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.UNITSR">
+	<summary>
+Доступ к полю Единицы измерения расхода
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.Q3">
+	<summary>
+Доступ к полю Тепловая энергия канал 3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.Q4">
+	<summary>
+Доступ к полю Тепловая энергия канал 4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.PATM">
+	<summary>
+Доступ к полю Атмосферное давление
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.Q5">
+	<summary>
+Доступ к полю Тепловая энергия канал 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.DQ12">
+	<summary>
+Доступ к полю Тепловая энергия потребитель 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.DQ45">
+	<summary>
+Доступ к полю Тепловая энергия потребитель 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.PXB">
+	<summary>
+Доступ к полю Давление холодной воды
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.DQ">
+	<summary>
+Доступ к полю Расход энергии потребитель 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.HC_1">
+	<summary>
+Доступ к полю Нештатная ситуация 1 (ТВ1 или внешняя)
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.HC_2">
+	<summary>
+Доступ к полю Нештатная ситуация 2 (ТВ2 или внутренняя)
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.THOT">
+	<summary>
+Доступ к полю Температура горячей воды
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.DANS1">
+	<summary>
+Доступ к полю DANS1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.DANS2">
+	<summary>
+Доступ к полю DANS2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.DANS3">
+	<summary>
+Доступ к полю DANS3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.DANS4">
+	<summary>
+Доступ к полю DANS4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.DANS5">
+	<summary>
+Доступ к полю DANS5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.DANS6">
+	<summary>
+Доступ к полю DANS6
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.CHECK_A">
+	<summary>
+Доступ к полю Проверка архивных данных на НС (0 - не производилась, 1 - произведена)
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.OKTIME">
+	<summary>
+Доступ к полю Время безошиб.работы
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.WORKTIME">
+	<summary>
+Доступ к полю Время работы
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.TAIR1">
+	<summary>
+Доступ к полю Температура воздуха канал 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.TAIR2">
+	<summary>
+Доступ к полю Температура воздуха канал 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.HC_CODE">
+	<summary>
+Доступ к полю Код нештатной ситуации тепловычислителя
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_H.XMLUnpack(System.Xml.XmlNode,System.Int32)">
+	<summary>
+Заполнить поля данными из XML
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_H.XLMPack(System.Xml.XmlElement,System.Xml.XmlDocument)">
+	<summary>
+Записать данные раздела в XML файл
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_H.BatchUpdate">
+	<summary>
+Записать изменения в базу данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_H.CountOfParts">
+	<summary>
+Количество дочерних разделов
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_H.GetDocCollection_Base(System.Int64)">
+	<summary>
+Доступ к дочернему разделу по номеру
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.TPLC_H">
+	<summary>
+Реализация строки раздела Часовые архивы
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_M_col.ChildPartName">
+	<summary>
+Имя раздела в базе данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_M_col.CreateDataTable">
+	<summary>
+Вернуть даные текущей коллекции в виде DataTable
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_M_col.NewItem">
+	<summary>
+Создание нового элемента коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_M_col.GetItem(System.Object)">
+	<summary>
+Получить элемент коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_M_col.Item(System.Object)">
+	<summary>
+Получить элемент коллекции, более свежий вариант
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.TPLC_M_col">
+	<summary>
+Реализация раздела Мгновенные значенияв виде коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_DCALL">
+	<summary>
+Локальная переменная для поля Дата опроса
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_DCOUNTER">
+	<summary>
+Локальная переменная для поля Дата счетчика
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_Q1">
+	<summary>
+Локальная переменная для поля Тепловая энергия канал 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_Q2">
+	<summary>
+Локальная переменная для поля Тепловая энергия канал 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_T1">
+	<summary>
+Локальная переменная для поля Температура по каналу 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_T2">
+	<summary>
+Локальная переменная для поля Температура по каналу 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_DT12">
+	<summary>
+Локальная переменная для поля Разность Температур по каналу 1 и 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_T3">
+	<summary>
+Локальная переменная для поля Температура по каналу 3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_T4">
+	<summary>
+Локальная переменная для поля Температура по каналу 4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_T5">
+	<summary>
+Локальная переменная для поля Температура по каналу 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_DT45">
+	<summary>
+Локальная переменная для поля Разность Температур по каналу 4 и 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_T6">
+	<summary>
+Локальная переменная для поля Температура по каналу 6
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_V1">
+	<summary>
+Локальная переменная для поля Объемный расход воды по каналу 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_V2">
+	<summary>
+Локальная переменная для поля Объемный расход воды по каналу 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_DV12">
+	<summary>
+Локальная переменная для поля Разность объемов канал 1  (расход ГВС)
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_V3">
+	<summary>
+Локальная переменная для поля Объемный расход воды по каналу 3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_V4">
+	<summary>
+Локальная переменная для поля Объемный расход воды по каналу 4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_V5">
+	<summary>
+Локальная переменная для поля Объемный расход воды по каналу 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_DV45">
+	<summary>
+Локальная переменная для поля Разность объемов канал 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_V6">
+	<summary>
+Локальная переменная для поля Объемный расход воды по каналу 6
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_M1">
+	<summary>
+Локальная переменная для поля Масса воды по каналу 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_M2">
+	<summary>
+Локальная переменная для поля Масса воды по каналу 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_DM12">
+	<summary>
+Локальная переменная для поля Разность масс канал 1  (расход ГВС)
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_M3">
+	<summary>
+Локальная переменная для поля Масса воды по каналу 3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_M4">
+	<summary>
+Локальная переменная для поля Масса воды по каналу 4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_M5">
+	<summary>
+Локальная переменная для поля Масса воды по каналу 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_DM45">
+	<summary>
+Локальная переменная для поля Разность масс канал 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_M6">
+	<summary>
+Локальная переменная для поля Масса воды по каналу 6
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_P1">
+	<summary>
+Локальная переменная для поля Давление в трубопроводе 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_P2">
+	<summary>
+Локальная переменная для поля Давление в трубопроводе 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_P3">
+	<summary>
+Локальная переменная для поля Давление в трубопроводе 3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_P4">
+	<summary>
+Локальная переменная для поля Давление в трубопроводе 4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_P5">
+	<summary>
+Локальная переменная для поля Давление в трубопроводе 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_P6">
+	<summary>
+Локальная переменная для поля Давление в трубопроводе 6
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_G1">
+	<summary>
+Локальная переменная для поля Текущее значение расхода в трубопроводе 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_G2">
+	<summary>
+Локальная переменная для поля Текущее значение расхода в трубопроводе 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_G3">
+	<summary>
+Локальная переменная для поля Текущее значение расхода в трубопроводе 3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_G4">
+	<summary>
+Локальная переменная для поля Текущее значение расхода в трубопроводе 4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_G5">
+	<summary>
+Локальная переменная для поля Текущее значение расхода в трубопроводе 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_G6">
+	<summary>
+Локальная переменная для поля Текущее значение расхода в трубопроводе 6
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_TCOOL">
+	<summary>
+Локальная переменная для поля Температура холодной воды
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_TCE1">
+	<summary>
+Локальная переменная для поля Температура холодного конца канал 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_TCE2">
+	<summary>
+Локальная переменная для поля Температура холодного конца канал 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_TSUM1">
+	<summary>
+Локальная переменная для поля Тотальное время счета TB1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_TSUM2">
+	<summary>
+Локальная переменная для поля Тотальное время счета TB2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_Q1H">
+	<summary>
+Локальная переменная для поля Тепловая энергия канал 1 нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_Q2H">
+	<summary>
+Локальная переменная для поля Тепловая энергия канал 2 нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_V1H">
+	<summary>
+Локальная переменная для поля Объемный расход воды по каналу 1  нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_V2H">
+	<summary>
+Локальная переменная для поля Объемный расход воды по каналу 2  нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_V4H">
+	<summary>
+Локальная переменная для поля Объемный расход воды по каналу 4  нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_V5H">
+	<summary>
+Локальная переменная для поля Объемный расход воды по каналу 5  нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_ERRTIME">
+	<summary>
+Локальная переменная для поля Время аварии
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_ERRTIMEH">
+	<summary>
+Локальная переменная для поля Время аварии нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_HC">
+	<summary>
+Локальная переменная для поля Нештатные ситуации общ
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_SP">
+	<summary>
+Локальная переменная для поля Схема потребления
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_SP_TB1">
+	<summary>
+Локальная переменная для поля Схема потребления TB1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_SP_TB2">
+	<summary>
+Локальная переменная для поля Схема потребления TB2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_datetimeCOUNTER">
+	<summary>
+Локальная переменная для поля datetimeCOUNTER
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_DG12">
+	<summary>
+Локальная переменная для поля G1-G2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_DG45">
+	<summary>
+Локальная переменная для поля G4-G5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_DP12">
+	<summary>
+Локальная переменная для поля P1-P2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_DP45">
+	<summary>
+Локальная переменная для поля P4-P5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_UNITSR">
+	<summary>
+Локальная переменная для поля Единицы измерения расхода
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_Q3">
+	<summary>
+Локальная переменная для поля Тепловая энергия канал 3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_Q4">
+	<summary>
+Локальная переменная для поля Тепловая энергия канал 4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_PATM">
+	<summary>
+Локальная переменная для поля Атмосферное давление
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_Q5">
+	<summary>
+Локальная переменная для поля Тепловая энергия канал 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_DQ12">
+	<summary>
+Локальная переменная для поля Тепловая энергия потребитель 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_DQ45">
+	<summary>
+Локальная переменная для поля Тепловая энергия потребитель 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_PXB">
+	<summary>
+Локальная переменная для поля Давление холодной воды
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_DQ">
+	<summary>
+Локальная переменная для поля Расход энергии потребитель 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_HC_1">
+	<summary>
+Локальная переменная для поля Нештатная ситуация 1 (ТВ1 или внешняя)
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_HC_2">
+	<summary>
+Локальная переменная для поля Нештатная ситуация 2 (ТВ2 или внутренняя)
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_THOT">
+	<summary>
+Локальная переменная для поля Температура горячей воды
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_DANS1">
+	<summary>
+Локальная переменная для поля DANS1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_DANS2">
+	<summary>
+Локальная переменная для поля DANS2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_DANS3">
+	<summary>
+Локальная переменная для поля DANS3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_DANS4">
+	<summary>
+Локальная переменная для поля DANS4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_DANS5">
+	<summary>
+Локальная переменная для поля DANS5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_DANS6">
+	<summary>
+Локальная переменная для поля DANS6
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_CHECK_A">
+	<summary>
+Локальная переменная для поля Проверка архивных данных на НС (0 - не производилась, 1 - произведена)
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_OKTIME">
+	<summary>
+Локальная переменная для поля Время безошиб.работы
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_WORKTIME">
+	<summary>
+Локальная переменная для поля Время работы
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_TAIR1">
+	<summary>
+Локальная переменная для поля Температура воздуха канал 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_TAIR2">
+	<summary>
+Локальная переменная для поля Температура воздуха канал 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_M.m_HC_CODE">
+	<summary>
+Локальная переменная для поля Код нештатной ситуации тепловычислителя
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_M.CleanFields">
+	<summary>
+Очистить поля раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.Count">
+	<summary>
+Количество полей в строке раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.Value(System.Object)">
+	<summary>
+Получить \Задать поле по номеру 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_M.FieldNameByID(System.Int64)">
+	<summary>
+Название поля по номеру
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_M.FillDataTable(System.Data.DataTable@)">
+	<summary>
+Заполнить строку таблицы данными из полей
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_M.FindInside(System.String,System.String)">
+	<summary>
+Найти строку в коллекции по идентификатору
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_M.Pack(LATIR.NamedValues)">
+	<summary>
+Заполнить коллекцю именованных полей
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_M.Unpack(System.Data.DataRow)">
+	<summary>
+Заполнить поля из именованной коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.DCALL">
+	<summary>
+Доступ к полю Дата опроса
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.DCOUNTER">
+	<summary>
+Доступ к полю Дата счетчика
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.Q1">
+	<summary>
+Доступ к полю Тепловая энергия канал 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.Q2">
+	<summary>
+Доступ к полю Тепловая энергия канал 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.T1">
+	<summary>
+Доступ к полю Температура по каналу 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.T2">
+	<summary>
+Доступ к полю Температура по каналу 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.DT12">
+	<summary>
+Доступ к полю Разность Температур по каналу 1 и 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.T3">
+	<summary>
+Доступ к полю Температура по каналу 3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.T4">
+	<summary>
+Доступ к полю Температура по каналу 4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.T5">
+	<summary>
+Доступ к полю Температура по каналу 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.DT45">
+	<summary>
+Доступ к полю Разность Температур по каналу 4 и 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.T6">
+	<summary>
+Доступ к полю Температура по каналу 6
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.V1">
+	<summary>
+Доступ к полю Объемный расход воды по каналу 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.V2">
+	<summary>
+Доступ к полю Объемный расход воды по каналу 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.DV12">
+	<summary>
+Доступ к полю Разность объемов канал 1  (расход ГВС)
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.V3">
+	<summary>
+Доступ к полю Объемный расход воды по каналу 3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.V4">
+	<summary>
+Доступ к полю Объемный расход воды по каналу 4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.V5">
+	<summary>
+Доступ к полю Объемный расход воды по каналу 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.DV45">
+	<summary>
+Доступ к полю Разность объемов канал 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.V6">
+	<summary>
+Доступ к полю Объемный расход воды по каналу 6
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.M1">
+	<summary>
+Доступ к полю Масса воды по каналу 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.M2">
+	<summary>
+Доступ к полю Масса воды по каналу 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.DM12">
+	<summary>
+Доступ к полю Разность масс канал 1  (расход ГВС)
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.M3">
+	<summary>
+Доступ к полю Масса воды по каналу 3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.M4">
+	<summary>
+Доступ к полю Масса воды по каналу 4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.M5">
+	<summary>
+Доступ к полю Масса воды по каналу 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.DM45">
+	<summary>
+Доступ к полю Разность масс канал 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.M6">
+	<summary>
+Доступ к полю Масса воды по каналу 6
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.P1">
+	<summary>
+Доступ к полю Давление в трубопроводе 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.P2">
+	<summary>
+Доступ к полю Давление в трубопроводе 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.P3">
+	<summary>
+Доступ к полю Давление в трубопроводе 3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.P4">
+	<summary>
+Доступ к полю Давление в трубопроводе 4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.P5">
+	<summary>
+Доступ к полю Давление в трубопроводе 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.P6">
+	<summary>
+Доступ к полю Давление в трубопроводе 6
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.G1">
+	<summary>
+Доступ к полю Текущее значение расхода в трубопроводе 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.G2">
+	<summary>
+Доступ к полю Текущее значение расхода в трубопроводе 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.G3">
+	<summary>
+Доступ к полю Текущее значение расхода в трубопроводе 3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.G4">
+	<summary>
+Доступ к полю Текущее значение расхода в трубопроводе 4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.G5">
+	<summary>
+Доступ к полю Текущее значение расхода в трубопроводе 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.G6">
+	<summary>
+Доступ к полю Текущее значение расхода в трубопроводе 6
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.TCOOL">
+	<summary>
+Доступ к полю Температура холодной воды
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.TCE1">
+	<summary>
+Доступ к полю Температура холодного конца канал 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.TCE2">
+	<summary>
+Доступ к полю Температура холодного конца канал 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.TSUM1">
+	<summary>
+Доступ к полю Тотальное время счета TB1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.TSUM2">
+	<summary>
+Доступ к полю Тотальное время счета TB2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.Q1H">
+	<summary>
+Доступ к полю Тепловая энергия канал 1 нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.Q2H">
+	<summary>
+Доступ к полю Тепловая энергия канал 2 нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.V1H">
+	<summary>
+Доступ к полю Объемный расход воды по каналу 1  нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.V2H">
+	<summary>
+Доступ к полю Объемный расход воды по каналу 2  нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.V4H">
+	<summary>
+Доступ к полю Объемный расход воды по каналу 4  нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.V5H">
+	<summary>
+Доступ к полю Объемный расход воды по каналу 5  нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.ERRTIME">
+	<summary>
+Доступ к полю Время аварии
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.ERRTIMEH">
+	<summary>
+Доступ к полю Время аварии нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.HC">
+	<summary>
+Доступ к полю Нештатные ситуации общ
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.SP">
+	<summary>
+Доступ к полю Схема потребления
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.SP_TB1">
+	<summary>
+Доступ к полю Схема потребления TB1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.SP_TB2">
+	<summary>
+Доступ к полю Схема потребления TB2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.datetimeCOUNTER">
+	<summary>
+Доступ к полю datetimeCOUNTER
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.DG12">
+	<summary>
+Доступ к полю G1-G2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.DG45">
+	<summary>
+Доступ к полю G4-G5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.DP12">
+	<summary>
+Доступ к полю P1-P2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.DP45">
+	<summary>
+Доступ к полю P4-P5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.UNITSR">
+	<summary>
+Доступ к полю Единицы измерения расхода
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.Q3">
+	<summary>
+Доступ к полю Тепловая энергия канал 3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.Q4">
+	<summary>
+Доступ к полю Тепловая энергия канал 4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.PATM">
+	<summary>
+Доступ к полю Атмосферное давление
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.Q5">
+	<summary>
+Доступ к полю Тепловая энергия канал 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.DQ12">
+	<summary>
+Доступ к полю Тепловая энергия потребитель 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.DQ45">
+	<summary>
+Доступ к полю Тепловая энергия потребитель 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.PXB">
+	<summary>
+Доступ к полю Давление холодной воды
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.DQ">
+	<summary>
+Доступ к полю Расход энергии потребитель 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.HC_1">
+	<summary>
+Доступ к полю Нештатная ситуация 1 (ТВ1 или внешняя)
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.HC_2">
+	<summary>
+Доступ к полю Нештатная ситуация 2 (ТВ2 или внутренняя)
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.THOT">
+	<summary>
+Доступ к полю Температура горячей воды
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.DANS1">
+	<summary>
+Доступ к полю DANS1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.DANS2">
+	<summary>
+Доступ к полю DANS2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.DANS3">
+	<summary>
+Доступ к полю DANS3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.DANS4">
+	<summary>
+Доступ к полю DANS4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.DANS5">
+	<summary>
+Доступ к полю DANS5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.DANS6">
+	<summary>
+Доступ к полю DANS6
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.CHECK_A">
+	<summary>
+Доступ к полю Проверка архивных данных на НС (0 - не производилась, 1 - произведена)
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.OKTIME">
+	<summary>
+Доступ к полю Время безошиб.работы
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.WORKTIME">
+	<summary>
+Доступ к полю Время работы
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.TAIR1">
+	<summary>
+Доступ к полю Температура воздуха канал 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.TAIR2">
+	<summary>
+Доступ к полю Температура воздуха канал 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.HC_CODE">
+	<summary>
+Доступ к полю Код нештатной ситуации тепловычислителя
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_M.XMLUnpack(System.Xml.XmlNode,System.Int32)">
+	<summary>
+Заполнить поля данными из XML
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_M.XLMPack(System.Xml.XmlElement,System.Xml.XmlDocument)">
+	<summary>
+Записать данные раздела в XML файл
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_M.BatchUpdate">
+	<summary>
+Записать изменения в базу данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_M.CountOfParts">
+	<summary>
+Количество дочерних разделов
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_M.GetDocCollection_Base(System.Int64)">
+	<summary>
+Доступ к дочернему разделу по номеру
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.TPLC_M">
+	<summary>
+Реализация строки раздела Мгновенные значения
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_T_col.ChildPartName">
+	<summary>
+Имя раздела в базе данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_T_col.CreateDataTable">
+	<summary>
+Вернуть даные текущей коллекции в виде DataTable
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_T_col.NewItem">
+	<summary>
+Создание нового элемента коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_T_col.GetItem(System.Object)">
+	<summary>
+Получить элемент коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_T_col.Item(System.Object)">
+	<summary>
+Получить элемент коллекции, более свежий вариант
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.TPLC_T_col">
+	<summary>
+Реализация раздела Суммарные показателив виде коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_DCALL">
+	<summary>
+Локальная переменная для поля Дата опроса
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_DCOUNTER">
+	<summary>
+Локальная переменная для поля Дата счетчика
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_Q1">
+	<summary>
+Локальная переменная для поля Тепловая энергия канал 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_Q2">
+	<summary>
+Локальная переменная для поля Тепловая энергия канал 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_T1">
+	<summary>
+Локальная переменная для поля Температура по каналу 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_T2">
+	<summary>
+Локальная переменная для поля Температура по каналу 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_DT12">
+	<summary>
+Локальная переменная для поля Разность Температур по каналу 1 и 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_T3">
+	<summary>
+Локальная переменная для поля Температура по каналу 3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_T4">
+	<summary>
+Локальная переменная для поля Температура по каналу 4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_T5">
+	<summary>
+Локальная переменная для поля Температура по каналу 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_DT45">
+	<summary>
+Локальная переменная для поля Разность Температур по каналу 4 и 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_T6">
+	<summary>
+Локальная переменная для поля Температура по каналу 6
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_V1">
+	<summary>
+Локальная переменная для поля Объемный расход воды по каналу 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_V2">
+	<summary>
+Локальная переменная для поля Объемный расход воды по каналу 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_DV12">
+	<summary>
+Локальная переменная для поля Разность объемов канал 1  (расход ГВС)
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_V3">
+	<summary>
+Локальная переменная для поля Объемный расход воды по каналу 3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_V4">
+	<summary>
+Локальная переменная для поля Объемный расход воды по каналу 4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_V5">
+	<summary>
+Локальная переменная для поля Объемный расход воды по каналу 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_DV45">
+	<summary>
+Локальная переменная для поля Разность объемов канал 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_V6">
+	<summary>
+Локальная переменная для поля Объемный расход воды по каналу 6
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_M1">
+	<summary>
+Локальная переменная для поля Масса воды по каналу 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_M2">
+	<summary>
+Локальная переменная для поля Масса воды по каналу 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_DM12">
+	<summary>
+Локальная переменная для поля Разность масс канал 1  (расход ГВС)
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_M3">
+	<summary>
+Локальная переменная для поля Масса воды по каналу 3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_M4">
+	<summary>
+Локальная переменная для поля Масса воды по каналу 4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_M5">
+	<summary>
+Локальная переменная для поля Масса воды по каналу 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_DM45">
+	<summary>
+Локальная переменная для поля Разность масс канал 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_M6">
+	<summary>
+Локальная переменная для поля Масса воды по каналу 6
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_P1">
+	<summary>
+Локальная переменная для поля Давление в трубопроводе 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_P2">
+	<summary>
+Локальная переменная для поля Давление в трубопроводе 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_P3">
+	<summary>
+Локальная переменная для поля Давление в трубопроводе 3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_P4">
+	<summary>
+Локальная переменная для поля Давление в трубопроводе 4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_P5">
+	<summary>
+Локальная переменная для поля Давление в трубопроводе 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_P6">
+	<summary>
+Локальная переменная для поля Давление в трубопроводе 6
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_G1">
+	<summary>
+Локальная переменная для поля Текущее значение расхода в трубопроводе 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_G2">
+	<summary>
+Локальная переменная для поля Текущее значение расхода в трубопроводе 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_G3">
+	<summary>
+Локальная переменная для поля Текущее значение расхода в трубопроводе 3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_G4">
+	<summary>
+Локальная переменная для поля Текущее значение расхода в трубопроводе 4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_G5">
+	<summary>
+Локальная переменная для поля Текущее значение расхода в трубопроводе 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_G6">
+	<summary>
+Локальная переменная для поля Текущее значение расхода в трубопроводе 6
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_TCOOL">
+	<summary>
+Локальная переменная для поля Температура холодной воды
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_TCE1">
+	<summary>
+Локальная переменная для поля Температура холодного конца канал 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_TCE2">
+	<summary>
+Локальная переменная для поля Температура холодного конца канал 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_TSUM1">
+	<summary>
+Локальная переменная для поля Тотальное время счета TB1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_TSUM2">
+	<summary>
+Локальная переменная для поля Тотальное время счета TB2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_Q1H">
+	<summary>
+Локальная переменная для поля Тепловая энергия канал 1 нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_Q2H">
+	<summary>
+Локальная переменная для поля Тепловая энергия канал 2 нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_V1H">
+	<summary>
+Локальная переменная для поля Объемный расход воды по каналу 1  нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_V2H">
+	<summary>
+Локальная переменная для поля Объемный расход воды по каналу 2  нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_V4H">
+	<summary>
+Локальная переменная для поля Объемный расход воды по каналу 4  нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_V5H">
+	<summary>
+Локальная переменная для поля Объемный расход воды по каналу 5  нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_ERRTIME">
+	<summary>
+Локальная переменная для поля Время аварии
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_ERRTIMEH">
+	<summary>
+Локальная переменная для поля Время аварии нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_HC">
+	<summary>
+Локальная переменная для поля Нештатные ситуации общ
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_SP">
+	<summary>
+Локальная переменная для поля Схема потребления
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_SP_TB1">
+	<summary>
+Локальная переменная для поля Схема потребления TB1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_SP_TB2">
+	<summary>
+Локальная переменная для поля Схема потребления TB2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_datetimeCOUNTER">
+	<summary>
+Локальная переменная для поля datetimeCOUNTER
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_DG12">
+	<summary>
+Локальная переменная для поля G1-G2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_DG45">
+	<summary>
+Локальная переменная для поля G4-G5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_DP12">
+	<summary>
+Локальная переменная для поля P1-P2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_DP45">
+	<summary>
+Локальная переменная для поля P4-P5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_UNITSR">
+	<summary>
+Локальная переменная для поля Единицы измерения расхода
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_Q3">
+	<summary>
+Локальная переменная для поля Тепловая энергия канал 3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_Q4">
+	<summary>
+Локальная переменная для поля Тепловая энергия канал 4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_PATM">
+	<summary>
+Локальная переменная для поля Атмосферное давление
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_Q5">
+	<summary>
+Локальная переменная для поля Тепловая энергия канал 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_DQ12">
+	<summary>
+Локальная переменная для поля Тепловая энергия потребитель 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_DQ45">
+	<summary>
+Локальная переменная для поля Тепловая энергия потребитель 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_PXB">
+	<summary>
+Локальная переменная для поля Давление холодной воды
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_DQ">
+	<summary>
+Локальная переменная для поля Расход энергии потребитель 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_HC_1">
+	<summary>
+Локальная переменная для поля Нештатная ситуация 1 (ТВ1 или внешняя)
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_HC_2">
+	<summary>
+Локальная переменная для поля Нештатная ситуация 2 (ТВ2 или внутренняя)
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_THOT">
+	<summary>
+Локальная переменная для поля Температура горячей воды
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_DANS1">
+	<summary>
+Локальная переменная для поля DANS1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_DANS2">
+	<summary>
+Локальная переменная для поля DANS2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_DANS3">
+	<summary>
+Локальная переменная для поля DANS3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_DANS4">
+	<summary>
+Локальная переменная для поля DANS4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_DANS5">
+	<summary>
+Локальная переменная для поля DANS5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_DANS6">
+	<summary>
+Локальная переменная для поля DANS6
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_CHECK_A">
+	<summary>
+Локальная переменная для поля Проверка архивных данных на НС (0 - не производилась, 1 - произведена)
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_OKTIME">
+	<summary>
+Локальная переменная для поля Время безошиб.работы
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_WORKTIME">
+	<summary>
+Локальная переменная для поля Время работы
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_TAIR1">
+	<summary>
+Локальная переменная для поля Температура воздуха канал 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_TAIR2">
+	<summary>
+Локальная переменная для поля Температура воздуха канал 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_T.m_HC_CODE">
+	<summary>
+Локальная переменная для поля Код нештатной ситуации тепловычислителя
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_T.CleanFields">
+	<summary>
+Очистить поля раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.Count">
+	<summary>
+Количество полей в строке раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.Value(System.Object)">
+	<summary>
+Получить \Задать поле по номеру 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_T.FieldNameByID(System.Int64)">
+	<summary>
+Название поля по номеру
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_T.FillDataTable(System.Data.DataTable@)">
+	<summary>
+Заполнить строку таблицы данными из полей
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_T.FindInside(System.String,System.String)">
+	<summary>
+Найти строку в коллекции по идентификатору
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_T.Pack(LATIR.NamedValues)">
+	<summary>
+Заполнить коллекцю именованных полей
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_T.Unpack(System.Data.DataRow)">
+	<summary>
+Заполнить поля из именованной коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.DCALL">
+	<summary>
+Доступ к полю Дата опроса
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.DCOUNTER">
+	<summary>
+Доступ к полю Дата счетчика
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.Q1">
+	<summary>
+Доступ к полю Тепловая энергия канал 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.Q2">
+	<summary>
+Доступ к полю Тепловая энергия канал 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.T1">
+	<summary>
+Доступ к полю Температура по каналу 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.T2">
+	<summary>
+Доступ к полю Температура по каналу 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.DT12">
+	<summary>
+Доступ к полю Разность Температур по каналу 1 и 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.T3">
+	<summary>
+Доступ к полю Температура по каналу 3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.T4">
+	<summary>
+Доступ к полю Температура по каналу 4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.T5">
+	<summary>
+Доступ к полю Температура по каналу 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.DT45">
+	<summary>
+Доступ к полю Разность Температур по каналу 4 и 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.T6">
+	<summary>
+Доступ к полю Температура по каналу 6
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.V1">
+	<summary>
+Доступ к полю Объемный расход воды по каналу 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.V2">
+	<summary>
+Доступ к полю Объемный расход воды по каналу 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.DV12">
+	<summary>
+Доступ к полю Разность объемов канал 1  (расход ГВС)
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.V3">
+	<summary>
+Доступ к полю Объемный расход воды по каналу 3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.V4">
+	<summary>
+Доступ к полю Объемный расход воды по каналу 4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.V5">
+	<summary>
+Доступ к полю Объемный расход воды по каналу 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.DV45">
+	<summary>
+Доступ к полю Разность объемов канал 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.V6">
+	<summary>
+Доступ к полю Объемный расход воды по каналу 6
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.M1">
+	<summary>
+Доступ к полю Масса воды по каналу 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.M2">
+	<summary>
+Доступ к полю Масса воды по каналу 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.DM12">
+	<summary>
+Доступ к полю Разность масс канал 1  (расход ГВС)
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.M3">
+	<summary>
+Доступ к полю Масса воды по каналу 3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.M4">
+	<summary>
+Доступ к полю Масса воды по каналу 4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.M5">
+	<summary>
+Доступ к полю Масса воды по каналу 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.DM45">
+	<summary>
+Доступ к полю Разность масс канал 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.M6">
+	<summary>
+Доступ к полю Масса воды по каналу 6
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.P1">
+	<summary>
+Доступ к полю Давление в трубопроводе 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.P2">
+	<summary>
+Доступ к полю Давление в трубопроводе 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.P3">
+	<summary>
+Доступ к полю Давление в трубопроводе 3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.P4">
+	<summary>
+Доступ к полю Давление в трубопроводе 4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.P5">
+	<summary>
+Доступ к полю Давление в трубопроводе 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.P6">
+	<summary>
+Доступ к полю Давление в трубопроводе 6
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.G1">
+	<summary>
+Доступ к полю Текущее значение расхода в трубопроводе 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.G2">
+	<summary>
+Доступ к полю Текущее значение расхода в трубопроводе 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.G3">
+	<summary>
+Доступ к полю Текущее значение расхода в трубопроводе 3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.G4">
+	<summary>
+Доступ к полю Текущее значение расхода в трубопроводе 4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.G5">
+	<summary>
+Доступ к полю Текущее значение расхода в трубопроводе 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.G6">
+	<summary>
+Доступ к полю Текущее значение расхода в трубопроводе 6
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.TCOOL">
+	<summary>
+Доступ к полю Температура холодной воды
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.TCE1">
+	<summary>
+Доступ к полю Температура холодного конца канал 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.TCE2">
+	<summary>
+Доступ к полю Температура холодного конца канал 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.TSUM1">
+	<summary>
+Доступ к полю Тотальное время счета TB1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.TSUM2">
+	<summary>
+Доступ к полю Тотальное время счета TB2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.Q1H">
+	<summary>
+Доступ к полю Тепловая энергия канал 1 нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.Q2H">
+	<summary>
+Доступ к полю Тепловая энергия канал 2 нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.V1H">
+	<summary>
+Доступ к полю Объемный расход воды по каналу 1  нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.V2H">
+	<summary>
+Доступ к полю Объемный расход воды по каналу 2  нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.V4H">
+	<summary>
+Доступ к полю Объемный расход воды по каналу 4  нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.V5H">
+	<summary>
+Доступ к полю Объемный расход воды по каналу 5  нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.ERRTIME">
+	<summary>
+Доступ к полю Время аварии
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.ERRTIMEH">
+	<summary>
+Доступ к полю Время аварии нарастающим итогом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.HC">
+	<summary>
+Доступ к полю Нештатные ситуации общ
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.SP">
+	<summary>
+Доступ к полю Схема потребления
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.SP_TB1">
+	<summary>
+Доступ к полю Схема потребления TB1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.SP_TB2">
+	<summary>
+Доступ к полю Схема потребления TB2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.datetimeCOUNTER">
+	<summary>
+Доступ к полю datetimeCOUNTER
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.DG12">
+	<summary>
+Доступ к полю G1-G2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.DG45">
+	<summary>
+Доступ к полю G4-G5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.DP12">
+	<summary>
+Доступ к полю P1-P2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.DP45">
+	<summary>
+Доступ к полю P4-P5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.UNITSR">
+	<summary>
+Доступ к полю Единицы измерения расхода
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.Q3">
+	<summary>
+Доступ к полю Тепловая энергия канал 3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.Q4">
+	<summary>
+Доступ к полю Тепловая энергия канал 4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.PATM">
+	<summary>
+Доступ к полю Атмосферное давление
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.Q5">
+	<summary>
+Доступ к полю Тепловая энергия канал 5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.DQ12">
+	<summary>
+Доступ к полю Тепловая энергия потребитель 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.DQ45">
+	<summary>
+Доступ к полю Тепловая энергия потребитель 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.PXB">
+	<summary>
+Доступ к полю Давление холодной воды
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.DQ">
+	<summary>
+Доступ к полю Расход энергии потребитель 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.HC_1">
+	<summary>
+Доступ к полю Нештатная ситуация 1 (ТВ1 или внешняя)
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.HC_2">
+	<summary>
+Доступ к полю Нештатная ситуация 2 (ТВ2 или внутренняя)
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.THOT">
+	<summary>
+Доступ к полю Температура горячей воды
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.DANS1">
+	<summary>
+Доступ к полю DANS1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.DANS2">
+	<summary>
+Доступ к полю DANS2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.DANS3">
+	<summary>
+Доступ к полю DANS3
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.DANS4">
+	<summary>
+Доступ к полю DANS4
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.DANS5">
+	<summary>
+Доступ к полю DANS5
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.DANS6">
+	<summary>
+Доступ к полю DANS6
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.CHECK_A">
+	<summary>
+Доступ к полю Проверка архивных данных на НС (0 - не производилась, 1 - произведена)
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.OKTIME">
+	<summary>
+Доступ к полю Время безошиб.работы
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.WORKTIME">
+	<summary>
+Доступ к полю Время работы
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.TAIR1">
+	<summary>
+Доступ к полю Температура воздуха канал 1
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.TAIR2">
+	<summary>
+Доступ к полю Температура воздуха канал 2
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.HC_CODE">
+	<summary>
+Доступ к полю Код нештатной ситуации тепловычислителя
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_T.XMLUnpack(System.Xml.XmlNode,System.Int32)">
+	<summary>
+Заполнить поля данными из XML
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_T.XLMPack(System.Xml.XmlElement,System.Xml.XmlDocument)">
+	<summary>
+Записать данные раздела в XML файл
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_T.BatchUpdate">
+	<summary>
+Записать изменения в базу данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_T.CountOfParts">
+	<summary>
+Количество дочерних разделов
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_T.GetDocCollection_Base(System.Int64)">
+	<summary>
+Доступ к дочернему разделу по номеру
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.TPLC_T">
+	<summary>
+Реализация строки раздела Суммарные показатели
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_HEADER_col.ChildPartName">
+	<summary>
+Имя раздела в базе данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_HEADER_col.CreateDataTable">
+	<summary>
+Вернуть даные текущей коллекции в виде DataTable
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_HEADER_col.NewItem">
+	<summary>
+Создание нового элемента коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_HEADER_col.GetItem(System.Object)">
+	<summary>
+Получить элемент коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_HEADER_col.Item(System.Object)">
+	<summary>
+Получить элемент коллекции, более свежий вариант
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.TPLC_HEADER_col">
+	<summary>
+Реализация раздела Заголовокв виде коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.TPLC_HEADER.m_ID_BD">
+	<summary>
+Локальная переменная для поля Устройство
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_HEADER.CleanFields">
+	<summary>
+Очистить поля раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_HEADER.Count">
+	<summary>
+Количество полей в строке раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_HEADER.Value(System.Object)">
+	<summary>
+Получить \Задать поле по номеру 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_HEADER.FieldNameByID(System.Int64)">
+	<summary>
+Название поля по номеру
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_HEADER.FillDataTable(System.Data.DataTable@)">
+	<summary>
+Заполнить строку таблицы данными из полей
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_HEADER.FindInside(System.String,System.String)">
+	<summary>
+Найти строку в коллекции по идентификатору
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_HEADER.Pack(LATIR.NamedValues)">
+	<summary>
+Заполнить коллекцю именованных полей
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_HEADER.Unpack(System.Data.DataRow)">
+	<summary>
+Заполнить поля из именованной коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_HEADER.ID_BD">
+	<summary>
+Доступ к полю Устройство
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_HEADER.XMLUnpack(System.Xml.XmlNode,System.Int32)">
+	<summary>
+Заполнить поля данными из XML
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_HEADER.XLMPack(System.Xml.XmlElement,System.Xml.XmlDocument)">
+	<summary>
+Записать данные раздела в XML файл
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_HEADER.BatchUpdate">
+	<summary>
+Записать изменения в базу данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.TPLC_HEADER.CountOfParts">
+	<summary>
+Количество дочерних разделов
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.TPLC_HEADER.GetDocCollection_Base(System.Int64)">
+	<summary>
+Доступ к дочернему разделу по номеру
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.TPLC_HEADER">
+	<summary>
+Реализация строки раздела Заголовок
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumHACCPStep">
+	<summary>
+Перечисление Тип шага в ХАССП процессе
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumPCB_FileType">
+	<summary>
+Перечисление Тип файла
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumHaccpIdent">
+	<summary>
+Перечисление Идентификация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumtypeFace">
+	<summary>
+Перечисление Физическое лицо \ Юрифическое лицо
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumWFStepClass">
+	<summary>
+Перечисление Тип шага процесса
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumMonths">
+	<summary>
+Перечисление Месяцы
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumTypeStyle">
+	<summary>
+Перечисление Вариант трактовки типа поля
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumAggregationType">
+	<summary>
+Перечисление Вариант агрегации по полю
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumVHAlignment">
+	<summary>
+Перечисление Выравнивание
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumtypePackage">
+	<summary>
+Перечисление Тип отправления
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumParity">
+	<summary>
+Перечисление Четность
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumWFProcessState">
+	<summary>
+Перечисление Состояния процесса
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumNumerationRule">
+	<summary>
+Перечисление Правило нумерации
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumMenuActionType">
+	<summary>
+Перечисление Вариант действия при выборе пункта меню
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumColumnSortType">
+	<summary>
+Перечисление Вариант сортиовки данных колонки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumAdditionType">
+	<summary>
+Перечисление Тип надбавки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumTypeSempling">
+	<summary>
+Перечисление Тип выборки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumStructType">
+	<summary>
+Перечисление Тип раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumTargetType">
+	<summary>
+Перечисление Вариант уровня приложения, куда может генерироваться код
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumDeliveryOn">
+	<summary>
+Перечисление 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumtypeOperatorSystem">
+	<summary>
+Перечисление 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumstateNomen">
+	<summary>
+Перечисление 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumPartAddBehaivor">
+	<summary>
+Перечисление Поведение при добавлении строки раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumFolderType">
+	<summary>
+Перечисление Тип папки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enummsgState">
+	<summary>
+Перечисление Состояние заявки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumWFShortcutType">
+	<summary>
+Перечисление Варианты ярлыков, которые может размещать процесс
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumReferenceType">
+	<summary>
+Перечисление ReferenceType
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumSex">
+	<summary>
+Перечисление Мужской / Женский
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumMesureFormat">
+	<summary>
+Перечисление Формат индикатора
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumWFFuncParam">
+	<summary>
+Перечисление Вариант расшифровки параметра функции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumYesNo">
+	<summary>
+Перечисление Да / Нет (0 или 1)
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumtypeOrder">
+	<summary>
+Перечисление 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enummsgResult">
+	<summary>
+Перечисление Результат
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumGeneratorStyle">
+	<summary>
+Перечисление GeneratorStyle
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumReportType">
+	<summary>
+Перечисление Вариант отчета
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumHACCPPStep">
+	<summary>
+Перечисление Тип шага в ХАССП процессе
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumtypeDocOrder">
+	<summary>
+Перечисление Тип документов для печати заказчику
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumPCB_LayerP">
+	<summary>
+Перечисление Представление поля
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumDayInWeek">
+	<summary>
+Перечисление День недели
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumPlatType">
+	<summary>
+Перечисление Тип плательщика
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumPartType">
+	<summary>
+Перечисление PartType
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumEmployment">
+	<summary>
+Перечисление Занятость
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumtypeClient">
+	<summary>
+Перечисление Тип заказчика
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumtypeNomen">
+	<summary>
+Перечисление Тип номенкатуры
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumKONTR_TYPE">
+	<summary>
+Перечисление Тип контрагента
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumtypePersonPay">
+	<summary>
+Перечисление 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumJournalLinkType">
+	<summary>
+Перечисление Для связи журналов друг с другом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumConditionType">
+	<summary>
+Перечисление Варианты условий
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumtypePay">
+	<summary>
+Перечисление Сдельная \ Ставка
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumPCB_TaskType">
+	<summary>
+Перечисление Тип задачи
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumVRTaskType">
+	<summary>
+Перечисление Тип задачи
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumtypeReceiv">
+	<summary>
+Перечисление 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumPCB_CustomerType">
+	<summary>
+Перечисление Статус заказчика
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumOnJournalRowClick">
+	<summary>
+Перечисление действие при открытии строки журнала
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumtypeRowCheque">
+	<summary>
+Перечисление Тип строки чека
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumPCB_clear">
+	<summary>
+Перечисление Тип задачи
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumtypeTariff">
+	<summary>
+Перечисление 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumEducation">
+	<summary>
+Перечисление Образование
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumDCType">
+	<summary>
+Перечисление Остатки/Дебит/Кредит
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumDevelopmentBase">
+	<summary>
+Перечисление Платформа разработки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumBoolean">
+	<summary>
+Перечисление Да / Нет
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumTriState">
+	<summary>
+Перечисление Да / Нет / Не определено
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumtypeTRF">
+	<summary>
+Перечисление Тип тарифа СС
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumCurrencyType">
+	<summary>
+Перечисление Валюта платежа
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumWFFuncState">
+	<summary>
+Перечисление Состояние функции в бизнес процессе
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumtypeCourier">
+	<summary>
+Перечисление Договор \ ТрудКнижка
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumEmployment_">
+	<summary>
+Перечисление осталось для совместимости
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumKONTR_STATUS">
+	<summary>
+Перечисление Состояние партнера
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumExtentionType">
+	<summary>
+Перечисление Тип расширения
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumReplicationType">
+	<summary>
+Перечисление Вариант репликации докуента
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.enumInfoStoreType">
+	<summary>
+Перечисление Тип каталога
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.Application.MyTypeName">
+	<summary>
+Название типа документа
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.Application.m_TPLC_HEADER">
+	<summary>
+ Внутренняя переменная для раздела Заголовок
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.Application.TPLC_HEADER">
+	<summary>
+Свойство для доступа к строкам раздела Заголовок
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.Application.m_TPLC_T">
+	<summary>
+ Внутренняя переменная для раздела Суммарные показатели
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.Application.TPLC_T">
+	<summary>
+Свойство для доступа к строкам раздела Суммарные показатели
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.Application.m_TPLC_M">
+	<summary>
+ Внутренняя переменная для раздела Мгновенные значения
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.Application.TPLC_M">
+	<summary>
+Свойство для доступа к строкам раздела Мгновенные значения
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.Application.m_TPLC_H">
+	<summary>
+ Внутренняя переменная для раздела Часовые архивы
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.Application.TPLC_H">
+	<summary>
+Свойство для доступа к строкам раздела Часовые архивы
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLC.TPLC.Application.m_TPLC_D">
+	<summary>
+ Внутренняя переменная для раздела Суточный архив
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.Application.TPLC_D">
+	<summary>
+Свойство для доступа к строкам раздела Суточный архив
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLC.TPLC.Application.CountOfParts">
+	<summary>
+Количество разделов в объекте
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.Application.GetDocCollection_Base(System.Int64)">
+	<summary>
+Получить раздел по номеру
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.Application.FindInCollections(System.String,System.String)">
+	<summary>
+Поиск элемента в коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.Application.XMLLoadCollections(System.Xml.XmlNode,System.Int32)">
+	<summary>
+Загрузка данных из XML  файла
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.Application.XMLSaveCollections(System.Xml.XmlElement,System.Xml.XmlDocument)">
+	<summary>
+Сохранение данных в XML  файле
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLC.TPLC.Application.BatchUpdate">
+	<summary>
+Сохранение изменений в базе данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLC.TPLC.Application">
+	<summary>
+Реализация документа Текущие значения
+ </summary>
+	<remarks>
+Данные
+ </remarks>
+</member>
+</members>
+</doc>

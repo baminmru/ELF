@@ -1,0 +1,51 @@
+C:\bami\Projects\Szt_2012\Service_2.2_oracle_provider\DrvTSRV02\bin\Debug\DrvTSRV02.dll
+C:\bami\Projects\Szt_2012\Service_2.2_oracle_provider\DrvTSRV02\bin\Debug\DrvTSRV02.pdb
+C:\bami\Projects\Szt_2012\Service_2.2_oracle_provider\DrvTSRV02\bin\Debug\DrvTSRV02.xml
+C:\bami\Projects\Szt_2012\Service_2.2_oracle_provider\DrvTSRV02\bin\Debug\STKTVMain.dll
+C:\bami\Projects\Szt_2012\Service_2.2_oracle_provider\DrvTSRV02\bin\Debug\Oracle.DataAccess.dll
+C:\bami\Projects\Szt_2012\Service_2.2_oracle_provider\DrvTSRV02\bin\Debug\STKTVMain.pdb
+C:\bami\Projects\Szt_2012\Service_2.2_oracle_provider\DrvTSRV02\bin\Debug\STKTVMain.xml
+C:\bami\Projects\Szt_2012\Service_2.2_oracle_provider\DrvTSRV02\obj\Debug\DrvTSRV02.vbprojResolveAssemblyReference.cache
+C:\bami\Projects\Szt_2012\Service_2.2_oracle_provider\DrvTSRV02\obj\Debug\DrvTSRV02.Resources.resources
+C:\bami\Projects\Szt_2012\Service_2.2_oracle_provider\DrvTSRV02\obj\Debug\DrvTSRV02.vbproj.GenerateResource.Cache
+C:\bami\Projects\Szt_2012\Service_2.2_oracle_provider\DrvTSRV02\obj\Debug\DrvTSRV02.dll
+C:\bami\Projects\Szt_2012\Service_2.2_oracle_provider\DrvTSRV02\obj\Debug\DrvTSRV02.xml
+C:\bami\Projects\Szt_2012\Service_2.2_oracle_provider\DrvTSRV02\obj\Debug\DrvTSRV02.pdb
+C:\bami\Service_2.2_oracle_provider\DrvTSRV02\bin\Debug\DrvTSRV02.dll
+C:\bami\Service_2.2_oracle_provider\DrvTSRV02\bin\Debug\DrvTSRV02.pdb
+C:\bami\Service_2.2_oracle_provider\DrvTSRV02\bin\Debug\DrvTSRV02.xml
+C:\bami\Service_2.2_oracle_provider\DrvTSRV02\bin\Debug\STKTVMain.dll
+C:\bami\Service_2.2_oracle_provider\DrvTSRV02\bin\Debug\Oracle.DataAccess.dll
+C:\bami\Service_2.2_oracle_provider\DrvTSRV02\bin\Debug\STKTVMain.pdb
+C:\bami\Service_2.2_oracle_provider\DrvTSRV02\bin\Debug\STKTVMain.xml
+C:\bami\Service_2.2_oracle_provider\DrvTSRV02\obj\Debug\ResolveAssemblyReference.cache
+C:\bami\Service_2.2_oracle_provider\DrvTSRV02\obj\Debug\DrvTSRV02.Resources.resources
+C:\bami\Service_2.2_oracle_provider\DrvTSRV02\obj\Debug\GenerateResource.read.1.tlog
+C:\bami\Service_2.2_oracle_provider\DrvTSRV02\obj\Debug\GenerateResource.write.1.tlog
+C:\bami\Service_2.2_oracle_provider\DrvTSRV02\obj\Debug\DrvTSRV02.dll
+C:\bami\Service_2.2_oracle_provider\DrvTSRV02\obj\Debug\DrvTSRV02.xml
+C:\bami\Service_2.2_oracle_provider\DrvTSRV02\obj\Debug\DrvTSRV02.pdb
+C:\bami\Service_2.2_oracle_provider\DrvTSRV02\bin\Debug\ConfigDrvTSRV02.xml
+c:\LATIR2\Generated\Generated Dlls\ConfigDrvTSRV02.xml
+c:\LATIR2\Generated\Generated Dlls\DrvTSRV02.dll
+c:\LATIR2\Generated\Generated Dlls\DrvTSRV02.pdb
+c:\LATIR2\Generated\Generated Dlls\DrvTSRV02.xml
+C:\bami\Projects\TEPLO\TEPLO\DrvTSRV02\obj\Debug\DrvTSRV02.vbprojResolveAssemblyReference.cache
+C:\bami\Projects\TEPLO\TEPLO\DrvTSRV02\obj\Debug\DrvTSRV02.Resources.resources
+C:\bami\Projects\TEPLO\TEPLO\DrvTSRV02\obj\Debug\DrvTSRV02.vbproj.GenerateResource.Cache
+C:\bami\Projects\TEPLO\TEPLO\DrvTSRV02\obj\Debug\DrvTSRV02.dll
+C:\bami\Projects\TEPLO\TEPLO\DrvTSRV02\obj\Debug\DrvTSRV02.xml
+C:\bami\Projects\TEPLO\TEPLO\DrvTSRV02\obj\Debug\DrvTSRV02.pdb
+C:\bami\TEPLO\DrvTSRV02\obj\Debug\ResolveAssemblyReference.cache
+C:\bami\TEPLO\DrvTSRV02\obj\Debug\DrvTSRV02.Resources.resources
+C:\bami\TEPLO\DrvTSRV02\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\bami\TEPLO\DrvTSRV02\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\bami\TEPLO\DrvTSRV02\obj\Debug\DrvTSRV02.dll
+C:\bami\TEPLO\DrvTSRV02\obj\Debug\DrvTSRV02.xml
+C:\bami\TEPLO\DrvTSRV02\obj\Debug\DrvTSRV02.pdb
+C:\bami\projects\ELF\DrvTSRV02\obj\Debug\DrvTSRV02.Resources.resources
+C:\bami\projects\ELF\DrvTSRV02\obj\Debug\DrvTSRV02.vbproj.GenerateResource.Cache
+C:\bami\projects\ELF\DrvTSRV02\obj\Debug\DrvTSRV02.dll
+C:\bami\projects\ELF\DrvTSRV02\obj\Debug\DrvTSRV02.xml
+C:\bami\projects\ELF\DrvTSRV02\obj\Debug\DrvTSRV02.pdb
+C:\bami\projects\ELF\DrvTSRV02\obj\Debug\DrvTSRV02.vbprojResolveAssemblyReference.cache

@@ -1,0 +1,52 @@
+C:\bami\Projects\Szt_2012\Service_2.2_oracle_provider\DrvMagika\bin\Debug\ConfigDrvMAGIKA.xml
+C:\bami\Projects\Szt_2012\Service_2.2_oracle_provider\DrvMagika\bin\Debug\DrvMAGIKA.dll
+C:\bami\Projects\Szt_2012\Service_2.2_oracle_provider\DrvMagika\bin\Debug\DrvMAGIKA.pdb
+C:\bami\Projects\Szt_2012\Service_2.2_oracle_provider\DrvMagika\bin\Debug\DrvMAGIKA.xml
+C:\bami\Projects\Szt_2012\Service_2.2_oracle_provider\DrvMagika\bin\Debug\STKTVMain.dll
+C:\bami\Projects\Szt_2012\Service_2.2_oracle_provider\DrvMagika\bin\Debug\Oracle.DataAccess.dll
+C:\bami\Projects\Szt_2012\Service_2.2_oracle_provider\DrvMagika\bin\Debug\STKTVMain.pdb
+C:\bami\Projects\Szt_2012\Service_2.2_oracle_provider\DrvMagika\bin\Debug\STKTVMain.xml
+C:\bami\Projects\Szt_2012\Service_2.2_oracle_provider\DrvMagika\obj\Debug\DrvMAGIKA.vbprojResolveAssemblyReference.cache
+C:\bami\Projects\Szt_2012\Service_2.2_oracle_provider\DrvMagika\obj\Debug\DrvMAGIKA.Resources.resources
+C:\bami\Projects\Szt_2012\Service_2.2_oracle_provider\DrvMagika\obj\Debug\DrvMAGIKA.vbproj.GenerateResource.Cache
+C:\bami\Projects\Szt_2012\Service_2.2_oracle_provider\DrvMagika\obj\Debug\DrvMAGIKA.dll
+C:\bami\Projects\Szt_2012\Service_2.2_oracle_provider\DrvMagika\obj\Debug\DrvMAGIKA.xml
+C:\bami\Projects\Szt_2012\Service_2.2_oracle_provider\DrvMagika\obj\Debug\DrvMAGIKA.pdb
+C:\bami\Service_2.2_oracle_provider\DrvMagika\bin\Debug\ConfigDrvMAGIKA.xml
+C:\bami\Service_2.2_oracle_provider\DrvMagika\bin\Debug\DrvMAGIKA.dll
+C:\bami\Service_2.2_oracle_provider\DrvMagika\bin\Debug\DrvMAGIKA.pdb
+C:\bami\Service_2.2_oracle_provider\DrvMagika\bin\Debug\DrvMAGIKA.xml
+C:\bami\Service_2.2_oracle_provider\DrvMagika\bin\Debug\STKTVMain.dll
+C:\bami\Service_2.2_oracle_provider\DrvMagika\bin\Debug\Oracle.DataAccess.dll
+C:\bami\Service_2.2_oracle_provider\DrvMagika\bin\Debug\STKTVMain.pdb
+C:\bami\Service_2.2_oracle_provider\DrvMagika\bin\Debug\STKTVMain.xml
+C:\bami\Service_2.2_oracle_provider\DrvMagika\obj\Debug\ResolveAssemblyReference.cache
+C:\bami\Service_2.2_oracle_provider\DrvMagika\obj\Debug\DrvMAGIKA.Resources.resources
+C:\bami\Service_2.2_oracle_provider\DrvMagika\obj\Debug\GenerateResource.read.1.tlog
+C:\bami\Service_2.2_oracle_provider\DrvMagika\obj\Debug\GenerateResource.write.1.tlog
+C:\bami\Service_2.2_oracle_provider\DrvMagika\obj\Debug\DrvMAGIKA.dll
+C:\bami\Service_2.2_oracle_provider\DrvMagika\obj\Debug\DrvMAGIKA.xml
+C:\bami\Service_2.2_oracle_provider\DrvMagika\obj\Debug\DrvMAGIKA.pdb
+c:\LATIR2\Generated\Generated Dlls\ConfigDrvMAGIKA.xml
+c:\LATIR2\Generated\Generated Dlls\DrvMAGIKA.dll
+c:\LATIR2\Generated\Generated Dlls\DrvMAGIKA.pdb
+c:\LATIR2\Generated\Generated Dlls\DrvMAGIKA.xml
+C:\bami\Projects\TEPLO\TEPLO\DrvMagika\obj\Debug\DrvMAGIKA.vbprojResolveAssemblyReference.cache
+C:\bami\Projects\TEPLO\TEPLO\DrvMagika\obj\Debug\DrvMAGIKA.Resources.resources
+C:\bami\Projects\TEPLO\TEPLO\DrvMagika\obj\Debug\DrvMAGIKA.vbproj.GenerateResource.Cache
+C:\bami\Projects\TEPLO\TEPLO\DrvMagika\obj\Debug\DrvMAGIKA.dll
+C:\bami\Projects\TEPLO\TEPLO\DrvMagika\obj\Debug\DrvMAGIKA.xml
+C:\bami\Projects\TEPLO\TEPLO\DrvMagika\obj\Debug\DrvMAGIKA.pdb
+C:\bami\TEPLO\DrvMagika\obj\Debug\ResolveAssemblyReference.cache
+C:\bami\TEPLO\DrvMagika\obj\Debug\DrvMAGIKA.Resources.resources
+C:\bami\TEPLO\DrvMagika\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\bami\TEPLO\DrvMagika\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\bami\TEPLO\DrvMagika\obj\Debug\DrvMAGIKA.dll
+C:\bami\TEPLO\DrvMagika\obj\Debug\DrvMAGIKA.xml
+C:\bami\TEPLO\DrvMagika\obj\Debug\DrvMAGIKA.pdb
+C:\bami\projects\ELF\DrvMagika\obj\Debug\DrvMAGIKA.Resources.resources
+C:\bami\projects\ELF\DrvMagika\obj\Debug\DrvMAGIKA.vbproj.GenerateResource.Cache
+C:\bami\projects\ELF\DrvMagika\obj\Debug\DrvMAGIKA.dll
+C:\bami\projects\ELF\DrvMagika\obj\Debug\DrvMAGIKA.xml
+C:\bami\projects\ELF\DrvMagika\obj\Debug\DrvMAGIKA.pdb
+C:\bami\projects\ELF\DrvMagika\obj\Debug\DrvMAGIKA.vbprojResolveAssemblyReference.cache

@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{06291B86-FBC9-417B-8EAE-357777BBBFA3}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TVService</RootNamespace>
+    <AssemblyName>DeviceThread</AssemblyName>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>c:\LATIR2\Generated\Generated Dlls\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>c:\LATIR2\Generated\Generated Dlls\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="L2Manager, Version=1.0.2400.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\L2\L2Manager.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DeviceProcessor.cs" />
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TeploSrvCfg.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Drv941\Drv941.vbproj">
+      <Project>{c5ee34fd-7996-40bd-bcc6-02e0ad9d62c6}</Project>
+      <Name>Drv941</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Drv942\Drv942.vbproj">
+      <Project>{314ae99b-0044-4c10-ad42-4a0f9006d63b}</Project>
+      <Name>Drv942</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Drv943\Drv943.vbproj">
+      <Project>{c815653b-ce5f-4a86-ac55-123ae1fc0b81}</Project>
+      <Name>Drv943</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DrvMagika\DrvMAGIKA.vbproj">
+      <Project>{99770d1d-27a8-4606-acc2-cd3e83b4bdee}</Project>
+      <Name>DrvMAGIKA</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DrvMT\DrvMT.vbproj">
+      <Project>{715a122f-4389-4f4c-8ffb-8347f5637fc7}</Project>
+      <Name>DrvMT</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DrvTEM104\DrvTEM104.vbproj">
+      <Project>{0ca60ab7-4f6f-43d3-b9f4-c39e7def79e9}</Project>
+      <Name>DrvTEM104</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DrvTSRV02\DrvTSRV02.vbproj">
+      <Project>{21dfa229-5abc-4931-bd83-4b3108446765}</Project>
+      <Name>DrvTSRV02</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DrvTSRV\DrvTSRV.vbproj">
+      <Project>{299245d2-5f4b-4e7a-a08d-05930b831287}</Project>
+      <Name>DrvTSRV</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DrvVKT4\DrvVKT4.vbproj">
+      <Project>{4f74dc3d-f0a9-45c8-9b71-7376eb72e3f5}</Project>
+      <Name>DrvVKT4</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DrvVKT7\DrvVKT7.vbproj">
+      <Project>{4db1c271-f23f-409a-b1f7-cc29331708ac}</Project>
+      <Name>DrvVKT7</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TVMain\TVMain.vbproj">
+      <Project>{0C7D9D95-1165-4C46-8346-748E4D276CFD}</Project>
+      <Name>TVMain</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

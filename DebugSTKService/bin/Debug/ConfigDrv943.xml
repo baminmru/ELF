@@ -1,0 +1,19 @@
+<Config 
+PortID = "1"
+TimeOut="4000"
+TimerInterval="2000"
+BaudRate="9600"
+DataBits="8"
+StopBits="1"
+Parity="NONE"
+FlowControl="NONE"
+DTR="Off"
+RTS="On"
+Driver="Drv943"
+DeviceID = "7"
+SleepInterval="1000">
+</Config>
+
+
+
+        

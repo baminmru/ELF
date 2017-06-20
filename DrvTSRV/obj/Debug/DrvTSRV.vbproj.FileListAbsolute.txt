@@ -1,0 +1,56 @@
+C:\BAMI\Projects\SZT_2010\Service_1.32\DrvTSRV\bin\Debug\ConfigDrvTSRV.xml
+C:\BAMI\Projects\SZT_2010\Service_1.32\DrvTSRV\bin\Debug\DrvTSRV.dll
+C:\BAMI\Projects\SZT_2010\Service_1.32\DrvTSRV\bin\Debug\DrvTSRV.pdb
+C:\BAMI\Projects\SZT_2010\Service_1.32\DrvTSRV\bin\Debug\DrvTSRV.xml
+C:\BAMI\Projects\SZT_2010\Service_1.32\DrvTSRV\bin\Debug\STKTVMain.dll
+C:\BAMI\Projects\SZT_2010\Service_1.32\DrvTSRV\bin\Debug\STKTVMain.pdb
+C:\BAMI\Projects\SZT_2010\Service_1.32\DrvTSRV\bin\Debug\STKTVMain.xml
+C:\BAMI\Projects\SZT_2010\Service_1.32\DrvTSRV\obj\Debug\ResolveAssemblyReference.cache
+C:\BAMI\Projects\SZT_2010\Service_1.32\DrvTSRV\obj\Debug\DrvTSRV.Resources.resources
+C:\BAMI\Projects\SZT_2010\Service_1.32\DrvTSRV\obj\Debug\DrvTSRV.vbproj.GenerateResource.Cache
+C:\BAMI\Projects\SZT_2010\Service_1.32\DrvTSRV\obj\Debug\DrvTSRV.dll
+C:\BAMI\Projects\SZT_2010\Service_1.32\DrvTSRV\obj\Debug\DrvTSRV.xml
+C:\BAMI\Projects\SZT_2010\Service_1.32\DrvTSRV\obj\Debug\DrvTSRV.pdb
+C:\BAMI\Projects\TEPLO\TEPLO\DrvTSRV\bin\Debug\ConfigDrvTSRV.xml
+C:\BAMI\Projects\TEPLO\TEPLO\DrvTSRV\bin\Debug\DrvTSRV.dll
+C:\BAMI\Projects\TEPLO\TEPLO\DrvTSRV\bin\Debug\DrvTSRV.pdb
+C:\BAMI\Projects\TEPLO\TEPLO\DrvTSRV\bin\Debug\DrvTSRV.xml
+C:\BAMI\Projects\TEPLO\TEPLO\DrvTSRV\bin\Debug\LTOBJMan.dll
+C:\BAMI\Projects\TEPLO\TEPLO\DrvTSRV\bin\Debug\TVMain.dll
+C:\BAMI\Projects\TEPLO\TEPLO\DrvTSRV\bin\Debug\TPLT.dll
+C:\BAMI\Projects\TEPLO\TEPLO\DrvTSRV\bin\Debug\TPLD.dll
+C:\BAMI\Projects\TEPLO\TEPLO\DrvTSRV\bin\Debug\TVMain.pdb
+C:\BAMI\Projects\TEPLO\TEPLO\DrvTSRV\bin\Debug\TVMain.xml
+C:\BAMI\Projects\TEPLO\TEPLO\DrvTSRV\bin\Debug\TPLT.pdb
+C:\BAMI\Projects\TEPLO\TEPLO\DrvTSRV\bin\Debug\TPLT.xml
+C:\BAMI\Projects\TEPLO\TEPLO\DrvTSRV\bin\Debug\LTOBJMan.pdb
+C:\BAMI\Projects\TEPLO\TEPLO\DrvTSRV\bin\Debug\LTOBJMan.xml
+C:\BAMI\Projects\TEPLO\TEPLO\DrvTSRV\bin\Debug\TPLD.pdb
+C:\BAMI\Projects\TEPLO\TEPLO\DrvTSRV\bin\Debug\TPLD.xml
+C:\LATIR\Generated\Generated Dlls\ConfigDrvTSRV.xml
+C:\LATIR\Generated\Generated Dlls\DrvTSRV.dll
+C:\LATIR\Generated\Generated Dlls\DrvTSRV.pdb
+C:\LATIR\Generated\Generated Dlls\DrvTSRV.xml
+c:\LATIR2\Generated\Generated Dlls\ConfigDrvTSRV.xml
+c:\LATIR2\Generated\Generated Dlls\DrvTSRV.dll
+c:\LATIR2\Generated\Generated Dlls\DrvTSRV.pdb
+c:\LATIR2\Generated\Generated Dlls\DrvTSRV.xml
+C:\bami\Projects\TEPLO\TEPLO\DrvTSRV\obj\Debug\DrvTSRV.vbprojResolveAssemblyReference.cache
+C:\bami\Projects\TEPLO\TEPLO\DrvTSRV\obj\Debug\DrvTSRV.Resources.resources
+C:\bami\Projects\TEPLO\TEPLO\DrvTSRV\obj\Debug\DrvTSRV.vbproj.GenerateResource.Cache
+C:\bami\Projects\TEPLO\TEPLO\DrvTSRV\obj\Debug\DrvTSRV.dll
+C:\bami\Projects\TEPLO\TEPLO\DrvTSRV\obj\Debug\DrvTSRV.xml
+C:\bami\Projects\TEPLO\TEPLO\DrvTSRV\obj\Debug\DrvTSRV.pdb
+C:\bami\TEPLO\DrvTSRV\obj\Debug\ResolveAssemblyReference.cache
+C:\bami\TEPLO\DrvTSRV\obj\Debug\DrvTSRV.Resources.resources
+C:\bami\TEPLO\DrvTSRV\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\bami\TEPLO\DrvTSRV\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\bami\TEPLO\DrvTSRV\obj\Debug\DrvTSRV.dll
+C:\bami\TEPLO\DrvTSRV\obj\Debug\DrvTSRV.xml
+C:\bami\TEPLO\DrvTSRV\obj\Debug\DrvTSRV.pdb
+C:\bami\projects\ELF\DrvTSRV\obj\Debug\DrvTSRV.Resources.resources
+C:\bami\projects\ELF\DrvTSRV\obj\Debug\DrvTSRV.vbproj.GenerateResource.Cache
+C:\bami\projects\ELF\DrvTSRV\obj\Debug\DrvTSRV.dll
+C:\bami\projects\ELF\DrvTSRV\obj\Debug\DrvTSRV.xml
+C:\bami\projects\ELF\DrvTSRV\obj\Debug\DrvTSRV.pdb
+C:\bami\projects\ELF\DrvTSRV\obj\Debug\DrvTSRV.vbprojResolveAssemblyReference.cache

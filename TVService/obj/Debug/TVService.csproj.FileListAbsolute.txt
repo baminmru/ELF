@@ -1,0 +1,31 @@
+C:\LATIR2\Generated\Generated Dlls\TeploSrvCfg.xml
+C:\LATIR2\Generated\Generated Dlls\ConfigDrvMAGIKA.xml
+C:\LATIR2\Generated\Generated Dlls\ConfigDrvTEM104.xml
+C:\LATIR2\Generated\Generated Dlls\ConfigDrvTSRV02.xml
+C:\LATIR2\Generated\Generated Dlls\ConfigDrvTSRV.xml
+C:\LATIR2\Generated\Generated Dlls\ConfigDrvVKT4.xml
+C:\LATIR2\Generated\Generated Dlls\AbolTVService.exe.config
+C:\LATIR2\Generated\Generated Dlls\AbolTVService.exe
+C:\LATIR2\Generated\Generated Dlls\AbolTVService.pdb
+C:\bami\TEPLO\TVService\obj\Debug\ResolveAssemblyReference.cache
+C:\bami\TEPLO\TVService\obj\Debug\AbolTVService.AbolTVInstaller.resources
+C:\bami\TEPLO\TVService\obj\Debug\AbolTVService.AbolTVService.resources
+C:\bami\TEPLO\TVService\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\bami\TEPLO\TVService\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\bami\TEPLO\TVService\obj\Debug\AbolTVService.exe
+C:\bami\TEPLO\TVService\obj\Debug\AbolTVService.pdb
+C:\bami\projects\ELF\TVService\obj\Debug\TVService.csprojResolveAssemblyReference.cache
+C:\bami\projects\ELF\TVService\obj\Debug\AbolTVService.AbolTVInstaller.resources
+C:\bami\projects\ELF\TVService\obj\Debug\AbolTVService.AbolTVService.resources
+C:\bami\projects\ELF\TVService\obj\Debug\TVService.csproj.GenerateResource.Cache
+C:\bami\projects\ELF\TVService\obj\Debug\AbolTVService.exe
+C:\bami\projects\ELF\TVService\obj\Debug\AbolTVService.pdb
+C:\bami\LATIR2\Generated\Generated Dlls\ConfigDrvMAGIKA.xml
+C:\bami\LATIR2\Generated\Generated Dlls\ConfigDrvTEM104.xml
+C:\bami\LATIR2\Generated\Generated Dlls\ConfigDrvTSRV02.xml
+C:\bami\LATIR2\Generated\Generated Dlls\ConfigDrvTSRV.xml
+C:\bami\LATIR2\Generated\Generated Dlls\ConfigDrvVKT4.xml
+C:\bami\LATIR2\Generated\Generated Dlls\TeploSrvCfg.xml
+C:\bami\LATIR2\Generated\Generated Dlls\AbolTVService.exe.config
+C:\bami\LATIR2\Generated\Generated Dlls\AbolTVService.exe
+C:\bami\LATIR2\Generated\Generated Dlls\AbolTVService.pdb

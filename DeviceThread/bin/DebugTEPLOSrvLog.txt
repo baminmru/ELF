@@ -1,0 +1,3 @@
+23.07.2011 22:55:43 Error: Login failed, try again... site=teplo user =supervisor
+23.07.2011 22:57:29 Error: Login failed, try again... site=teplo user =supervisor
+23.07.2011 22:57:40 Error: Login failed, try again... site=teplo user =supervisor

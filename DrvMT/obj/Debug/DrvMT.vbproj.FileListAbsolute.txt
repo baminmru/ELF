@@ -1,0 +1,40 @@
+C:\BAMI\Projects\TEPLO\TEPLO\DrvMT\bin\Debug\DrvMT.dll
+C:\BAMI\Projects\TEPLO\TEPLO\DrvMT\bin\Debug\DrvMT.pdb
+C:\BAMI\Projects\TEPLO\TEPLO\DrvMT\bin\Debug\DrvMT.xml
+C:\BAMI\Projects\TEPLO\TEPLO\DrvMT\bin\Debug\LTOBJMan.dll
+C:\BAMI\Projects\TEPLO\TEPLO\DrvMT\bin\Debug\TVMain.dll
+C:\BAMI\Projects\TEPLO\TEPLO\DrvMT\bin\Debug\TPLT.dll
+C:\BAMI\Projects\TEPLO\TEPLO\DrvMT\bin\Debug\TPLD.dll
+C:\BAMI\Projects\TEPLO\TEPLO\DrvMT\bin\Debug\TVMain.pdb
+C:\BAMI\Projects\TEPLO\TEPLO\DrvMT\bin\Debug\TVMain.xml
+C:\BAMI\Projects\TEPLO\TEPLO\DrvMT\bin\Debug\TPLT.xml
+C:\BAMI\Projects\TEPLO\TEPLO\DrvMT\bin\Debug\LTOBJMan.pdb
+C:\BAMI\Projects\TEPLO\TEPLO\DrvMT\bin\Debug\LTOBJMan.xml
+C:\BAMI\Projects\TEPLO\TEPLO\DrvMT\bin\Debug\TPLD.xml
+C:\BAMI\Projects\TEPLO\TEPLO\DrvMT\bin\Debug\TPLT.pdb
+C:\BAMI\Projects\TEPLO\TEPLO\DrvMT\bin\Debug\TPLD.pdb
+C:\LATIR\Generated\Generated Dlls\DrvMT.dll
+C:\LATIR\Generated\Generated Dlls\DrvMT.pdb
+C:\LATIR\Generated\Generated Dlls\DrvMT.xml
+c:\LATIR2\Generated\Generated Dlls\DrvMT.dll
+c:\LATIR2\Generated\Generated Dlls\DrvMT.pdb
+c:\LATIR2\Generated\Generated Dlls\DrvMT.xml
+C:\bami\Projects\TEPLO\TEPLO\DrvMT\obj\Debug\DrvMT.vbprojResolveAssemblyReference.cache
+C:\bami\Projects\TEPLO\TEPLO\DrvMT\obj\Debug\DrvMT.Resources.resources
+C:\bami\Projects\TEPLO\TEPLO\DrvMT\obj\Debug\DrvMT.vbproj.GenerateResource.Cache
+C:\bami\Projects\TEPLO\TEPLO\DrvMT\obj\Debug\DrvMT.dll
+C:\bami\Projects\TEPLO\TEPLO\DrvMT\obj\Debug\DrvMT.xml
+C:\bami\Projects\TEPLO\TEPLO\DrvMT\obj\Debug\DrvMT.pdb
+C:\bami\TEPLO\DrvMT\obj\Debug\ResolveAssemblyReference.cache
+C:\bami\TEPLO\DrvMT\obj\Debug\DrvMT.Resources.resources
+C:\bami\TEPLO\DrvMT\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\bami\TEPLO\DrvMT\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\bami\TEPLO\DrvMT\obj\Debug\DrvMT.dll
+C:\bami\TEPLO\DrvMT\obj\Debug\DrvMT.xml
+C:\bami\TEPLO\DrvMT\obj\Debug\DrvMT.pdb
+C:\bami\projects\ELF\DrvMT\obj\Debug\DrvMT.Resources.resources
+C:\bami\projects\ELF\DrvMT\obj\Debug\DrvMT.vbproj.GenerateResource.Cache
+C:\bami\projects\ELF\DrvMT\obj\Debug\DrvMT.dll
+C:\bami\projects\ELF\DrvMT\obj\Debug\DrvMT.xml
+C:\bami\projects\ELF\DrvMT\obj\Debug\DrvMT.pdb
+C:\bami\projects\ELF\DrvMT\obj\Debug\DrvMT.vbprojResolveAssemblyReference.cache
