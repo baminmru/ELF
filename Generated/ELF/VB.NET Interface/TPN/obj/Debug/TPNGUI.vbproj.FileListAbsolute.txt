@@ -1,0 +1,7 @@
+C:\LATIR4\Build\TPNGUI.dll
+C:\LATIR4\Build\TPNGUI.pdb
+C:\LATIR4\Build\TPNGUI.xml
+C:\LATIR4\Generated\ELF\VB.NET Interface\TPN\obj\Debug\TPNGUI.vbprojResolveAssemblyReference.cache
+C:\LATIR4\Generated\ELF\VB.NET Interface\TPN\obj\Debug\TPNGUI.dll
+C:\LATIR4\Generated\ELF\VB.NET Interface\TPN\obj\Debug\TPNGUI.xml
+C:\LATIR4\Generated\ELF\VB.NET Interface\TPN\obj\Debug\TPNGUI.pdb

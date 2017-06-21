@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?><Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003"  ToolsVersion="14.0" >
+  <PropertyGroup>
+  <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>"7654bc1f-3245-4cd0-9563-07e24e27b7f7"</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>TPLCGUI</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>TPLCGUI</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>Windows</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+<TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+<OldToolsVersion>3.5</OldToolsVersion>
+<TargetFrameworkProfile />
+<PublishUrl>publish\</PublishUrl>
+<Install>true</Install>
+<InstallFrom>Disk</InstallFrom>
+<UpdateEnabled>false</UpdateEnabled>
+<UpdateMode>Foreground</UpdateMode>
+<UpdateInterval>7</UpdateInterval>
+<UpdateIntervalUnits>Days</UpdateIntervalUnits>
+<UpdatePeriodically>false</UpdatePeriodically>
+<UpdateRequired>false</UpdateRequired>
+<MapFileExtensions>true</MapFileExtensions>
+<ApplicationRevision>0</ApplicationRevision>
+<ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+<IsWebBootstrapper>false</IsWebBootstrapper>
+<UseApplicationTrust>false</UseApplicationTrust>
+<BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>C:\LATIR4\Build</OutputPath>
+    <DocumentationFile>TPLCGUI.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>C:\LATIR4\Build</OutputPath>
+    <DocumentationFile>TPLCGUI.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="L2Manager">
+      <Name>L2Manager</Name>
+      <HintPath>C:\LATIR4\Build\L2Manager.dll</HintPath>
+       <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="LATIRGuiManager">
+      <Name>LATIRGuiManager</Name>
+      <HintPath>C:\LATIR4\Build\LATIR2GuiManager.dll</HintPath>
+       <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="LATIR2GUIControls">
+      <Name>LATIR2GUIControls</Name>
+      <HintPath>C:\LATIR4\Build\STDLATIRGUIControls.dll</HintPath>
+       <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TPLC">
+      <Name>TPLC</Name>
+      <HintPath>C:\LATIR4\BuildTPLC.dll</HintPath>
+       <SpecificVersion>False</SpecificVersion>
+    </Reference>
+
+    <Reference Include="System">
+      <Name>System</Name>
+      <HintPath>System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+      <HintPath>System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+      <HintPath>System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="system.windows.forms">
+      <Name>System.Windows.Forms</Name>
+      <HintPath>system.windows.forms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+      <HintPath>System.XML.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Xml" />
+    <Import Include="LATIR" />
+    <Import Include="LATIR2.Document" />
+    <Import Include="LATIR2GUIControls" />
+    <Import Include="LATIRGuiManager" />
+    <Import Include="TPLC" />
+    <Import Include="TPLC.TPLC" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GUI.vb">
+      <SubType>Code</SubType>
+    </Compile>
+
+    <Compile Include="Tabview.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmTPLC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editTPLC_HEADER.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmTPLC_HEADER.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewTPLC_HEADER.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+
+    <Compile Include="editTPLC_M.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmTPLC_M.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewTPLC_M.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+
+    <Compile Include="editTPLC_H.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmTPLC_H.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewTPLC_H.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+
+    <Compile Include="editTPLC_D.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmTPLC_D.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewTPLC_D.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+
+    <Compile Include="editTPLC_T.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmTPLC_T.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewTPLC_T.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+
+    <Compile Include="editTPLC_MISSING.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmTPLC_MISSING.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewTPLC_MISSING.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+
+    <Compile Include="editTPLC_E.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmTPLC_E.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewTPLC_E.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+
+    <Compile Include="Tabviewmain.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmTPLCmain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editTPLC_HEADERmain.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmTPLC_HEADERmain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewTPLC_HEADERmain.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+
+    <Compile Include="editTPLC_Mmain.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmTPLC_Mmain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewTPLC_Mmain.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+
+    <Compile Include="editTPLC_Hmain.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmTPLC_Hmain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewTPLC_Hmain.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+
+    <Compile Include="editTPLC_Dmain.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmTPLC_Dmain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewTPLC_Dmain.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+
+    <Compile Include="editTPLC_Tmain.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmTPLC_Tmain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewTPLC_Tmain.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+
+    <Compile Include="editTPLC_MISSINGmain.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmTPLC_MISSINGmain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewTPLC_MISSINGmain.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+
+    <Compile Include="editTPLC_Emain.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmTPLC_Emain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewTPLC_Emain.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+
+    <Compile Include="Tabviewadmin.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmTPLCadmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editTPLC_HEADERadmin.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmTPLC_HEADERadmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewTPLC_HEADERadmin.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+
+    <Compile Include="editTPLC_Madmin.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmTPLC_Madmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewTPLC_Madmin.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+
+    <Compile Include="editTPLC_Hadmin.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmTPLC_Hadmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewTPLC_Hadmin.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+
+    <Compile Include="editTPLC_Dadmin.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmTPLC_Dadmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewTPLC_Dadmin.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+
+    <Compile Include="editTPLC_Tadmin.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmTPLC_Tadmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewTPLC_Tadmin.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+
+    <Compile Include="editTPLC_MISSINGadmin.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmTPLC_MISSINGadmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewTPLC_MISSINGadmin.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+
+    <Compile Include="editTPLC_Eadmin.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmTPLC_Eadmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewTPLC_Eadmin.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

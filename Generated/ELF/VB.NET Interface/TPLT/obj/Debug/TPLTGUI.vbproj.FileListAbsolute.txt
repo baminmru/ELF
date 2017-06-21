@@ -1,0 +1,7 @@
+C:\LATIR4\Build\TPLTGUI.dll
+C:\LATIR4\Build\TPLTGUI.pdb
+C:\LATIR4\Build\TPLTGUI.xml
+C:\LATIR4\Generated\ELF\VB.NET Interface\TPLT\obj\Debug\TPLTGUI.vbprojResolveAssemblyReference.cache
+C:\LATIR4\Generated\ELF\VB.NET Interface\TPLT\obj\Debug\TPLTGUI.dll
+C:\LATIR4\Generated\ELF\VB.NET Interface\TPLT\obj\Debug\TPLTGUI.xml
+C:\LATIR4\Generated\ELF\VB.NET Interface\TPLT\obj\Debug\TPLTGUI.pdb

@@ -1,0 +1,7 @@
+C:\LATIR4\Build\bpdiGUI.dll
+C:\LATIR4\Build\bpdiGUI.pdb
+C:\LATIR4\Build\bpdiGUI.xml
+C:\LATIR4\Generated\BP3\VB.NET Interface\bpdi\obj\Debug\bpdiGUI.vbprojResolveAssemblyReference.cache
+C:\LATIR4\Generated\BP3\VB.NET Interface\bpdi\obj\Debug\bpdiGUI.dll
+C:\LATIR4\Generated\BP3\VB.NET Interface\bpdi\obj\Debug\bpdiGUI.xml
+C:\LATIR4\Generated\BP3\VB.NET Interface\bpdi\obj\Debug\bpdiGUI.pdb

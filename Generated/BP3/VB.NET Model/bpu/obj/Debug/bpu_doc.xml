@@ -1,0 +1,570 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+bpu
+</name>
+</assembly>
+<members>
+<member name="M:bpu.bpu.iu_u_def_col.ChildPartName">
+	<summary>
+Имя раздела в базе данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpu.bpu.iu_u_def_col.CreateDataTable">
+	<summary>
+Вернуть даные текущей коллекции в виде DataTable
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpu.bpu.iu_u_def_col.NewItem">
+	<summary>
+Создание нового элемента коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpu.bpu.iu_u_def_col.GetItem(System.Object)">
+	<summary>
+Получить элемент коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpu.bpu.iu_u_def_col.Item(System.Object)">
+	<summary>
+Получить элемент коллекции, более свежий вариант
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpu.bpu.iu_u_def_col">
+	<summary>
+Реализация раздела Данные сотрудникав виде коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bpu.bpu.iu_u_def.m_theClient">
+	<summary>
+Локальная переменная для поля Клиент
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bpu.bpu.iu_u_def.m_lastname">
+	<summary>
+Локальная переменная для поля Фамилия
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bpu.bpu.iu_u_def.m_name">
+	<summary>
+Локальная переменная для поля Имя
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bpu.bpu.iu_u_def.m_surname">
+	<summary>
+Локальная переменная для поля Отчество
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bpu.bpu.iu_u_def.m_curRole">
+	<summary>
+Локальная переменная для поля Роль в производстве
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bpu.bpu.iu_u_def.m_sendtomail">
+	<summary>
+Локальная переменная для поля Оповещать по почте
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bpu.bpu.iu_u_def.m_freelancer">
+	<summary>
+Локальная переменная для поля Удаленная работа
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bpu.bpu.iu_u_def.m_email">
+	<summary>
+Локальная переменная для поля e-mail
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bpu.bpu.iu_u_def.m_thephone">
+	<summary>
+Локальная переменная для поля Телефон
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bpu.bpu.iu_u_def.m_login">
+	<summary>
+Локальная переменная для поля Имя для входа
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpu.bpu.iu_u_def.CleanFields">
+	<summary>
+Очистить поля раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bpu.bpu.iu_u_def.Count">
+	<summary>
+Количество полей в строке раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bpu.bpu.iu_u_def.Value(System.Object)">
+	<summary>
+Получить \Задать поле по номеру 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpu.bpu.iu_u_def.FieldNameByID(System.Int64)">
+	<summary>
+Название поля по номеру
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpu.bpu.iu_u_def.FillDataTable(System.Data.DataTable@)">
+	<summary>
+Заполнить строку таблицы данными из полей
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpu.bpu.iu_u_def.FindInside(System.String,System.String)">
+	<summary>
+Найти строку в коллекции по идентификатору
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpu.bpu.iu_u_def.Pack(LATIR2.NamedValues)">
+	<summary>
+Заполнить коллекцю именованных полей
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpu.bpu.iu_u_def.Unpack(System.Data.DataRow)">
+	<summary>
+Заполнить поля из именованной коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bpu.bpu.iu_u_def.theClient">
+	<summary>
+Доступ к полю Клиент
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bpu.bpu.iu_u_def.lastname">
+	<summary>
+Доступ к полю Фамилия
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bpu.bpu.iu_u_def.name">
+	<summary>
+Доступ к полю Имя
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bpu.bpu.iu_u_def.surname">
+	<summary>
+Доступ к полю Отчество
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bpu.bpu.iu_u_def.curRole">
+	<summary>
+Доступ к полю Роль в производстве
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bpu.bpu.iu_u_def.sendtomail">
+	<summary>
+Доступ к полю Оповещать по почте
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bpu.bpu.iu_u_def.freelancer">
+	<summary>
+Доступ к полю Удаленная работа
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bpu.bpu.iu_u_def.email">
+	<summary>
+Доступ к полю e-mail
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bpu.bpu.iu_u_def.thephone">
+	<summary>
+Доступ к полю Телефон
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bpu.bpu.iu_u_def.login">
+	<summary>
+Доступ к полю Имя для входа
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpu.bpu.iu_u_def.XMLUnpack(System.Xml.XmlNode,System.Int32)">
+	<summary>
+Заполнить поля данными из XML
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpu.bpu.iu_u_def.XLMPack(System.Xml.XmlElement,System.Xml.XmlDocument)">
+	<summary>
+Записать данные раздела в XML файл
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpu.bpu.iu_u_def.BatchUpdate">
+	<summary>
+Записать изменения в базу данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bpu.bpu.iu_u_def.CountOfParts">
+	<summary>
+Количество дочерних разделов
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpu.bpu.iu_u_def.GetDocCollection_Base(System.Int64)">
+	<summary>
+Доступ к дочернему разделу по номеру
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpu.bpu.iu_u_def">
+	<summary>
+Реализация строки раздела Данные сотрудника
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpu.bpu.enumStructType">
+	<summary>
+Перечисление Тип раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpu.bpu.enumWFFuncParam">
+	<summary>
+Перечисление Вариант расшифровки параметра функции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpu.bpu.enumReportType">
+	<summary>
+Перечисление Вариант отчета
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpu.bpu.enumEducation">
+	<summary>
+Перечисление Образование
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpu.bpu.enumTypeStyle">
+	<summary>
+Перечисление Вариант трактовки типа поля
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpu.bpu.enumReplicationType">
+	<summary>
+Перечисление Вариант репликации докуента
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpu.bpu.enumNumerationRule">
+	<summary>
+Перечисление Правило нумерации
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpu.bpu.enumWFProcessState">
+	<summary>
+Перечисление Состояния процесса
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpu.bpu.enumMenuActionType">
+	<summary>
+Перечисление Вариант действия при выборе пункта меню
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpu.bpu.enumWFShortcutType">
+	<summary>
+Перечисление Варианты ярлыков, которые может размещать процесс
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpu.bpu.enumVHAlignment">
+	<summary>
+Перечисление Выравнивание
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpu.bpu.enumCurrencyType">
+	<summary>
+Перечисление Валюта платежа
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpu.bpu.enumInfoStoreType">
+	<summary>
+Перечисление Тип каталога
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpu.bpu.enumDevelopmentBase">
+	<summary>
+Перечисление Платформа разработки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpu.bpu.enumQuarter">
+	<summary>
+Перечисление Квартал
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpu.bpu.enumMonths">
+	<summary>
+Перечисление Месяцы
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpu.bpu.enumColumnSortType">
+	<summary>
+Перечисление Вариант сортиовки данных колонки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpu.bpu.enumBoolean">
+	<summary>
+Перечисление Да / Нет
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpu.bpu.enumJournalLinkType">
+	<summary>
+Перечисление Для связи журналов друг с другом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpu.bpu.enumTargetType">
+	<summary>
+Перечисление Вариант уровня приложения, куда может генерироваться код
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpu.bpu.enumParityType">
+	<summary>
+Перечисление Четность
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpu.bpu.enumMesureFormat">
+	<summary>
+Перечисление Формат индикатора
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpu.bpu.enumExportType">
+	<summary>
+Перечисление Тип экспорта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpu.bpu.enumWFStepClass">
+	<summary>
+Перечисление Тип шага процесса
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpu.bpu.enumDayInWeek">
+	<summary>
+Перечисление День недели
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpu.bpu.enumGeneratorStyle">
+	<summary>
+Перечисление GeneratorStyle
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpu.bpu.enumPlatType">
+	<summary>
+Перечисление Тип плательщика
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpu.bpu.enummsgState">
+	<summary>
+Перечисление Состояние заявки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpu.bpu.enumOnJournalRowClick">
+	<summary>
+Перечисление действие при открытии строки журнала
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpu.bpu.enumPartType">
+	<summary>
+Перечисление PartType
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpu.bpu.enumReferenceType">
+	<summary>
+Перечисление ReferenceType
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpu.bpu.enumstateNomen">
+	<summary>
+Перечисление 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpu.bpu.enumConditionType">
+	<summary>
+Перечисление Варианты условий
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpu.bpu.enumFolderType">
+	<summary>
+Перечисление Тип папки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpu.bpu.enummsgResult">
+	<summary>
+Перечисление Результат
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpu.bpu.enumPartAddBehaivor">
+	<summary>
+Перечисление Поведение при добавлении строки раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpu.bpu.enumExtentionType">
+	<summary>
+Перечисление Тип расширения
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpu.bpu.enumSex">
+	<summary>
+Перечисление Мужской / Женский
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpu.bpu.enumYesNo">
+	<summary>
+Перечисление Да / Нет (0 или 1)
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpu.bpu.enumAggregationType">
+	<summary>
+Перечисление Вариант агрегации по полю
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpu.bpu.enumWFFuncState">
+	<summary>
+Перечисление Состояние функции в бизнес процессе
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpu.bpu.enumEmployment">
+	<summary>
+Перечисление Занятость
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpu.bpu.enumTriState">
+	<summary>
+Перечисление Да / Нет / Не определено
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpu.bpu.Application.MyTypeName">
+	<summary>
+Название типа документа
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bpu.bpu.Application.m_iu_u_def">
+	<summary>
+ Внутренняя переменная для раздела Данные сотрудника
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bpu.bpu.Application.iu_u_def">
+	<summary>
+Свойство для доступа к строкам раздела Данные сотрудника
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bpu.bpu.Application.CountOfParts">
+	<summary>
+Количество разделов в объекте
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpu.bpu.Application.GetDocCollection_Base(System.Int64)">
+	<summary>
+Получить раздел по номеру
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpu.bpu.Application.FindInCollections(System.String,System.String)">
+	<summary>
+Поиск элемента в коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpu.bpu.Application.XMLLoadCollections(System.Xml.XmlNode,System.Int32)">
+	<summary>
+Загрузка данных из XML  файла
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpu.bpu.Application.XMLSaveCollections(System.Xml.XmlElement,System.Xml.XmlDocument)">
+	<summary>
+Сохранение данных в XML  файле
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpu.bpu.Application.BatchUpdate">
+	<summary>
+Сохранение изменений в базе данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpu.bpu.Application">
+	<summary>
+Реализация документа 
+ </summary>
+	<remarks>
+Сотрудник
+ </remarks>
+</member>
+</members>
+</doc>

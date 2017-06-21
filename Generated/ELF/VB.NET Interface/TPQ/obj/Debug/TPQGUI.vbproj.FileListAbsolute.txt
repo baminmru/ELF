@@ -1,0 +1,7 @@
+C:\LATIR4\Build\TPQGUI.dll
+C:\LATIR4\Build\TPQGUI.pdb
+C:\LATIR4\Build\TPQGUI.xml
+C:\LATIR4\Generated\ELF\VB.NET Interface\TPQ\obj\Debug\TPQGUI.vbprojResolveAssemblyReference.cache
+C:\LATIR4\Generated\ELF\VB.NET Interface\TPQ\obj\Debug\TPQGUI.dll
+C:\LATIR4\Generated\ELF\VB.NET Interface\TPQ\obj\Debug\TPQGUI.xml
+C:\LATIR4\Generated\ELF\VB.NET Interface\TPQ\obj\Debug\TPQGUI.pdb

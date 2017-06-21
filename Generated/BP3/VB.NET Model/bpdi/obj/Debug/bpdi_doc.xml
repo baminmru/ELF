@@ -1,0 +1,594 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+bpdi
+</name>
+</assembly>
+<members>
+<member name="M:bpdi.bpdi.iu_int_modules_col.ChildPartName">
+	<summary>
+Имя раздела в базе данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdi.bpdi.iu_int_modules_col.CreateDataTable">
+	<summary>
+Вернуть даные текущей коллекции в виде DataTable
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdi.bpdi.iu_int_modules_col.NewItem">
+	<summary>
+Создание нового элемента коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdi.bpdi.iu_int_modules_col.GetItem(System.Object)">
+	<summary>
+Получить элемент коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdi.bpdi.iu_int_modules_col.Item(System.Object)">
+	<summary>
+Получить элемент коллекции, более свежий вариант
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdi.bpdi.iu_int_modules_col">
+	<summary>
+Реализация раздела Модульв виде коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bpdi.bpdi.iu_int_modules.m_Sequence">
+	<summary>
+Локальная переменная для поля № п/п
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bpdi.bpdi.iu_int_modules.m_TheIcon">
+	<summary>
+Локальная переменная для поля Иконка
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bpdi.bpdi.iu_int_modules.m_GroupName">
+	<summary>
+Локальная переменная для поля Меню верхнего урровня
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bpdi.bpdi.iu_int_modules.m_name">
+	<summary>
+Локальная переменная для поля Название меню
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bpdi.bpdi.iu_int_modules.m_Caption">
+	<summary>
+Локальная переменная для поля Надпись
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bpdi.bpdi.iu_int_modules.m_visibleControl">
+	<summary>
+Локальная переменная для поля Управление видимостью
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bpdi.bpdi.iu_int_modules.m_controldocmode">
+	<summary>
+Локальная переменная для поля Документы на контроле
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bpdi.bpdi.iu_int_modules.m_otherdocmode">
+	<summary>
+Локальная переменная для поля Чужие документы
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bpdi.bpdi.iu_int_modules.m_mydocmode">
+	<summary>
+Локальная переменная для поля Мои документы
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bpdi.bpdi.iu_int_modules.m_AllObjects">
+	<summary>
+Локальная переменная для поля Вся фирма
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bpdi.bpdi.iu_int_modules.m_ColegsObject">
+	<summary>
+Локальная переменная для поля Объекты коллег
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bpdi.bpdi.iu_int_modules.m_SubStructObjects">
+	<summary>
+Локальная переменная для поля Подчиненные подразделения
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdi.bpdi.iu_int_modules.CleanFields">
+	<summary>
+Очистить поля раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bpdi.bpdi.iu_int_modules.Count">
+	<summary>
+Количество полей в строке раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bpdi.bpdi.iu_int_modules.Value(System.Object)">
+	<summary>
+Получить \Задать поле по номеру 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdi.bpdi.iu_int_modules.FieldNameByID(System.Int64)">
+	<summary>
+Название поля по номеру
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdi.bpdi.iu_int_modules.FillDataTable(System.Data.DataTable@)">
+	<summary>
+Заполнить строку таблицы данными из полей
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdi.bpdi.iu_int_modules.FindInside(System.String,System.String)">
+	<summary>
+Найти строку в коллекции по идентификатору
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdi.bpdi.iu_int_modules.Pack(LATIR2.NamedValues)">
+	<summary>
+Заполнить коллекцю именованных полей
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdi.bpdi.iu_int_modules.Unpack(System.Data.DataRow)">
+	<summary>
+Заполнить поля из именованной коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bpdi.bpdi.iu_int_modules.Sequence">
+	<summary>
+Доступ к полю № п/п
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bpdi.bpdi.iu_int_modules.TheIcon">
+	<summary>
+Доступ к полю Иконка
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bpdi.bpdi.iu_int_modules.GroupName">
+	<summary>
+Доступ к полю Меню верхнего урровня
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bpdi.bpdi.iu_int_modules.name">
+	<summary>
+Доступ к полю Название меню
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bpdi.bpdi.iu_int_modules.Caption">
+	<summary>
+Доступ к полю Надпись
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bpdi.bpdi.iu_int_modules.visibleControl">
+	<summary>
+Доступ к полю Управление видимостью
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bpdi.bpdi.iu_int_modules.controldocmode">
+	<summary>
+Доступ к полю Документы на контроле
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bpdi.bpdi.iu_int_modules.otherdocmode">
+	<summary>
+Доступ к полю Чужие документы
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bpdi.bpdi.iu_int_modules.mydocmode">
+	<summary>
+Доступ к полю Мои документы
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bpdi.bpdi.iu_int_modules.AllObjects">
+	<summary>
+Доступ к полю Вся фирма
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bpdi.bpdi.iu_int_modules.ColegsObject">
+	<summary>
+Доступ к полю Объекты коллег
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bpdi.bpdi.iu_int_modules.SubStructObjects">
+	<summary>
+Доступ к полю Подчиненные подразделения
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdi.bpdi.iu_int_modules.XMLUnpack(System.Xml.XmlNode,System.Int32)">
+	<summary>
+Заполнить поля данными из XML
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdi.bpdi.iu_int_modules.XLMPack(System.Xml.XmlElement,System.Xml.XmlDocument)">
+	<summary>
+Записать данные раздела в XML файл
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdi.bpdi.iu_int_modules.BatchUpdate">
+	<summary>
+Записать изменения в базу данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bpdi.bpdi.iu_int_modules.CountOfParts">
+	<summary>
+Количество дочерних разделов
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdi.bpdi.iu_int_modules.GetDocCollection_Base(System.Int64)">
+	<summary>
+Доступ к дочернему разделу по номеру
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdi.bpdi.iu_int_modules">
+	<summary>
+Реализация строки раздела Модуль
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdi.bpdi.enumStructType">
+	<summary>
+Перечисление Тип раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdi.bpdi.enumWFFuncParam">
+	<summary>
+Перечисление Вариант расшифровки параметра функции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdi.bpdi.enumReportType">
+	<summary>
+Перечисление Вариант отчета
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdi.bpdi.enumEducation">
+	<summary>
+Перечисление Образование
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdi.bpdi.enumTypeStyle">
+	<summary>
+Перечисление Вариант трактовки типа поля
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdi.bpdi.enumReplicationType">
+	<summary>
+Перечисление Вариант репликации докуента
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdi.bpdi.enumNumerationRule">
+	<summary>
+Перечисление Правило нумерации
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdi.bpdi.enumWFProcessState">
+	<summary>
+Перечисление Состояния процесса
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdi.bpdi.enumMenuActionType">
+	<summary>
+Перечисление Вариант действия при выборе пункта меню
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdi.bpdi.enumWFShortcutType">
+	<summary>
+Перечисление Варианты ярлыков, которые может размещать процесс
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdi.bpdi.enumVHAlignment">
+	<summary>
+Перечисление Выравнивание
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdi.bpdi.enumCurrencyType">
+	<summary>
+Перечисление Валюта платежа
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdi.bpdi.enumInfoStoreType">
+	<summary>
+Перечисление Тип каталога
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdi.bpdi.enumDevelopmentBase">
+	<summary>
+Перечисление Платформа разработки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdi.bpdi.enumQuarter">
+	<summary>
+Перечисление Квартал
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdi.bpdi.enumMonths">
+	<summary>
+Перечисление Месяцы
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdi.bpdi.enumColumnSortType">
+	<summary>
+Перечисление Вариант сортиовки данных колонки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdi.bpdi.enumBoolean">
+	<summary>
+Перечисление Да / Нет
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdi.bpdi.enumJournalLinkType">
+	<summary>
+Перечисление Для связи журналов друг с другом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdi.bpdi.enumTargetType">
+	<summary>
+Перечисление Вариант уровня приложения, куда может генерироваться код
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdi.bpdi.enumParityType">
+	<summary>
+Перечисление Четность
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdi.bpdi.enumMesureFormat">
+	<summary>
+Перечисление Формат индикатора
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdi.bpdi.enumExportType">
+	<summary>
+Перечисление Тип экспорта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdi.bpdi.enumWFStepClass">
+	<summary>
+Перечисление Тип шага процесса
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdi.bpdi.enumDayInWeek">
+	<summary>
+Перечисление День недели
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdi.bpdi.enumGeneratorStyle">
+	<summary>
+Перечисление GeneratorStyle
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdi.bpdi.enumPlatType">
+	<summary>
+Перечисление Тип плательщика
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdi.bpdi.enummsgState">
+	<summary>
+Перечисление Состояние заявки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdi.bpdi.enumOnJournalRowClick">
+	<summary>
+Перечисление действие при открытии строки журнала
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdi.bpdi.enumPartType">
+	<summary>
+Перечисление PartType
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdi.bpdi.enumReferenceType">
+	<summary>
+Перечисление ReferenceType
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdi.bpdi.enumstateNomen">
+	<summary>
+Перечисление 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdi.bpdi.enumConditionType">
+	<summary>
+Перечисление Варианты условий
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdi.bpdi.enumFolderType">
+	<summary>
+Перечисление Тип папки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdi.bpdi.enummsgResult">
+	<summary>
+Перечисление Результат
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdi.bpdi.enumPartAddBehaivor">
+	<summary>
+Перечисление Поведение при добавлении строки раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdi.bpdi.enumExtentionType">
+	<summary>
+Перечисление Тип расширения
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdi.bpdi.enumSex">
+	<summary>
+Перечисление Мужской / Женский
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdi.bpdi.enumYesNo">
+	<summary>
+Перечисление Да / Нет (0 или 1)
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdi.bpdi.enumAggregationType">
+	<summary>
+Перечисление Вариант агрегации по полю
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdi.bpdi.enumWFFuncState">
+	<summary>
+Перечисление Состояние функции в бизнес процессе
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdi.bpdi.enumEmployment">
+	<summary>
+Перечисление Занятость
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdi.bpdi.enumTriState">
+	<summary>
+Перечисление Да / Нет / Не определено
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdi.bpdi.Application.MyTypeName">
+	<summary>
+Название типа документа
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bpdi.bpdi.Application.m_iu_int_modules">
+	<summary>
+ Внутренняя переменная для раздела Модуль
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bpdi.bpdi.Application.iu_int_modules">
+	<summary>
+Свойство для доступа к строкам раздела Модуль
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bpdi.bpdi.Application.CountOfParts">
+	<summary>
+Количество разделов в объекте
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdi.bpdi.Application.GetDocCollection_Base(System.Int64)">
+	<summary>
+Получить раздел по номеру
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdi.bpdi.Application.FindInCollections(System.String,System.String)">
+	<summary>
+Поиск элемента в коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdi.bpdi.Application.XMLLoadCollections(System.Xml.XmlNode,System.Int32)">
+	<summary>
+Загрузка данных из XML  файла
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdi.bpdi.Application.XMLSaveCollections(System.Xml.XmlElement,System.Xml.XmlDocument)">
+	<summary>
+Сохранение данных в XML  файле
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdi.bpdi.Application.BatchUpdate">
+	<summary>
+Сохранение изменений в базе данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdi.bpdi.Application">
+	<summary>
+Реализация документа Структура меню приложения
+ </summary>
+	<remarks>
+Интерфейс
+ </remarks>
+</member>
+</members>
+</doc>

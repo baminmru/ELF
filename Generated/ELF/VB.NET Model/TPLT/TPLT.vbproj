@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion = "14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+ <Import Project = "$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" /> 
+ <PropertyGroup>
+ <Configuration Condition = " '$(Configuration)' == '' ">Debug</Configuration>
+      <Platform Condition = " '$(Platform)' == '' ">AnyCPU</Platform>
+ <ProjectGuid>f061f875-5aba-4f96-9860-345944e03afa</ProjectGuid>
+ <OutputType>Library</OutputType>
+ <RootNamespace>TPLT</RootNamespace>
+ <AssemblyName>TPLT</AssemblyName>
+ <FileAlignment>512</FileAlignment>
+ <MyType>Windows</MyType>
+ <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+ <TargetFrameworkProfile />
+    </PropertyGroup>
+ <PropertyGroup Condition = " '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+ <DebugSymbols>True</DebugSymbols>
+ <DebugType>full</DebugType>
+ <DefineDebug>True</DefineDebug>
+ <DefineTrace>True</DefineTrace>
+ <OutputPath>C:\LATIR4\Build\</OutputPath>
+ <DocumentationFile>TPLT_doc.xml</DocumentationFile>
+ <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    </PropertyGroup>
+ <PropertyGroup Condition = " '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+      <DebugType>pdbonly</DebugType>
+ <DefineDebug>False</DefineDebug>
+      <DefineTrace>true</DefineTrace>
+ <Optimize> True</Optimize>
+      <OutputPath>C:\LATIR4\Build\</OutputPath>
+ <DocumentationFile>TPLT_doc.xml</DocumentationFile>
+      <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    </PropertyGroup>
+    <PropertyGroup>
+ <OptionExplicit>On</OptionExplicit>
+    </PropertyGroup>
+ <PropertyGroup>
+      <OptionCompare>Binary</OptionCompare>
+    </PropertyGroup>
+    <PropertyGroup>
+ <OptionStrict>Off</OptionStrict>
+    </PropertyGroup>
+ <PropertyGroup>
+      <OptionInfer>On</OptionInfer>
+    </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="L2Manager">
+      <Name>L2Manager</Name>
+      <HintPath>C:\LATIR4\Build\L2Manager.dll</HintPath>
+       <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System"/>
+    <Reference Include="System.Data"/>
+    <Reference Include="System.Xml"/>
+  </ItemGroup>
+  <ItemGroup>
+      <Import Include="System" />
+      <Import Include="System.Collections" />
+      <Import Include="System.Data" />
+      <Import Include="System.Xml" />
+    </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Application.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+
+                <Compile Include="TPLT_REPORTS.vb">
+                    <SubType>Code</SubType>
+                </Compile>
+                <Compile Include="TPLT_REPORTS_col.vb">
+                    <SubType>Code</SubType>
+                </Compile>
+
+                <Compile Include="TPLT_CONNECT.vb">
+                    <SubType>Code</SubType>
+                </Compile>
+                <Compile Include="TPLT_CONNECT_col.vb">
+                    <SubType>Code</SubType>
+                </Compile>
+
+                <Compile Include="TPLT_VALUEBOUNDS.vb">
+                    <SubType>Code</SubType>
+                </Compile>
+                <Compile Include="TPLT_VALUEBOUNDS_col.vb">
+                    <SubType>Code</SubType>
+                </Compile>
+
+                <Compile Include="TPLT_PLANCALL.vb">
+                    <SubType>Code</SubType>
+                </Compile>
+                <Compile Include="TPLT_PLANCALL_col.vb">
+                    <SubType>Code</SubType>
+                </Compile>
+
+                <Compile Include="TPLT_MASK.vb">
+                    <SubType>Code</SubType>
+                </Compile>
+                <Compile Include="TPLT_MASK_col.vb">
+                    <SubType>Code</SubType>
+                </Compile>
+
+                <Compile Include="TPLT_BDEVICES.vb">
+                    <SubType>Code</SubType>
+                </Compile>
+                <Compile Include="TPLT_BDEVICES_col.vb">
+                    <SubType>Code</SubType>
+                </Compile>
+
+                <Compile Include="TPLT_CONTRACT.vb">
+                    <SubType>Code</SubType>
+                </Compile>
+                <Compile Include="TPLT_CONTRACT_col.vb">
+                    <SubType>Code</SubType>
+                </Compile>
+
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

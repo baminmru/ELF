@@ -1,0 +1,678 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TPLS
+</name>
+</assembly>
+<members>
+<member name="M:TPLS.TPLS.TPLS_PARAM_col.ChildPartName">
+	<summary>
+Имя раздела в базе данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLS.TPLS.TPLS_PARAM_col.CreateDataTable">
+	<summary>
+Вернуть даные текущей коллекции в виде DataTable
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLS.TPLS.TPLS_PARAM_col.NewItem">
+	<summary>
+Создание нового элемента коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLS.TPLS.TPLS_PARAM_col.GetItem(System.Object)">
+	<summary>
+Получить элемент коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLS.TPLS.TPLS_PARAM_col.Item(System.Object)">
+	<summary>
+Получить элемент коллекции, более свежий вариант
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLS.TPLS.TPLS_PARAM_col">
+	<summary>
+Реализация раздела Параметры на схемев виде коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLS.TPLS.TPLS_PARAM.m_ArchType">
+	<summary>
+Локальная переменная для поля Тип архива
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLS.TPLS.TPLS_PARAM.m_Param">
+	<summary>
+Локальная переменная для поля Параметр
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLS.TPLS.TPLS_PARAM.m_POS_LEFT">
+	<summary>
+Локальная переменная для поля X
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLS.TPLS.TPLS_PARAM.m_POS_TOP">
+	<summary>
+Локальная переменная для поля Y
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLS.TPLS.TPLS_PARAM.m_HIDEPARAM">
+	<summary>
+Локальная переменная для поля Скрыть
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLS.TPLS.TPLS_PARAM.m_HideOnSchema">
+	<summary>
+Локальная переменная для поля Не отображать на схеме
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLS.TPLS.TPLS_PARAM.CleanFields">
+	<summary>
+Очистить поля раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLS.TPLS.TPLS_PARAM.Count">
+	<summary>
+Количество полей в строке раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLS.TPLS.TPLS_PARAM.Value(System.Object)">
+	<summary>
+Получить \Задать поле по номеру 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLS.TPLS.TPLS_PARAM.FieldNameByID(System.Int64)">
+	<summary>
+Название поля по номеру
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLS.TPLS.TPLS_PARAM.FillDataTable(System.Data.DataTable@)">
+	<summary>
+Заполнить строку таблицы данными из полей
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLS.TPLS.TPLS_PARAM.FindInside(System.String,System.String)">
+	<summary>
+Найти строку в коллекции по идентификатору
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLS.TPLS.TPLS_PARAM.Pack(LATIR2.NamedValues)">
+	<summary>
+Заполнить коллекцю именованных полей
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLS.TPLS.TPLS_PARAM.Unpack(System.Data.DataRow)">
+	<summary>
+Заполнить поля из именованной коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLS.TPLS.TPLS_PARAM.ArchType">
+	<summary>
+Доступ к полю Тип архива
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLS.TPLS.TPLS_PARAM.Param">
+	<summary>
+Доступ к полю Параметр
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLS.TPLS.TPLS_PARAM.POS_LEFT">
+	<summary>
+Доступ к полю X
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLS.TPLS.TPLS_PARAM.POS_TOP">
+	<summary>
+Доступ к полю Y
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLS.TPLS.TPLS_PARAM.HIDEPARAM">
+	<summary>
+Доступ к полю Скрыть
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLS.TPLS.TPLS_PARAM.HideOnSchema">
+	<summary>
+Доступ к полю Не отображать на схеме
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLS.TPLS.TPLS_PARAM.XMLUnpack(System.Xml.XmlNode,System.Int32)">
+	<summary>
+Заполнить поля данными из XML
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLS.TPLS.TPLS_PARAM.XLMPack(System.Xml.XmlElement,System.Xml.XmlDocument)">
+	<summary>
+Записать данные раздела в XML файл
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLS.TPLS.TPLS_PARAM.BatchUpdate">
+	<summary>
+Записать изменения в базу данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLS.TPLS.TPLS_PARAM.CountOfParts">
+	<summary>
+Количество дочерних разделов
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLS.TPLS.TPLS_PARAM.GetDocCollection_Base(System.Int64)">
+	<summary>
+Доступ к дочернему разделу по номеру
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLS.TPLS.TPLS_PARAM">
+	<summary>
+Реализация строки раздела Параметры на схеме
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLS.TPLS.TPLS_INFO_col.ChildPartName">
+	<summary>
+Имя раздела в базе данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLS.TPLS.TPLS_INFO_col.CreateDataTable">
+	<summary>
+Вернуть даные текущей коллекции в виде DataTable
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLS.TPLS.TPLS_INFO_col.NewItem">
+	<summary>
+Создание нового элемента коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLS.TPLS.TPLS_INFO_col.GetItem(System.Object)">
+	<summary>
+Получить элемент коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLS.TPLS.TPLS_INFO_col.Item(System.Object)">
+	<summary>
+Получить элемент коллекции, более свежий вариант
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLS.TPLS.TPLS_INFO_col">
+	<summary>
+Реализация раздела Схема подключенияв виде коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLS.TPLS.TPLS_INFO.m_NAME">
+	<summary>
+Локальная переменная для поля Название
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLS.TPLS.TPLS_INFO.m_SCHEMA_IMAGEfile">
+	<summary>
+Локальная переменная для поля Изображение
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLS.TPLS.TPLS_INFO.CleanFields">
+	<summary>
+Очистить поля раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLS.TPLS.TPLS_INFO.Count">
+	<summary>
+Количество полей в строке раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLS.TPLS.TPLS_INFO.Value(System.Object)">
+	<summary>
+Получить \Задать поле по номеру 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLS.TPLS.TPLS_INFO.FieldNameByID(System.Int64)">
+	<summary>
+Название поля по номеру
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLS.TPLS.TPLS_INFO.FillDataTable(System.Data.DataTable@)">
+	<summary>
+Заполнить строку таблицы данными из полей
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLS.TPLS.TPLS_INFO.FindInside(System.String,System.String)">
+	<summary>
+Найти строку в коллекции по идентификатору
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLS.TPLS.TPLS_INFO.Pack(LATIR2.NamedValues)">
+	<summary>
+Заполнить коллекцю именованных полей
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLS.TPLS.TPLS_INFO.Unpack(System.Data.DataRow)">
+	<summary>
+Заполнить поля из именованной коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLS.TPLS.TPLS_INFO.NAME">
+	<summary>
+Доступ к полю Название
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLS.TPLS.TPLS_INFO.SCHEMA_IMAGEfile">
+	<summary>
+Доступ к полю Изображение
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLS.TPLS.TPLS_INFO.XMLUnpack(System.Xml.XmlNode,System.Int32)">
+	<summary>
+Заполнить поля данными из XML
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLS.TPLS.TPLS_INFO.XLMPack(System.Xml.XmlElement,System.Xml.XmlDocument)">
+	<summary>
+Записать данные раздела в XML файл
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLS.TPLS.TPLS_INFO.BatchUpdate">
+	<summary>
+Записать изменения в базу данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLS.TPLS.TPLS_INFO.CountOfParts">
+	<summary>
+Количество дочерних разделов
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLS.TPLS.TPLS_INFO.GetDocCollection_Base(System.Int64)">
+	<summary>
+Доступ к дочернему разделу по номеру
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLS.TPLS.TPLS_INFO">
+	<summary>
+Реализация строки раздела Схема подключения
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLS.TPLS.enumStructType">
+	<summary>
+Перечисление Тип раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLS.TPLS.enumWFFuncParam">
+	<summary>
+Перечисление Вариант расшифровки параметра функции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLS.TPLS.enumReportType">
+	<summary>
+Перечисление Вариант отчета
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLS.TPLS.enumEducation">
+	<summary>
+Перечисление Образование
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLS.TPLS.enumTypeStyle">
+	<summary>
+Перечисление Вариант трактовки типа поля
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLS.TPLS.enumReplicationType">
+	<summary>
+Перечисление Вариант репликации докуента
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLS.TPLS.enumNumerationRule">
+	<summary>
+Перечисление Правило нумерации
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLS.TPLS.enumWFProcessState">
+	<summary>
+Перечисление Состояния процесса
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLS.TPLS.enumMenuActionType">
+	<summary>
+Перечисление Вариант действия при выборе пункта меню
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLS.TPLS.enumWFShortcutType">
+	<summary>
+Перечисление Варианты ярлыков, которые может размещать процесс
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLS.TPLS.enumVHAlignment">
+	<summary>
+Перечисление Выравнивание
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLS.TPLS.enumCurrencyType">
+	<summary>
+Перечисление Валюта платежа
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLS.TPLS.enumInfoStoreType">
+	<summary>
+Перечисление Тип каталога
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLS.TPLS.enumDevelopmentBase">
+	<summary>
+Перечисление Платформа разработки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLS.TPLS.enumQuarter">
+	<summary>
+Перечисление Квартал
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLS.TPLS.enumMonths">
+	<summary>
+Перечисление Месяцы
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLS.TPLS.enumColumnSortType">
+	<summary>
+Перечисление Вариант сортиовки данных колонки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLS.TPLS.enumBoolean">
+	<summary>
+Перечисление Да / Нет
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLS.TPLS.enumJournalLinkType">
+	<summary>
+Перечисление Для связи журналов друг с другом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLS.TPLS.enumTargetType">
+	<summary>
+Перечисление Вариант уровня приложения, куда может генерироваться код
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLS.TPLS.enumParityType">
+	<summary>
+Перечисление Четность
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLS.TPLS.enumMesureFormat">
+	<summary>
+Перечисление Формат индикатора
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLS.TPLS.enumExportType">
+	<summary>
+Перечисление Тип экспорта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLS.TPLS.enumWFStepClass">
+	<summary>
+Перечисление Тип шага процесса
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLS.TPLS.enumDayInWeek">
+	<summary>
+Перечисление День недели
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLS.TPLS.enumGeneratorStyle">
+	<summary>
+Перечисление GeneratorStyle
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLS.TPLS.enumPlatType">
+	<summary>
+Перечисление Тип плательщика
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLS.TPLS.enummsgState">
+	<summary>
+Перечисление Состояние заявки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLS.TPLS.enumOnJournalRowClick">
+	<summary>
+Перечисление действие при открытии строки журнала
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLS.TPLS.enumPartType">
+	<summary>
+Перечисление PartType
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLS.TPLS.enumReferenceType">
+	<summary>
+Перечисление ReferenceType
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLS.TPLS.enumstateNomen">
+	<summary>
+Перечисление 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLS.TPLS.enumConditionType">
+	<summary>
+Перечисление Варианты условий
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLS.TPLS.enumFolderType">
+	<summary>
+Перечисление Тип папки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLS.TPLS.enummsgResult">
+	<summary>
+Перечисление Результат
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLS.TPLS.enumPartAddBehaivor">
+	<summary>
+Перечисление Поведение при добавлении строки раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLS.TPLS.enumExtentionType">
+	<summary>
+Перечисление Тип расширения
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLS.TPLS.enumSex">
+	<summary>
+Перечисление Мужской / Женский
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLS.TPLS.enumYesNo">
+	<summary>
+Перечисление Да / Нет (0 или 1)
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLS.TPLS.enumAggregationType">
+	<summary>
+Перечисление Вариант агрегации по полю
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLS.TPLS.enumWFFuncState">
+	<summary>
+Перечисление Состояние функции в бизнес процессе
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLS.TPLS.enumEmployment">
+	<summary>
+Перечисление Занятость
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLS.TPLS.enumTriState">
+	<summary>
+Перечисление Да / Нет / Не определено
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLS.TPLS.Application.MyTypeName">
+	<summary>
+Название типа документа
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLS.TPLS.Application.m_TPLS_INFO">
+	<summary>
+ Внутренняя переменная для раздела Схема подключения
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLS.TPLS.Application.TPLS_INFO">
+	<summary>
+Свойство для доступа к строкам раздела Схема подключения
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLS.TPLS.Application.m_TPLS_PARAM">
+	<summary>
+ Внутренняя переменная для раздела Параметры на схеме
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLS.TPLS.Application.TPLS_PARAM">
+	<summary>
+Свойство для доступа к строкам раздела Параметры на схеме
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:TPLS.TPLS.Application.CountOfParts">
+	<summary>
+Количество разделов в объекте
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLS.TPLS.Application.GetDocCollection_Base(System.Int64)">
+	<summary>
+Получить раздел по номеру
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLS.TPLS.Application.FindInCollections(System.String,System.String)">
+	<summary>
+Поиск элемента в коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLS.TPLS.Application.XMLLoadCollections(System.Xml.XmlNode,System.Int32)">
+	<summary>
+Загрузка данных из XML  файла
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLS.TPLS.Application.XMLSaveCollections(System.Xml.XmlElement,System.Xml.XmlDocument)">
+	<summary>
+Сохранение данных в XML  файле
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLS.TPLS.Application.BatchUpdate">
+	<summary>
+Сохранение изменений в базе данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLS.TPLS.Application">
+	<summary>
+Реализация документа t_DEVSCHEMA
+ </summary>
+	<remarks>
+Схема подключения
+ </remarks>
+</member>
+</members>
+</doc>

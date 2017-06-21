@@ -1,0 +1,751 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TPLDGUI
+</name>
+</assembly>
+<members>
+<member name="M:TPLDGUI.viewTPLD_PARAMTYPE.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_PARAMTYPE.Init">
+	<summary>
+Load table settings
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_PARAMTYPE.gv_OnEdit(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание редактирования Edit action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_PARAMTYPE.gv_OnDel(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание удаления Delete action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_PARAMTYPE.gv_OnAdd(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание создания записи Create action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_PARAMTYPE.gv_OnRefresh">
+	<summary>
+Обслуживание кнопки (обновить) refresh action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.frmTPLD_PARAMTYPE.Attach(LATIR2.Document.DocRow_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.frmTPLD_PARAMTYPE.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+Завершение редактирования
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLDGUI.frmTPLD_PARAMTYPE">
+	<summary>
+Форма редактирования раздела Тип архива режим:
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.editTPLD_PARAMTYPE.Attach(LATIR2GuiManager.LATIRGuiManager,LATIR2.Document.DocRow_Base,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.editTPLD_PARAMTYPE.Save">
+	<summary>
+Сохранения данных в полях объекта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLDGUI.editTPLD_PARAMTYPE">
+	<summary>
+Контрол редактирования раздела Тип архива режим:
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_GRP.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_GRP.Init">
+	<summary>
+Load table settings
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_GRP.gv_OnEdit(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание редактирования Edit action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_GRP.gv_OnDel(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание удаления Delete action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_GRP.gv_OnAdd(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание создания записи Create action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_GRP.gv_OnRefresh">
+	<summary>
+Обслуживание кнопки (обновить) refresh action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.frmTPLD_GRP.Attach(LATIR2.Document.DocRow_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.frmTPLD_GRP.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+Завершение редактирования
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLDGUI.frmTPLD_GRP">
+	<summary>
+Форма редактирования раздела Группа режим:
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.editTPLD_GRP.Attach(LATIR2GuiManager.LATIRGuiManager,LATIR2.Document.DocRow_Base,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.editTPLD_GRP.Save">
+	<summary>
+Сохранения данных в полях объекта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLDGUI.editTPLD_GRP">
+	<summary>
+Контрол редактирования раздела Группа режим:
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_DEVTYPE.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_DEVTYPE.Init">
+	<summary>
+Load table settings
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_DEVTYPE.gv_OnEdit(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание редактирования Edit action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_DEVTYPE.gv_OnDel(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание удаления Delete action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_DEVTYPE.gv_OnAdd(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание создания записи Create action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_DEVTYPE.gv_OnRefresh">
+	<summary>
+Обслуживание кнопки (обновить) refresh action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.frmTPLD_DEVTYPE.Attach(LATIR2.Document.DocRow_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.frmTPLD_DEVTYPE.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+Завершение редактирования
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLDGUI.frmTPLD_DEVTYPE">
+	<summary>
+Форма редактирования раздела Тип устройства режим:
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.editTPLD_DEVTYPE.Attach(LATIR2GuiManager.LATIRGuiManager,LATIR2.Document.DocRow_Base,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.editTPLD_DEVTYPE.Save">
+	<summary>
+Сохранения данных в полях объекта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLDGUI.editTPLD_DEVTYPE">
+	<summary>
+Контрол редактирования раздела Тип устройства режим:
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_DEVCLASS.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_DEVCLASS.Init">
+	<summary>
+Load table settings
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_DEVCLASS.gv_OnEdit(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание редактирования Edit action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_DEVCLASS.gv_OnDel(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание удаления Delete action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_DEVCLASS.gv_OnAdd(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание создания записи Create action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_DEVCLASS.gv_OnRefresh">
+	<summary>
+Обслуживание кнопки (обновить) refresh action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.frmTPLD_DEVCLASS.Attach(LATIR2.Document.DocRow_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.frmTPLD_DEVCLASS.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+Завершение редактирования
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLDGUI.frmTPLD_DEVCLASS">
+	<summary>
+Форма редактирования раздела Класс устройства режим:
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.editTPLD_DEVCLASS.Attach(LATIR2GuiManager.LATIRGuiManager,LATIR2.Document.DocRow_Base,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.editTPLD_DEVCLASS.Save">
+	<summary>
+Сохранения данных в полях объекта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLDGUI.editTPLD_DEVCLASS">
+	<summary>
+Контрол редактирования раздела Класс устройства режим:
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_CONNECTTYPE.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_CONNECTTYPE.Init">
+	<summary>
+Load table settings
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_CONNECTTYPE.gv_OnEdit(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание редактирования Edit action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_CONNECTTYPE.gv_OnDel(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание удаления Delete action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_CONNECTTYPE.gv_OnAdd(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание создания записи Create action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_CONNECTTYPE.gv_OnRefresh">
+	<summary>
+Обслуживание кнопки (обновить) refresh action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.frmTPLD_CONNECTTYPE.Attach(LATIR2.Document.DocRow_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.frmTPLD_CONNECTTYPE.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+Завершение редактирования
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLDGUI.frmTPLD_CONNECTTYPE">
+	<summary>
+Форма редактирования раздела Тип подключения режим:
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.editTPLD_CONNECTTYPE.Attach(LATIR2GuiManager.LATIRGuiManager,LATIR2.Document.DocRow_Base,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.editTPLD_CONNECTTYPE.Save">
+	<summary>
+Сохранения данных в полях объекта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLDGUI.editTPLD_CONNECTTYPE">
+	<summary>
+Контрол редактирования раздела Тип подключения режим:
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_F.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_F.Init">
+	<summary>
+Load table settings
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_F.gv_OnEdit(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание редактирования Edit action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_F.gv_OnDel(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание удаления Delete action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_F.gv_OnAdd(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание создания записи Create action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_F.gv_OnRefresh">
+	<summary>
+Обслуживание кнопки (обновить) refresh action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.frmTPLD_F.Attach(LATIR2.Document.DocRow_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.frmTPLD_F.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+Завершение редактирования
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLDGUI.frmTPLD_F">
+	<summary>
+Форма редактирования раздела Филиал организации режим:
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.editTPLD_F.Attach(LATIR2GuiManager.LATIRGuiManager,LATIR2.Document.DocRow_Base,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.editTPLD_F.Save">
+	<summary>
+Сохранения данных в полях объекта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLDGUI.editTPLD_F">
+	<summary>
+Контрол редактирования раздела Филиал организации режим:
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_SNAB.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_SNAB.Init">
+	<summary>
+Load table settings
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_SNAB.gv_OnEdit(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание редактирования Edit action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_SNAB.gv_OnDel(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание удаления Delete action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_SNAB.gv_OnAdd(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание создания записи Create action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_SNAB.gv_OnRefresh">
+	<summary>
+Обслуживание кнопки (обновить) refresh action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.frmTPLD_SNAB.Attach(LATIR2.Document.DocRow_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.frmTPLD_SNAB.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+Завершение редактирования
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLDGUI.frmTPLD_SNAB">
+	<summary>
+Форма редактирования раздела Снабжающая организация режим:
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.editTPLD_SNAB.Attach(LATIR2GuiManager.LATIRGuiManager,LATIR2.Document.DocRow_Base,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.editTPLD_SNAB.Save">
+	<summary>
+Сохранения данных в полях объекта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLDGUI.editTPLD_SNAB">
+	<summary>
+Контрол редактирования раздела Снабжающая организация режим:
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_PARAM.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_PARAM.Init">
+	<summary>
+Load table settings
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_PARAM.gv_OnEdit(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание редактирования Edit action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_PARAM.gv_OnDel(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание удаления Delete action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_PARAM.gv_OnAdd(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание создания записи Create action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_PARAM.gv_OnRefresh">
+	<summary>
+Обслуживание кнопки (обновить) refresh action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.frmTPLD_PARAM.Attach(LATIR2.Document.DocRow_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.frmTPLD_PARAM.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+Завершение редактирования
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLDGUI.frmTPLD_PARAM">
+	<summary>
+Форма редактирования раздела Параметры режим:
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.editTPLD_PARAM.Attach(LATIR2GuiManager.LATIRGuiManager,LATIR2.Document.DocRow_Base,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.editTPLD_PARAM.Save">
+	<summary>
+Сохранения данных в полях объекта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLDGUI.editTPLD_PARAM">
+	<summary>
+Контрол редактирования раздела Параметры режим:
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_SNABTOP.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_SNABTOP.Init">
+	<summary>
+Load table settings
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_SNABTOP.gv_OnEdit(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание редактирования Edit action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_SNABTOP.gv_OnDel(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание удаления Delete action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_SNABTOP.gv_OnAdd(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание создания записи Create action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.viewTPLD_SNABTOP.gv_OnRefresh">
+	<summary>
+Обслуживание кнопки (обновить) refresh action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.frmTPLD_SNABTOP.Attach(LATIR2.Document.DocRow_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.frmTPLD_SNABTOP.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+Завершение редактирования
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLDGUI.frmTPLD_SNABTOP">
+	<summary>
+Форма редактирования раздела Поставщик режим:
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.editTPLD_SNABTOP.Attach(LATIR2GuiManager.LATIRGuiManager,LATIR2.Document.DocRow_Base,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.editTPLD_SNABTOP.Save">
+	<summary>
+Сохранения данных в полях объекта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLDGUI.editTPLD_SNABTOP">
+	<summary>
+Контрол редактирования раздела Поставщик режим:
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.frmTPLD.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+Процедура инициализации формы
+ </remarks>
+</member><member name="F:TPLDGUI.Tabview.item">
+	<summary>
+Редактируемый объект
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLDGUI.Tabview.GuiManager">
+	<summary>
+Объект управления визуальными компонентами
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.Tabview.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация контрольного элемента
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.Tabview.Save(System.Boolean,System.Boolean)">
+	<summary>
+Сохранение всех изменений
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.Tabview.IsOK">
+	<summary>
+Корректны ли измененные данные проверка после Verify
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.Tabview.IsChanged">
+	<summary>
+Были ли изменения данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.Tabview.Verify(System.Boolean)">
+	<summary>
+Проверить корректность данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLDGUI.GUI.TypeName">
+	<summary>
+Имя типа
+ </summary>
+	<returns>
+Строковое значение кода типа объекта 
+ </returns>
+	<remarks>
+Код типа в метамодели
+ </remarks>
+</member><member name="M:TPLDGUI.GUI.ShowPartEditForm(System.String,LATIR2.Document.DocRow_Base@,System.Boolean)">
+	<summary>
+Форма редактирования раздела
+ </summary>
+	<returns>
+Результат работы формы редактирования
+ </returns>
+	<remarks>
+Определяется какая форма должна быть вызвана, происходит инициализация и вызов формы
+ </remarks>
+</member><member name="M:TPLDGUI.GUI.ShowForm(System.String,LATIR2.Document.Doc_Base@,System.Boolean)">
+	<summary>
+Форма редактирования документа
+ </summary>
+	<returns>
+Резултат работы формы редактирования
+ </returns>
+	<remarks>
+Определяется какая форма должна быть вызвана, происходит инициализация и вызов формы в модальном режиме
+ </remarks>
+</member><member name="M:TPLDGUI.GUI.GetObjectControl(System.String,System.String)">
+	<summary>
+Получить контрол, реализующий работу в заданном режиме
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLDGUI.GUI">
+	<summary>
+Основной класс компонента
+ </summary>
+	<remarks>
+Класс обслуживает визуальное редактирование 
+ </remarks>
+</member>
+</members>
+</doc>

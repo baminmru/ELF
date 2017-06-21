@@ -1,0 +1,7 @@
+C:\LATIR4\Build\bprcfg.dll
+C:\LATIR4\Build\bprcfg.pdb
+C:\LATIR4\Build\bprcfg_doc.xml
+C:\LATIR4\Generated\BP3\VB.NET Model\bprcfg\obj\Debug\bprcfg.vbprojResolveAssemblyReference.cache
+C:\LATIR4\Generated\BP3\VB.NET Model\bprcfg\obj\Debug\bprcfg.dll
+C:\LATIR4\Generated\BP3\VB.NET Model\bprcfg\obj\Debug\bprcfg_doc.xml
+C:\LATIR4\Generated\BP3\VB.NET Model\bprcfg\obj\Debug\bprcfg.pdb

@@ -1,0 +1,7 @@
+C:\LATIR4\Build\TPSRVGUI.dll
+C:\LATIR4\Build\TPSRVGUI.pdb
+C:\LATIR4\Build\TPSRVGUI.xml
+C:\LATIR4\Generated\ELF\VB.NET Interface\TPSRV\obj\Debug\TPSRVGUI.vbprojResolveAssemblyReference.cache
+C:\LATIR4\Generated\ELF\VB.NET Interface\TPSRV\obj\Debug\TPSRVGUI.dll
+C:\LATIR4\Generated\ELF\VB.NET Interface\TPSRV\obj\Debug\TPSRVGUI.xml
+C:\LATIR4\Generated\ELF\VB.NET Interface\TPSRV\obj\Debug\TPSRVGUI.pdb

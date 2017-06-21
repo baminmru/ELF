@@ -1,0 +1,7 @@
+C:\LATIR4\Build\TPSRV.dll
+C:\LATIR4\Build\TPSRV.pdb
+C:\LATIR4\Build\TPSRV_doc.xml
+C:\LATIR4\Generated\ELF\VB.NET Model\TPSRV\obj\Debug\TPSRV.vbprojResolveAssemblyReference.cache
+C:\LATIR4\Generated\ELF\VB.NET Model\TPSRV\obj\Debug\TPSRV.dll
+C:\LATIR4\Generated\ELF\VB.NET Model\TPSRV\obj\Debug\TPSRV_doc.xml
+C:\LATIR4\Generated\ELF\VB.NET Model\TPSRV\obj\Debug\TPSRV.pdb

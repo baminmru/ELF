@@ -1,0 +1,994 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+bprcfgGUI
+</name>
+</assembly>
+<members>
+<member name="M:bprcfgGUI.viewiu_rcfg_docmodenew.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.viewiu_rcfg_docmodenew.Init">
+	<summary>
+Load table settings
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.viewiu_rcfg_docmodenew.gv_OnEdit(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание редактирования Edit action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.viewiu_rcfg_docmodenew.gv_OnDel(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание удаления Delete action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.viewiu_rcfg_docmodenew.gv_OnAdd(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание создания записи Create action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.viewiu_rcfg_docmodenew.gv_OnRefresh">
+	<summary>
+Обслуживание кнопки (обновить) refresh action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.frmiu_rcfg_docmodenew.Attach(LATIR2.Document.DocRow_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.frmiu_rcfg_docmodenew.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+Завершение редактирования
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bprcfgGUI.frmiu_rcfg_docmodenew">
+	<summary>
+Форма редактирования раздела Режим документа режим:new
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.editiu_rcfg_docmodenew.Attach(LATIR2GuiManager.LATIRGuiManager,LATIR2.Document.DocRow_Base,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.editiu_rcfg_docmodenew.Save">
+	<summary>
+Сохранения данных в полях объекта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bprcfgGUI.editiu_rcfg_docmodenew">
+	<summary>
+Контрол редактирования раздела Режим документа режим:new
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.viewiu_rcfg_modnew.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.viewiu_rcfg_modnew.Init">
+	<summary>
+Load table settings
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.viewiu_rcfg_modnew.gv_OnEdit(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание редактирования Edit action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.viewiu_rcfg_modnew.gv_OnDel(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание удаления Delete action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.viewiu_rcfg_modnew.gv_OnAdd(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание создания записи Create action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.viewiu_rcfg_modnew.gv_OnRefresh">
+	<summary>
+Обслуживание кнопки (обновить) refresh action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.frmiu_rcfg_modnew.Attach(LATIR2.Document.DocRow_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.frmiu_rcfg_modnew.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+Завершение редактирования
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bprcfgGUI.frmiu_rcfg_modnew">
+	<summary>
+Форма редактирования раздела Модуль режим:new
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.editiu_rcfg_modnew.Attach(LATIR2GuiManager.LATIRGuiManager,LATIR2.Document.DocRow_Base,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.editiu_rcfg_modnew.Save">
+	<summary>
+Сохранения данных в полях объекта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bprcfgGUI.editiu_rcfg_modnew">
+	<summary>
+Контрол редактирования раздела Модуль режим:new
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.viewiu_rcfg_defnew.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.frmiu_rcfg_defnew.Attach(LATIR2.Document.DocRow_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.frmiu_rcfg_defnew.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+Завершение редактирования
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bprcfgGUI.frmiu_rcfg_defnew">
+	<summary>
+Форма редактирования раздела Роль режим:new
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.editiu_rcfg_defnew.Attach(LATIR2GuiManager.LATIRGuiManager,LATIR2.Document.DocRow_Base,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.editiu_rcfg_defnew.Save">
+	<summary>
+Сохранения данных в полях объекта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bprcfgGUI.editiu_rcfg_defnew">
+	<summary>
+Контрол редактирования раздела Роль режим:new
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.frmbprcfgnew.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+Процедура инициализации формы
+ </remarks>
+</member><member name="F:bprcfgGUI.Tabviewnew.item">
+	<summary>
+Редактируемый объект
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bprcfgGUI.Tabviewnew.GuiManager">
+	<summary>
+Объект управления визуальными компонентами
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.Tabviewnew.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация контрольного элемента
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.Tabviewnew.Save(System.Boolean,System.Boolean)">
+	<summary>
+Сохранение всех изменений
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.Tabviewnew.IsOK">
+	<summary>
+Корректны ли измененные данные проверка после Verify
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.Tabviewnew.IsChanged">
+	<summary>
+Были ли изменения данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.Tabviewnew.Verify(System.Boolean)">
+	<summary>
+Проверить корректность данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.viewiu_rcfg_docmodeedit.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.viewiu_rcfg_docmodeedit.Init">
+	<summary>
+Load table settings
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.viewiu_rcfg_docmodeedit.gv_OnEdit(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание редактирования Edit action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.viewiu_rcfg_docmodeedit.gv_OnDel(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание удаления Delete action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.viewiu_rcfg_docmodeedit.gv_OnAdd(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание создания записи Create action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.viewiu_rcfg_docmodeedit.gv_OnRefresh">
+	<summary>
+Обслуживание кнопки (обновить) refresh action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.frmiu_rcfg_docmodeedit.Attach(LATIR2.Document.DocRow_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.frmiu_rcfg_docmodeedit.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+Завершение редактирования
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bprcfgGUI.frmiu_rcfg_docmodeedit">
+	<summary>
+Форма редактирования раздела Режим документа режим:edit
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.editiu_rcfg_docmodeedit.Attach(LATIR2GuiManager.LATIRGuiManager,LATIR2.Document.DocRow_Base,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.editiu_rcfg_docmodeedit.Save">
+	<summary>
+Сохранения данных в полях объекта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bprcfgGUI.editiu_rcfg_docmodeedit">
+	<summary>
+Контрол редактирования раздела Режим документа режим:edit
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.viewiu_rcfg_modedit.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.viewiu_rcfg_modedit.Init">
+	<summary>
+Load table settings
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.viewiu_rcfg_modedit.gv_OnEdit(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание редактирования Edit action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.viewiu_rcfg_modedit.gv_OnDel(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание удаления Delete action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.viewiu_rcfg_modedit.gv_OnAdd(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание создания записи Create action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.viewiu_rcfg_modedit.gv_OnRefresh">
+	<summary>
+Обслуживание кнопки (обновить) refresh action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.frmiu_rcfg_modedit.Attach(LATIR2.Document.DocRow_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.frmiu_rcfg_modedit.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+Завершение редактирования
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bprcfgGUI.frmiu_rcfg_modedit">
+	<summary>
+Форма редактирования раздела Модуль режим:edit
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.editiu_rcfg_modedit.Attach(LATIR2GuiManager.LATIRGuiManager,LATIR2.Document.DocRow_Base,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.editiu_rcfg_modedit.Save">
+	<summary>
+Сохранения данных в полях объекта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bprcfgGUI.editiu_rcfg_modedit">
+	<summary>
+Контрол редактирования раздела Модуль режим:edit
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.viewiu_rcfg_defedit.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.frmiu_rcfg_defedit.Attach(LATIR2.Document.DocRow_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.frmiu_rcfg_defedit.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+Завершение редактирования
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bprcfgGUI.frmiu_rcfg_defedit">
+	<summary>
+Форма редактирования раздела Роль режим:edit
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.editiu_rcfg_defedit.Attach(LATIR2GuiManager.LATIRGuiManager,LATIR2.Document.DocRow_Base,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.editiu_rcfg_defedit.Save">
+	<summary>
+Сохранения данных в полях объекта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bprcfgGUI.editiu_rcfg_defedit">
+	<summary>
+Контрол редактирования раздела Роль режим:edit
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.frmbprcfgedit.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+Процедура инициализации формы
+ </remarks>
+</member><member name="F:bprcfgGUI.Tabviewedit.item">
+	<summary>
+Редактируемый объект
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bprcfgGUI.Tabviewedit.GuiManager">
+	<summary>
+Объект управления визуальными компонентами
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.Tabviewedit.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация контрольного элемента
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.Tabviewedit.Save(System.Boolean,System.Boolean)">
+	<summary>
+Сохранение всех изменений
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.Tabviewedit.IsOK">
+	<summary>
+Корректны ли измененные данные проверка после Verify
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.Tabviewedit.IsChanged">
+	<summary>
+Были ли изменения данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.Tabviewedit.Verify(System.Boolean)">
+	<summary>
+Проверить корректность данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.viewiu_rcfg_docmoderead.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.viewiu_rcfg_docmoderead.Init">
+	<summary>
+Load table settings
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.viewiu_rcfg_docmoderead.gv_OnEdit(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание редактирования Edit action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.viewiu_rcfg_docmoderead.gv_OnDel(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание удаления Delete action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.viewiu_rcfg_docmoderead.gv_OnAdd(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание создания записи Create action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.viewiu_rcfg_docmoderead.gv_OnRefresh">
+	<summary>
+Обслуживание кнопки (обновить) refresh action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.frmiu_rcfg_docmoderead.Attach(LATIR2.Document.DocRow_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.frmiu_rcfg_docmoderead.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+Завершение редактирования
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bprcfgGUI.frmiu_rcfg_docmoderead">
+	<summary>
+Форма редактирования раздела Режим документа режим:read
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.editiu_rcfg_docmoderead.Attach(LATIR2GuiManager.LATIRGuiManager,LATIR2.Document.DocRow_Base,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.editiu_rcfg_docmoderead.Save">
+	<summary>
+Сохранения данных в полях объекта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bprcfgGUI.editiu_rcfg_docmoderead">
+	<summary>
+Контрол редактирования раздела Режим документа режим:read
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.viewiu_rcfg_modread.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.viewiu_rcfg_modread.Init">
+	<summary>
+Load table settings
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.viewiu_rcfg_modread.gv_OnEdit(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание редактирования Edit action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.viewiu_rcfg_modread.gv_OnDel(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание удаления Delete action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.viewiu_rcfg_modread.gv_OnAdd(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание создания записи Create action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.viewiu_rcfg_modread.gv_OnRefresh">
+	<summary>
+Обслуживание кнопки (обновить) refresh action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.frmiu_rcfg_modread.Attach(LATIR2.Document.DocRow_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.frmiu_rcfg_modread.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+Завершение редактирования
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bprcfgGUI.frmiu_rcfg_modread">
+	<summary>
+Форма редактирования раздела Модуль режим:read
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.editiu_rcfg_modread.Attach(LATIR2GuiManager.LATIRGuiManager,LATIR2.Document.DocRow_Base,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.editiu_rcfg_modread.Save">
+	<summary>
+Сохранения данных в полях объекта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bprcfgGUI.editiu_rcfg_modread">
+	<summary>
+Контрол редактирования раздела Модуль режим:read
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.viewiu_rcfg_defread.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.frmiu_rcfg_defread.Attach(LATIR2.Document.DocRow_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.frmiu_rcfg_defread.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+Завершение редактирования
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bprcfgGUI.frmiu_rcfg_defread">
+	<summary>
+Форма редактирования раздела Роль режим:read
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.editiu_rcfg_defread.Attach(LATIR2GuiManager.LATIRGuiManager,LATIR2.Document.DocRow_Base,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.editiu_rcfg_defread.Save">
+	<summary>
+Сохранения данных в полях объекта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bprcfgGUI.editiu_rcfg_defread">
+	<summary>
+Контрол редактирования раздела Роль режим:read
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.frmbprcfgread.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+Процедура инициализации формы
+ </remarks>
+</member><member name="F:bprcfgGUI.Tabviewread.item">
+	<summary>
+Редактируемый объект
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bprcfgGUI.Tabviewread.GuiManager">
+	<summary>
+Объект управления визуальными компонентами
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.Tabviewread.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация контрольного элемента
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.Tabviewread.Save(System.Boolean,System.Boolean)">
+	<summary>
+Сохранение всех изменений
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.Tabviewread.IsOK">
+	<summary>
+Корректны ли измененные данные проверка после Verify
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.Tabviewread.IsChanged">
+	<summary>
+Были ли изменения данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.Tabviewread.Verify(System.Boolean)">
+	<summary>
+Проверить корректность данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.viewiu_rcfg_docmode.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.viewiu_rcfg_docmode.Init">
+	<summary>
+Load table settings
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.viewiu_rcfg_docmode.gv_OnEdit(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание редактирования Edit action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.viewiu_rcfg_docmode.gv_OnDel(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание удаления Delete action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.viewiu_rcfg_docmode.gv_OnAdd(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание создания записи Create action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.viewiu_rcfg_docmode.gv_OnRefresh">
+	<summary>
+Обслуживание кнопки (обновить) refresh action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.frmiu_rcfg_docmode.Attach(LATIR2.Document.DocRow_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.frmiu_rcfg_docmode.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+Завершение редактирования
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bprcfgGUI.frmiu_rcfg_docmode">
+	<summary>
+Форма редактирования раздела Режим документа режим:
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.editiu_rcfg_docmode.Attach(LATIR2GuiManager.LATIRGuiManager,LATIR2.Document.DocRow_Base,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.editiu_rcfg_docmode.Save">
+	<summary>
+Сохранения данных в полях объекта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bprcfgGUI.editiu_rcfg_docmode">
+	<summary>
+Контрол редактирования раздела Режим документа режим:
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.viewiu_rcfg_mod.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.viewiu_rcfg_mod.Init">
+	<summary>
+Load table settings
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.viewiu_rcfg_mod.gv_OnEdit(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание редактирования Edit action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.viewiu_rcfg_mod.gv_OnDel(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание удаления Delete action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.viewiu_rcfg_mod.gv_OnAdd(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание создания записи Create action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.viewiu_rcfg_mod.gv_OnRefresh">
+	<summary>
+Обслуживание кнопки (обновить) refresh action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.frmiu_rcfg_mod.Attach(LATIR2.Document.DocRow_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.frmiu_rcfg_mod.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+Завершение редактирования
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bprcfgGUI.frmiu_rcfg_mod">
+	<summary>
+Форма редактирования раздела Модуль режим:
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.editiu_rcfg_mod.Attach(LATIR2GuiManager.LATIRGuiManager,LATIR2.Document.DocRow_Base,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.editiu_rcfg_mod.Save">
+	<summary>
+Сохранения данных в полях объекта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bprcfgGUI.editiu_rcfg_mod">
+	<summary>
+Контрол редактирования раздела Модуль режим:
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.viewiu_rcfg_def.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.frmiu_rcfg_def.Attach(LATIR2.Document.DocRow_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.frmiu_rcfg_def.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+Завершение редактирования
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bprcfgGUI.frmiu_rcfg_def">
+	<summary>
+Форма редактирования раздела Роль режим:
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.editiu_rcfg_def.Attach(LATIR2GuiManager.LATIRGuiManager,LATIR2.Document.DocRow_Base,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.editiu_rcfg_def.Save">
+	<summary>
+Сохранения данных в полях объекта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bprcfgGUI.editiu_rcfg_def">
+	<summary>
+Контрол редактирования раздела Роль режим:
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.frmbprcfg.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+Процедура инициализации формы
+ </remarks>
+</member><member name="F:bprcfgGUI.Tabview.item">
+	<summary>
+Редактируемый объект
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bprcfgGUI.Tabview.GuiManager">
+	<summary>
+Объект управления визуальными компонентами
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.Tabview.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация контрольного элемента
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.Tabview.Save(System.Boolean,System.Boolean)">
+	<summary>
+Сохранение всех изменений
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.Tabview.IsOK">
+	<summary>
+Корректны ли измененные данные проверка после Verify
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.Tabview.IsChanged">
+	<summary>
+Были ли изменения данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.Tabview.Verify(System.Boolean)">
+	<summary>
+Проверить корректность данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bprcfgGUI.GUI.TypeName">
+	<summary>
+Имя типа
+ </summary>
+	<returns>
+Строковое значение кода типа объекта 
+ </returns>
+	<remarks>
+Код типа в метамодели
+ </remarks>
+</member><member name="M:bprcfgGUI.GUI.ShowPartEditForm(System.String,LATIR2.Document.DocRow_Base@,System.Boolean)">
+	<summary>
+Форма редактирования раздела
+ </summary>
+	<returns>
+Результат работы формы редактирования
+ </returns>
+	<remarks>
+Определяется какая форма должна быть вызвана, происходит инициализация и вызов формы
+ </remarks>
+</member><member name="M:bprcfgGUI.GUI.ShowForm(System.String,LATIR2.Document.Doc_Base@,System.Boolean)">
+	<summary>
+Форма редактирования документа
+ </summary>
+	<returns>
+Резултат работы формы редактирования
+ </returns>
+	<remarks>
+Определяется какая форма должна быть вызвана, происходит инициализация и вызов формы в модальном режиме
+ </remarks>
+</member><member name="M:bprcfgGUI.GUI.GetObjectControl(System.String,System.String)">
+	<summary>
+Получить контрол, реализующий работу в заданном режиме
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bprcfgGUI.GUI">
+	<summary>
+Основной класс компонента
+ </summary>
+	<remarks>
+Класс обслуживает визуальное редактирование 
+ </remarks>
+</member>
+</members>
+</doc>

@@ -1,0 +1,7 @@
+C:\LATIR4\Build\bpc.dll
+C:\LATIR4\Build\bpc.pdb
+C:\LATIR4\Build\bpc_doc.xml
+C:\LATIR4\Generated\BP3\VB.NET Model\bpc\obj\Debug\bpc.vbprojResolveAssemblyReference.cache
+C:\LATIR4\Generated\BP3\VB.NET Model\bpc\obj\Debug\bpc.dll
+C:\LATIR4\Generated\BP3\VB.NET Model\bpc\obj\Debug\bpc_doc.xml
+C:\LATIR4\Generated\BP3\VB.NET Model\bpc\obj\Debug\bpc.pdb

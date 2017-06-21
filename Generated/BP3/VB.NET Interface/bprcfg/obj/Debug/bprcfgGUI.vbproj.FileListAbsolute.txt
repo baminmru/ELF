@@ -1,0 +1,7 @@
+C:\LATIR4\Build\bprcfgGUI.dll
+C:\LATIR4\Build\bprcfgGUI.pdb
+C:\LATIR4\Build\bprcfgGUI.xml
+C:\LATIR4\Generated\BP3\VB.NET Interface\bprcfg\obj\Debug\bprcfgGUI.vbprojResolveAssemblyReference.cache
+C:\LATIR4\Generated\BP3\VB.NET Interface\bprcfg\obj\Debug\bprcfgGUI.dll
+C:\LATIR4\Generated\BP3\VB.NET Interface\bprcfg\obj\Debug\bprcfgGUI.xml
+C:\LATIR4\Generated\BP3\VB.NET Interface\bprcfg\obj\Debug\bprcfgGUI.pdb

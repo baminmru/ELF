@@ -1,0 +1,7 @@
+C:\LATIR4\Build\TPLD.dll
+C:\LATIR4\Build\TPLD.pdb
+C:\LATIR4\Build\TPLD_doc.xml
+C:\LATIR4\Generated\ELF\VB.NET Model\TPLD\obj\Debug\TPLD.vbprojResolveAssemblyReference.cache
+C:\LATIR4\Generated\ELF\VB.NET Model\TPLD\obj\Debug\TPLD.dll
+C:\LATIR4\Generated\ELF\VB.NET Model\TPLD\obj\Debug\TPLD_doc.xml
+C:\LATIR4\Generated\ELF\VB.NET Model\TPLD\obj\Debug\TPLD.pdb

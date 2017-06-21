@@ -1,0 +1,7 @@
+C:\LATIR4\Build\TPQ.dll
+C:\LATIR4\Build\TPQ.pdb
+C:\LATIR4\Build\TPQ_doc.xml
+C:\LATIR4\Generated\ELF\VB.NET Model\TPQ\obj\Debug\TPQ.vbprojResolveAssemblyReference.cache
+C:\LATIR4\Generated\ELF\VB.NET Model\TPQ\obj\Debug\TPQ.dll
+C:\LATIR4\Generated\ELF\VB.NET Model\TPQ\obj\Debug\TPQ_doc.xml
+C:\LATIR4\Generated\ELF\VB.NET Model\TPQ\obj\Debug\TPQ.pdb

@@ -1,0 +1,1623 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TPLCGUI
+</name>
+</assembly>
+<members>
+<member name="M:TPLCGUI.viewTPLC_Eadmin.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Eadmin.Init">
+	<summary>
+Load table settings
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Eadmin.gv_OnEdit(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание редактирования Edit action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Eadmin.gv_OnDel(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание удаления Delete action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Eadmin.gv_OnAdd(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание создания записи Create action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Eadmin.gv_OnRefresh">
+	<summary>
+Обслуживание кнопки (обновить) refresh action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.frmTPLC_Eadmin.Attach(LATIR2.Document.DocRow_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.frmTPLC_Eadmin.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+Завершение редактирования
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLCGUI.frmTPLC_Eadmin">
+	<summary>
+Форма редактирования раздела Электроэнергия режим:admin
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.editTPLC_Eadmin.Attach(LATIR2GuiManager.LATIRGuiManager,LATIR2.Document.DocRow_Base,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.editTPLC_Eadmin.Save">
+	<summary>
+Сохранения данных в полях объекта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLCGUI.editTPLC_Eadmin">
+	<summary>
+Контрол редактирования раздела Электроэнергия режим:admin
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_MISSINGadmin.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_MISSINGadmin.Init">
+	<summary>
+Load table settings
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_MISSINGadmin.gv_OnEdit(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание редактирования Edit action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_MISSINGadmin.gv_OnDel(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание удаления Delete action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_MISSINGadmin.gv_OnAdd(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание создания записи Create action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_MISSINGadmin.gv_OnRefresh">
+	<summary>
+Обслуживание кнопки (обновить) refresh action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.frmTPLC_MISSINGadmin.Attach(LATIR2.Document.DocRow_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.frmTPLC_MISSINGadmin.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+Завершение редактирования
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLCGUI.frmTPLC_MISSINGadmin">
+	<summary>
+Форма редактирования раздела Пропущенные архивы режим:admin
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.editTPLC_MISSINGadmin.Attach(LATIR2GuiManager.LATIRGuiManager,LATIR2.Document.DocRow_Base,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.editTPLC_MISSINGadmin.Save">
+	<summary>
+Сохранения данных в полях объекта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLCGUI.editTPLC_MISSINGadmin">
+	<summary>
+Контрол редактирования раздела Пропущенные архивы режим:admin
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Tadmin.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Tadmin.Init">
+	<summary>
+Load table settings
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Tadmin.gv_OnEdit(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание редактирования Edit action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Tadmin.gv_OnDel(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание удаления Delete action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Tadmin.gv_OnAdd(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание создания записи Create action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Tadmin.gv_OnRefresh">
+	<summary>
+Обслуживание кнопки (обновить) refresh action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.frmTPLC_Tadmin.Attach(LATIR2.Document.DocRow_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.frmTPLC_Tadmin.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+Завершение редактирования
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLCGUI.frmTPLC_Tadmin">
+	<summary>
+Форма редактирования раздела Суммарные показатели режим:admin
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.editTPLC_Tadmin.Attach(LATIR2GuiManager.LATIRGuiManager,LATIR2.Document.DocRow_Base,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.editTPLC_Tadmin.Save">
+	<summary>
+Сохранения данных в полях объекта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLCGUI.editTPLC_Tadmin">
+	<summary>
+Контрол редактирования раздела Суммарные показатели режим:admin
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Dadmin.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Dadmin.Init">
+	<summary>
+Load table settings
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Dadmin.gv_OnEdit(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание редактирования Edit action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Dadmin.gv_OnDel(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание удаления Delete action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Dadmin.gv_OnAdd(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание создания записи Create action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Dadmin.gv_OnRefresh">
+	<summary>
+Обслуживание кнопки (обновить) refresh action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.frmTPLC_Dadmin.Attach(LATIR2.Document.DocRow_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.frmTPLC_Dadmin.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+Завершение редактирования
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLCGUI.frmTPLC_Dadmin">
+	<summary>
+Форма редактирования раздела Суточный архив режим:admin
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.editTPLC_Dadmin.Attach(LATIR2GuiManager.LATIRGuiManager,LATIR2.Document.DocRow_Base,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.editTPLC_Dadmin.Save">
+	<summary>
+Сохранения данных в полях объекта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLCGUI.editTPLC_Dadmin">
+	<summary>
+Контрол редактирования раздела Суточный архив режим:admin
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Hadmin.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Hadmin.Init">
+	<summary>
+Load table settings
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Hadmin.gv_OnEdit(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание редактирования Edit action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Hadmin.gv_OnDel(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание удаления Delete action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Hadmin.gv_OnAdd(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание создания записи Create action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Hadmin.gv_OnRefresh">
+	<summary>
+Обслуживание кнопки (обновить) refresh action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.frmTPLC_Hadmin.Attach(LATIR2.Document.DocRow_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.frmTPLC_Hadmin.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+Завершение редактирования
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLCGUI.frmTPLC_Hadmin">
+	<summary>
+Форма редактирования раздела Часовые архивы режим:admin
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.editTPLC_Hadmin.Attach(LATIR2GuiManager.LATIRGuiManager,LATIR2.Document.DocRow_Base,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.editTPLC_Hadmin.Save">
+	<summary>
+Сохранения данных в полях объекта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLCGUI.editTPLC_Hadmin">
+	<summary>
+Контрол редактирования раздела Часовые архивы режим:admin
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Madmin.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Madmin.Init">
+	<summary>
+Load table settings
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Madmin.gv_OnEdit(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание редактирования Edit action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Madmin.gv_OnDel(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание удаления Delete action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Madmin.gv_OnAdd(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание создания записи Create action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Madmin.gv_OnRefresh">
+	<summary>
+Обслуживание кнопки (обновить) refresh action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.frmTPLC_Madmin.Attach(LATIR2.Document.DocRow_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.frmTPLC_Madmin.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+Завершение редактирования
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLCGUI.frmTPLC_Madmin">
+	<summary>
+Форма редактирования раздела Мгновенные значения режим:admin
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.editTPLC_Madmin.Attach(LATIR2GuiManager.LATIRGuiManager,LATIR2.Document.DocRow_Base,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.editTPLC_Madmin.Save">
+	<summary>
+Сохранения данных в полях объекта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLCGUI.editTPLC_Madmin">
+	<summary>
+Контрол редактирования раздела Мгновенные значения режим:admin
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_HEADERadmin.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.frmTPLC_HEADERadmin.Attach(LATIR2.Document.DocRow_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.frmTPLC_HEADERadmin.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+Завершение редактирования
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLCGUI.frmTPLC_HEADERadmin">
+	<summary>
+Форма редактирования раздела Заголовок режим:admin
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.editTPLC_HEADERadmin.Attach(LATIR2GuiManager.LATIRGuiManager,LATIR2.Document.DocRow_Base,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.editTPLC_HEADERadmin.Save">
+	<summary>
+Сохранения данных в полях объекта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLCGUI.editTPLC_HEADERadmin">
+	<summary>
+Контрол редактирования раздела Заголовок режим:admin
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.frmTPLCadmin.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+Процедура инициализации формы
+ </remarks>
+</member><member name="F:TPLCGUI.Tabviewadmin.item">
+	<summary>
+Редактируемый объект
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLCGUI.Tabviewadmin.GuiManager">
+	<summary>
+Объект управления визуальными компонентами
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.Tabviewadmin.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация контрольного элемента
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.Tabviewadmin.Save(System.Boolean,System.Boolean)">
+	<summary>
+Сохранение всех изменений
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.Tabviewadmin.IsOK">
+	<summary>
+Корректны ли измененные данные проверка после Verify
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.Tabviewadmin.IsChanged">
+	<summary>
+Были ли изменения данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.Tabviewadmin.Verify(System.Boolean)">
+	<summary>
+Проверить корректность данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Emain.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Emain.Init">
+	<summary>
+Load table settings
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Emain.gv_OnEdit(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание редактирования Edit action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Emain.gv_OnDel(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание удаления Delete action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Emain.gv_OnAdd(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание создания записи Create action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Emain.gv_OnRefresh">
+	<summary>
+Обслуживание кнопки (обновить) refresh action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.frmTPLC_Emain.Attach(LATIR2.Document.DocRow_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.frmTPLC_Emain.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+Завершение редактирования
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLCGUI.frmTPLC_Emain">
+	<summary>
+Форма редактирования раздела Электроэнергия режим:main
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.editTPLC_Emain.Attach(LATIR2GuiManager.LATIRGuiManager,LATIR2.Document.DocRow_Base,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.editTPLC_Emain.Save">
+	<summary>
+Сохранения данных в полях объекта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLCGUI.editTPLC_Emain">
+	<summary>
+Контрол редактирования раздела Электроэнергия режим:main
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_MISSINGmain.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_MISSINGmain.Init">
+	<summary>
+Load table settings
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_MISSINGmain.gv_OnEdit(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание редактирования Edit action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_MISSINGmain.gv_OnDel(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание удаления Delete action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_MISSINGmain.gv_OnAdd(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание создания записи Create action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_MISSINGmain.gv_OnRefresh">
+	<summary>
+Обслуживание кнопки (обновить) refresh action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.frmTPLC_MISSINGmain.Attach(LATIR2.Document.DocRow_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.frmTPLC_MISSINGmain.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+Завершение редактирования
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLCGUI.frmTPLC_MISSINGmain">
+	<summary>
+Форма редактирования раздела Пропущенные архивы режим:main
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.editTPLC_MISSINGmain.Attach(LATIR2GuiManager.LATIRGuiManager,LATIR2.Document.DocRow_Base,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.editTPLC_MISSINGmain.Save">
+	<summary>
+Сохранения данных в полях объекта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLCGUI.editTPLC_MISSINGmain">
+	<summary>
+Контрол редактирования раздела Пропущенные архивы режим:main
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Tmain.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Tmain.Init">
+	<summary>
+Load table settings
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Tmain.gv_OnEdit(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание редактирования Edit action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Tmain.gv_OnDel(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание удаления Delete action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Tmain.gv_OnAdd(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание создания записи Create action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Tmain.gv_OnRefresh">
+	<summary>
+Обслуживание кнопки (обновить) refresh action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.frmTPLC_Tmain.Attach(LATIR2.Document.DocRow_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.frmTPLC_Tmain.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+Завершение редактирования
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLCGUI.frmTPLC_Tmain">
+	<summary>
+Форма редактирования раздела Суммарные показатели режим:main
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.editTPLC_Tmain.Attach(LATIR2GuiManager.LATIRGuiManager,LATIR2.Document.DocRow_Base,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.editTPLC_Tmain.Save">
+	<summary>
+Сохранения данных в полях объекта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLCGUI.editTPLC_Tmain">
+	<summary>
+Контрол редактирования раздела Суммарные показатели режим:main
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Dmain.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Dmain.Init">
+	<summary>
+Load table settings
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Dmain.gv_OnEdit(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание редактирования Edit action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Dmain.gv_OnDel(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание удаления Delete action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Dmain.gv_OnAdd(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание создания записи Create action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Dmain.gv_OnRefresh">
+	<summary>
+Обслуживание кнопки (обновить) refresh action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.frmTPLC_Dmain.Attach(LATIR2.Document.DocRow_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.frmTPLC_Dmain.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+Завершение редактирования
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLCGUI.frmTPLC_Dmain">
+	<summary>
+Форма редактирования раздела Суточный архив режим:main
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.editTPLC_Dmain.Attach(LATIR2GuiManager.LATIRGuiManager,LATIR2.Document.DocRow_Base,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.editTPLC_Dmain.Save">
+	<summary>
+Сохранения данных в полях объекта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLCGUI.editTPLC_Dmain">
+	<summary>
+Контрол редактирования раздела Суточный архив режим:main
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Hmain.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Hmain.Init">
+	<summary>
+Load table settings
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Hmain.gv_OnEdit(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание редактирования Edit action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Hmain.gv_OnDel(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание удаления Delete action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Hmain.gv_OnAdd(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание создания записи Create action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Hmain.gv_OnRefresh">
+	<summary>
+Обслуживание кнопки (обновить) refresh action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.frmTPLC_Hmain.Attach(LATIR2.Document.DocRow_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.frmTPLC_Hmain.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+Завершение редактирования
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLCGUI.frmTPLC_Hmain">
+	<summary>
+Форма редактирования раздела Часовые архивы режим:main
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.editTPLC_Hmain.Attach(LATIR2GuiManager.LATIRGuiManager,LATIR2.Document.DocRow_Base,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.editTPLC_Hmain.Save">
+	<summary>
+Сохранения данных в полях объекта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLCGUI.editTPLC_Hmain">
+	<summary>
+Контрол редактирования раздела Часовые архивы режим:main
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Mmain.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Mmain.Init">
+	<summary>
+Load table settings
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Mmain.gv_OnEdit(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание редактирования Edit action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Mmain.gv_OnDel(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание удаления Delete action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Mmain.gv_OnAdd(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание создания записи Create action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_Mmain.gv_OnRefresh">
+	<summary>
+Обслуживание кнопки (обновить) refresh action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.frmTPLC_Mmain.Attach(LATIR2.Document.DocRow_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.frmTPLC_Mmain.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+Завершение редактирования
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLCGUI.frmTPLC_Mmain">
+	<summary>
+Форма редактирования раздела Мгновенные значения режим:main
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.editTPLC_Mmain.Attach(LATIR2GuiManager.LATIRGuiManager,LATIR2.Document.DocRow_Base,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.editTPLC_Mmain.Save">
+	<summary>
+Сохранения данных в полях объекта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLCGUI.editTPLC_Mmain">
+	<summary>
+Контрол редактирования раздела Мгновенные значения режим:main
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_HEADERmain.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.frmTPLC_HEADERmain.Attach(LATIR2.Document.DocRow_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.frmTPLC_HEADERmain.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+Завершение редактирования
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLCGUI.frmTPLC_HEADERmain">
+	<summary>
+Форма редактирования раздела Заголовок режим:main
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.editTPLC_HEADERmain.Attach(LATIR2GuiManager.LATIRGuiManager,LATIR2.Document.DocRow_Base,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.editTPLC_HEADERmain.Save">
+	<summary>
+Сохранения данных в полях объекта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLCGUI.editTPLC_HEADERmain">
+	<summary>
+Контрол редактирования раздела Заголовок режим:main
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.frmTPLCmain.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+Процедура инициализации формы
+ </remarks>
+</member><member name="F:TPLCGUI.Tabviewmain.item">
+	<summary>
+Редактируемый объект
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLCGUI.Tabviewmain.GuiManager">
+	<summary>
+Объект управления визуальными компонентами
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.Tabviewmain.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация контрольного элемента
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.Tabviewmain.Save(System.Boolean,System.Boolean)">
+	<summary>
+Сохранение всех изменений
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.Tabviewmain.IsOK">
+	<summary>
+Корректны ли измененные данные проверка после Verify
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.Tabviewmain.IsChanged">
+	<summary>
+Были ли изменения данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.Tabviewmain.Verify(System.Boolean)">
+	<summary>
+Проверить корректность данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_E.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_E.Init">
+	<summary>
+Load table settings
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_E.gv_OnEdit(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание редактирования Edit action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_E.gv_OnDel(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание удаления Delete action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_E.gv_OnAdd(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание создания записи Create action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_E.gv_OnRefresh">
+	<summary>
+Обслуживание кнопки (обновить) refresh action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.frmTPLC_E.Attach(LATIR2.Document.DocRow_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.frmTPLC_E.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+Завершение редактирования
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLCGUI.frmTPLC_E">
+	<summary>
+Форма редактирования раздела Электроэнергия режим:
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.editTPLC_E.Attach(LATIR2GuiManager.LATIRGuiManager,LATIR2.Document.DocRow_Base,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.editTPLC_E.Save">
+	<summary>
+Сохранения данных в полях объекта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLCGUI.editTPLC_E">
+	<summary>
+Контрол редактирования раздела Электроэнергия режим:
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_MISSING.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_MISSING.Init">
+	<summary>
+Load table settings
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_MISSING.gv_OnEdit(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание редактирования Edit action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_MISSING.gv_OnDel(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание удаления Delete action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_MISSING.gv_OnAdd(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание создания записи Create action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_MISSING.gv_OnRefresh">
+	<summary>
+Обслуживание кнопки (обновить) refresh action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.frmTPLC_MISSING.Attach(LATIR2.Document.DocRow_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.frmTPLC_MISSING.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+Завершение редактирования
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLCGUI.frmTPLC_MISSING">
+	<summary>
+Форма редактирования раздела Пропущенные архивы режим:
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.editTPLC_MISSING.Attach(LATIR2GuiManager.LATIRGuiManager,LATIR2.Document.DocRow_Base,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.editTPLC_MISSING.Save">
+	<summary>
+Сохранения данных в полях объекта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLCGUI.editTPLC_MISSING">
+	<summary>
+Контрол редактирования раздела Пропущенные архивы режим:
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_T.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_T.Init">
+	<summary>
+Load table settings
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_T.gv_OnEdit(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание редактирования Edit action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_T.gv_OnDel(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание удаления Delete action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_T.gv_OnAdd(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание создания записи Create action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_T.gv_OnRefresh">
+	<summary>
+Обслуживание кнопки (обновить) refresh action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.frmTPLC_T.Attach(LATIR2.Document.DocRow_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.frmTPLC_T.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+Завершение редактирования
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLCGUI.frmTPLC_T">
+	<summary>
+Форма редактирования раздела Суммарные показатели режим:
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.editTPLC_T.Attach(LATIR2GuiManager.LATIRGuiManager,LATIR2.Document.DocRow_Base,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.editTPLC_T.Save">
+	<summary>
+Сохранения данных в полях объекта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLCGUI.editTPLC_T">
+	<summary>
+Контрол редактирования раздела Суммарные показатели режим:
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_D.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_D.Init">
+	<summary>
+Load table settings
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_D.gv_OnEdit(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание редактирования Edit action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_D.gv_OnDel(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание удаления Delete action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_D.gv_OnAdd(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание создания записи Create action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_D.gv_OnRefresh">
+	<summary>
+Обслуживание кнопки (обновить) refresh action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.frmTPLC_D.Attach(LATIR2.Document.DocRow_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.frmTPLC_D.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+Завершение редактирования
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLCGUI.frmTPLC_D">
+	<summary>
+Форма редактирования раздела Суточный архив режим:
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.editTPLC_D.Attach(LATIR2GuiManager.LATIRGuiManager,LATIR2.Document.DocRow_Base,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.editTPLC_D.Save">
+	<summary>
+Сохранения данных в полях объекта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLCGUI.editTPLC_D">
+	<summary>
+Контрол редактирования раздела Суточный архив режим:
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_H.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_H.Init">
+	<summary>
+Load table settings
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_H.gv_OnEdit(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание редактирования Edit action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_H.gv_OnDel(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание удаления Delete action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_H.gv_OnAdd(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание создания записи Create action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_H.gv_OnRefresh">
+	<summary>
+Обслуживание кнопки (обновить) refresh action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.frmTPLC_H.Attach(LATIR2.Document.DocRow_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.frmTPLC_H.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+Завершение редактирования
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLCGUI.frmTPLC_H">
+	<summary>
+Форма редактирования раздела Часовые архивы режим:
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.editTPLC_H.Attach(LATIR2GuiManager.LATIRGuiManager,LATIR2.Document.DocRow_Base,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.editTPLC_H.Save">
+	<summary>
+Сохранения данных в полях объекта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLCGUI.editTPLC_H">
+	<summary>
+Контрол редактирования раздела Часовые архивы режим:
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_M.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_M.Init">
+	<summary>
+Load table settings
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_M.gv_OnEdit(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание редактирования Edit action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_M.gv_OnDel(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание удаления Delete action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_M.gv_OnAdd(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание создания записи Create action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_M.gv_OnRefresh">
+	<summary>
+Обслуживание кнопки (обновить) refresh action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.frmTPLC_M.Attach(LATIR2.Document.DocRow_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.frmTPLC_M.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+Завершение редактирования
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLCGUI.frmTPLC_M">
+	<summary>
+Форма редактирования раздела Мгновенные значения режим:
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.editTPLC_M.Attach(LATIR2GuiManager.LATIRGuiManager,LATIR2.Document.DocRow_Base,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.editTPLC_M.Save">
+	<summary>
+Сохранения данных в полях объекта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLCGUI.editTPLC_M">
+	<summary>
+Контрол редактирования раздела Мгновенные значения режим:
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.viewTPLC_HEADER.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.frmTPLC_HEADER.Attach(LATIR2.Document.DocRow_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.frmTPLC_HEADER.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+Завершение редактирования
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLCGUI.frmTPLC_HEADER">
+	<summary>
+Форма редактирования раздела Заголовок режим:
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.editTPLC_HEADER.Attach(LATIR2GuiManager.LATIRGuiManager,LATIR2.Document.DocRow_Base,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.editTPLC_HEADER.Save">
+	<summary>
+Сохранения данных в полях объекта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLCGUI.editTPLC_HEADER">
+	<summary>
+Контрол редактирования раздела Заголовок режим:
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.frmTPLC.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+Процедура инициализации формы
+ </remarks>
+</member><member name="F:TPLCGUI.Tabview.item">
+	<summary>
+Редактируемый объект
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:TPLCGUI.Tabview.GuiManager">
+	<summary>
+Объект управления визуальными компонентами
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.Tabview.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация контрольного элемента
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.Tabview.Save(System.Boolean,System.Boolean)">
+	<summary>
+Сохранение всех изменений
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.Tabview.IsOK">
+	<summary>
+Корректны ли измененные данные проверка после Verify
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.Tabview.IsChanged">
+	<summary>
+Были ли изменения данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.Tabview.Verify(System.Boolean)">
+	<summary>
+Проверить корректность данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:TPLCGUI.GUI.TypeName">
+	<summary>
+Имя типа
+ </summary>
+	<returns>
+Строковое значение кода типа объекта 
+ </returns>
+	<remarks>
+Код типа в метамодели
+ </remarks>
+</member><member name="M:TPLCGUI.GUI.ShowPartEditForm(System.String,LATIR2.Document.DocRow_Base@,System.Boolean)">
+	<summary>
+Форма редактирования раздела
+ </summary>
+	<returns>
+Результат работы формы редактирования
+ </returns>
+	<remarks>
+Определяется какая форма должна быть вызвана, происходит инициализация и вызов формы
+ </remarks>
+</member><member name="M:TPLCGUI.GUI.ShowForm(System.String,LATIR2.Document.Doc_Base@,System.Boolean)">
+	<summary>
+Форма редактирования документа
+ </summary>
+	<returns>
+Резултат работы формы редактирования
+ </returns>
+	<remarks>
+Определяется какая форма должна быть вызвана, происходит инициализация и вызов формы в модальном режиме
+ </remarks>
+</member><member name="M:TPLCGUI.GUI.GetObjectControl(System.String,System.String)">
+	<summary>
+Получить контрол, реализующий работу в заданном режиме
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:TPLCGUI.GUI">
+	<summary>
+Основной класс компонента
+ </summary>
+	<remarks>
+Класс обслуживает визуальное редактирование 
+ </remarks>
+</member>
+</members>
+</doc>

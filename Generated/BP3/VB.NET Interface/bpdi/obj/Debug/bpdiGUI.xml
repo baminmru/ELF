@@ -1,0 +1,417 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+bpdiGUI
+</name>
+</assembly>
+<members>
+<member name="M:bpdiGUI.viewiu_int_modulesread.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdiGUI.viewiu_int_modulesread.Init">
+	<summary>
+Load table settings
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdiGUI.viewiu_int_modulesread.gv_OnEdit(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание редактирования Edit action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdiGUI.viewiu_int_modulesread.gv_OnDel(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание удаления Delete action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdiGUI.viewiu_int_modulesread.gv_OnAdd(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание создания записи Create action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdiGUI.viewiu_int_modulesread.gv_OnRefresh">
+	<summary>
+Обслуживание кнопки (обновить) refresh action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdiGUI.frmiu_int_modulesread.Attach(LATIR2.Document.DocRow_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdiGUI.frmiu_int_modulesread.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+Завершение редактирования
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdiGUI.frmiu_int_modulesread">
+	<summary>
+Форма редактирования раздела Модуль режим:read
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdiGUI.editiu_int_modulesread.Attach(LATIR2GuiManager.LATIRGuiManager,LATIR2.Document.DocRow_Base,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdiGUI.editiu_int_modulesread.Save">
+	<summary>
+Сохранения данных в полях объекта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdiGUI.editiu_int_modulesread">
+	<summary>
+Контрол редактирования раздела Модуль режим:read
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdiGUI.frmbpdiread.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+Процедура инициализации формы
+ </remarks>
+</member><member name="F:bpdiGUI.Tabviewread.item">
+	<summary>
+Редактируемый объект
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bpdiGUI.Tabviewread.GuiManager">
+	<summary>
+Объект управления визуальными компонентами
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdiGUI.Tabviewread.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация контрольного элемента
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdiGUI.Tabviewread.Save(System.Boolean,System.Boolean)">
+	<summary>
+Сохранение всех изменений
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdiGUI.Tabviewread.IsOK">
+	<summary>
+Корректны ли измененные данные проверка после Verify
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdiGUI.Tabviewread.IsChanged">
+	<summary>
+Были ли изменения данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdiGUI.Tabviewread.Verify(System.Boolean)">
+	<summary>
+Проверить корректность данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdiGUI.viewiu_int_modulesedit.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdiGUI.viewiu_int_modulesedit.Init">
+	<summary>
+Load table settings
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdiGUI.viewiu_int_modulesedit.gv_OnEdit(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание редактирования Edit action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdiGUI.viewiu_int_modulesedit.gv_OnDel(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание удаления Delete action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdiGUI.viewiu_int_modulesedit.gv_OnAdd(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание создания записи Create action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdiGUI.viewiu_int_modulesedit.gv_OnRefresh">
+	<summary>
+Обслуживание кнопки (обновить) refresh action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdiGUI.frmiu_int_modulesedit.Attach(LATIR2.Document.DocRow_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdiGUI.frmiu_int_modulesedit.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+Завершение редактирования
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdiGUI.frmiu_int_modulesedit">
+	<summary>
+Форма редактирования раздела Модуль режим:edit
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdiGUI.editiu_int_modulesedit.Attach(LATIR2GuiManager.LATIRGuiManager,LATIR2.Document.DocRow_Base,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdiGUI.editiu_int_modulesedit.Save">
+	<summary>
+Сохранения данных в полях объекта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdiGUI.editiu_int_modulesedit">
+	<summary>
+Контрол редактирования раздела Модуль режим:edit
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdiGUI.frmbpdiedit.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+Процедура инициализации формы
+ </remarks>
+</member><member name="F:bpdiGUI.Tabviewedit.item">
+	<summary>
+Редактируемый объект
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bpdiGUI.Tabviewedit.GuiManager">
+	<summary>
+Объект управления визуальными компонентами
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdiGUI.Tabviewedit.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация контрольного элемента
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdiGUI.Tabviewedit.Save(System.Boolean,System.Boolean)">
+	<summary>
+Сохранение всех изменений
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdiGUI.Tabviewedit.IsOK">
+	<summary>
+Корректны ли измененные данные проверка после Verify
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdiGUI.Tabviewedit.IsChanged">
+	<summary>
+Были ли изменения данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdiGUI.Tabviewedit.Verify(System.Boolean)">
+	<summary>
+Проверить корректность данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdiGUI.viewiu_int_modules.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdiGUI.viewiu_int_modules.Init">
+	<summary>
+Load table settings
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdiGUI.viewiu_int_modules.gv_OnEdit(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание редактирования Edit action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdiGUI.viewiu_int_modules.gv_OnDel(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание удаления Delete action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdiGUI.viewiu_int_modules.gv_OnAdd(System.Boolean@,System.Guid)">
+	<summary>
+Обслуживание создания записи Create action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdiGUI.viewiu_int_modules.gv_OnRefresh">
+	<summary>
+Обслуживание кнопки (обновить) refresh action
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdiGUI.frmiu_int_modules.Attach(LATIR2.Document.DocRow_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdiGUI.frmiu_int_modules.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+Завершение редактирования
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdiGUI.frmiu_int_modules">
+	<summary>
+Форма редактирования раздела Модуль режим:
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdiGUI.editiu_int_modules.Attach(LATIR2GuiManager.LATIRGuiManager,LATIR2.Document.DocRow_Base,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdiGUI.editiu_int_modules.Save">
+	<summary>
+Сохранения данных в полях объекта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdiGUI.editiu_int_modules">
+	<summary>
+Контрол редактирования раздела Модуль режим:
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdiGUI.frmbpdi.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация
+ </summary>
+	<remarks>
+Процедура инициализации формы
+ </remarks>
+</member><member name="F:bpdiGUI.Tabview.item">
+	<summary>
+Редактируемый объект
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bpdiGUI.Tabview.GuiManager">
+	<summary>
+Объект управления визуальными компонентами
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdiGUI.Tabview.Attach(LATIR2.Document.Doc_Base,LATIR2GuiManager.LATIRGuiManager,System.Boolean)">
+	<summary>
+Инициализация контрольного элемента
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdiGUI.Tabview.Save(System.Boolean,System.Boolean)">
+	<summary>
+Сохранение всех изменений
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdiGUI.Tabview.IsOK">
+	<summary>
+Корректны ли измененные данные проверка после Verify
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdiGUI.Tabview.IsChanged">
+	<summary>
+Были ли изменения данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdiGUI.Tabview.Verify(System.Boolean)">
+	<summary>
+Проверить корректность данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bpdiGUI.GUI.TypeName">
+	<summary>
+Имя типа
+ </summary>
+	<returns>
+Строковое значение кода типа объекта 
+ </returns>
+	<remarks>
+Код типа в метамодели
+ </remarks>
+</member><member name="M:bpdiGUI.GUI.ShowPartEditForm(System.String,LATIR2.Document.DocRow_Base@,System.Boolean)">
+	<summary>
+Форма редактирования раздела
+ </summary>
+	<returns>
+Результат работы формы редактирования
+ </returns>
+	<remarks>
+Определяется какая форма должна быть вызвана, происходит инициализация и вызов формы
+ </remarks>
+</member><member name="M:bpdiGUI.GUI.ShowForm(System.String,LATIR2.Document.Doc_Base@,System.Boolean)">
+	<summary>
+Форма редактирования документа
+ </summary>
+	<returns>
+Резултат работы формы редактирования
+ </returns>
+	<remarks>
+Определяется какая форма должна быть вызвана, происходит инициализация и вызов формы в модальном режиме
+ </remarks>
+</member><member name="M:bpdiGUI.GUI.GetObjectControl(System.String,System.String)">
+	<summary>
+Получить контрол, реализующий работу в заданном режиме
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bpdiGUI.GUI">
+	<summary>
+Основной класс компонента
+ </summary>
+	<remarks>
+Класс обслуживает визуальное редактирование 
+ </remarks>
+</member>
+</members>
+</doc>

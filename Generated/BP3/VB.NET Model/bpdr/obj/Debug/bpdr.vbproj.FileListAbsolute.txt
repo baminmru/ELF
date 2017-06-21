@@ -1,0 +1,7 @@
+C:\LATIR4\Build\bpdr.dll
+C:\LATIR4\Build\bpdr.pdb
+C:\LATIR4\Build\bpdr_doc.xml
+C:\LATIR4\Generated\BP3\VB.NET Model\bpdr\obj\Debug\bpdr.vbprojResolveAssemblyReference.cache
+C:\LATIR4\Generated\BP3\VB.NET Model\bpdr\obj\Debug\bpdr.dll
+C:\LATIR4\Generated\BP3\VB.NET Model\bpdr\obj\Debug\bpdr_doc.xml
+C:\LATIR4\Generated\BP3\VB.NET Model\bpdr\obj\Debug\bpdr.pdb
