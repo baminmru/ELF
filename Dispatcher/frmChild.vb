@@ -163,9 +163,9 @@ Public Class frmChild
             Return True
         End If
 
-        Dim iv As LATIR2GUIControls.IViewPanel
+        Dim iv As LATIR2GuiManager.IViewPanel
         Dim OK As Boolean
-        iv = CType(DataControl, LATIR2GUIControls.IViewPanel)
+        iv = CType(DataControl, LATIR2GuiManager.IViewPanel)
         If iv.IsChanged() Then
             If Not sielent Then
                 If MsgBox("Данные изменены. Сохранить изменения?", MsgBoxStyle.Question + MsgBoxStyle.YesNo, "Закрытие документа") = MsgBoxResult.Yes Then

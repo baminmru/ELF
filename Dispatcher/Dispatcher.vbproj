@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
   <PropertyGroup>
     <ProjectType>Local</ProjectType>
     <MyType>WindowsForms</MyType>
@@ -24,7 +24,7 @@
     </UpgradeBackupLocation>
     <OldToolsVersion>3.5</OldToolsVersion>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Web</InstallFrom>
@@ -39,9 +39,10 @@
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <OutputPath>c:\LATIR2\Generated\Generated Dlls\</OutputPath>
+    <OutputPath>bin\Debug\</OutputPath>
     <DocumentationFile>Dispatcher.xml</DocumentationFile>
     <DebugSymbols>True</DebugSymbols>
     <DefineDebug>True</DefineDebug>
@@ -51,9 +52,10 @@
     <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
     <DebugType>full</DebugType>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <OutputPath>c:\LATIR2\Generated\Generated Dlls\</OutputPath>
+    <OutputPath>C:\LATIR4\Build\</OutputPath>
     <DocumentationFile>Dispatcher.xml</DocumentationFile>
     <DebugSymbols>False</DebugSymbols>
     <DefineDebug>False</DefineDebug>
@@ -63,129 +65,130 @@
     <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
     <DebugType>none</DebugType>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Infragistics2.Documents.v9.1">
-      <HintPath>..\..\..\L2\Infragistics2.Documents.v9.1.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\Infragistics2.Documents.v9.1.dll</HintPath>
     </Reference>
     <Reference Include="Infragistics2.Excel.v9.1">
-      <HintPath>..\..\..\L2\Infragistics2.Excel.v9.1.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\Infragistics2.Excel.v9.1.dll</HintPath>
     </Reference>
     <Reference Include="Infragistics2.Shared.v9.1">
-      <HintPath>..\..\..\L2\Infragistics2.Shared.v9.1.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\Infragistics2.Shared.v9.1.dll</HintPath>
     </Reference>
     <Reference Include="Infragistics2.Win.AppStylistSupport.v9.1">
-      <HintPath>..\..\..\L2\Infragistics2.Win.AppStylistSupport.v9.1.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\Infragistics2.Win.AppStylistSupport.v9.1.dll</HintPath>
     </Reference>
     <Reference Include="Infragistics2.Win.Misc.v9.1">
-      <HintPath>..\..\..\L2\Infragistics2.Win.Misc.v9.1.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\Infragistics2.Win.Misc.v9.1.dll</HintPath>
     </Reference>
     <Reference Include="Infragistics2.Win.SupportDialogs.v9.1">
-      <HintPath>..\..\..\L2\Infragistics2.Win.SupportDialogs.v9.1.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\Infragistics2.Win.SupportDialogs.v9.1.dll</HintPath>
     </Reference>
     <Reference Include="Infragistics2.Win.UltraChart.v9.1.Design">
-      <HintPath>..\..\..\L2\Infragistics2.Win.UltraChart.v9.1.Design.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\Infragistics2.Win.UltraChart.v9.1.Design.dll</HintPath>
     </Reference>
     <Reference Include="Infragistics2.Win.UltraGauge.v9.1.Design">
-      <HintPath>..\..\..\L2\Infragistics2.Win.UltraGauge.v9.1.Design.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\Infragistics2.Win.UltraGauge.v9.1.Design.dll</HintPath>
     </Reference>
     <Reference Include="Infragistics2.Win.UltraWinCalcManager.v9.1">
-      <HintPath>..\..\..\L2\Infragistics2.Win.UltraWinCalcManager.v9.1.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\Infragistics2.Win.UltraWinCalcManager.v9.1.dll</HintPath>
     </Reference>
     <Reference Include="Infragistics2.Win.UltraWinCalcManager.v9.1.FormulaBuilder">
-      <HintPath>..\..\..\L2\Infragistics2.Win.UltraWinCalcManager.v9.1.FormulaBuilder.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\Infragistics2.Win.UltraWinCalcManager.v9.1.FormulaBuilder.dll</HintPath>
     </Reference>
     <Reference Include="Infragistics2.Win.UltraWinChart.v9.1">
-      <HintPath>..\..\..\L2\Infragistics2.Win.UltraWinChart.v9.1.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\Infragistics2.Win.UltraWinChart.v9.1.dll</HintPath>
     </Reference>
     <Reference Include="Infragistics2.Win.UltraWinDataSource.v9.1">
-      <HintPath>..\..\..\L2\Infragistics2.Win.UltraWinDataSource.v9.1.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\Infragistics2.Win.UltraWinDataSource.v9.1.dll</HintPath>
     </Reference>
     <Reference Include="Infragistics2.Win.UltraWinDock.v9.1">
-      <HintPath>..\..\..\L2\Infragistics2.Win.UltraWinDock.v9.1.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\Infragistics2.Win.UltraWinDock.v9.1.dll</HintPath>
     </Reference>
     <Reference Include="Infragistics2.Win.UltraWinEditors.v9.1">
-      <HintPath>..\..\..\L2\Infragistics2.Win.UltraWinEditors.v9.1.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\Infragistics2.Win.UltraWinEditors.v9.1.dll</HintPath>
     </Reference>
     <Reference Include="Infragistics2.Win.UltraWinExplorerBar.v9.1">
-      <HintPath>..\..\..\L2\Infragistics2.Win.UltraWinExplorerBar.v9.1.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\Infragistics2.Win.UltraWinExplorerBar.v9.1.dll</HintPath>
     </Reference>
     <Reference Include="Infragistics2.Win.UltraWinGauge.v9.1">
-      <HintPath>..\..\..\L2\Infragistics2.Win.UltraWinGauge.v9.1.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\Infragistics2.Win.UltraWinGauge.v9.1.dll</HintPath>
     </Reference>
     <Reference Include="Infragistics2.Win.UltraWinGrid.DocumentExport.v9.1">
-      <HintPath>..\..\..\L2\Infragistics2.Win.UltraWinGrid.DocumentExport.v9.1.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\Infragistics2.Win.UltraWinGrid.DocumentExport.v9.1.dll</HintPath>
     </Reference>
     <Reference Include="Infragistics2.Win.UltraWinGrid.ExcelExport.v9.1">
-      <HintPath>..\..\..\L2\Infragistics2.Win.UltraWinGrid.ExcelExport.v9.1.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\Infragistics2.Win.UltraWinGrid.ExcelExport.v9.1.dll</HintPath>
     </Reference>
     <Reference Include="Infragistics2.Win.UltraWinGrid.v9.1">
-      <HintPath>..\..\..\L2\Infragistics2.Win.UltraWinGrid.v9.1.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\Infragistics2.Win.UltraWinGrid.v9.1.dll</HintPath>
     </Reference>
     <Reference Include="Infragistics2.Win.UltraWinInkProvider.Ink17.v9.1">
-      <HintPath>..\..\..\L2\Infragistics2.Win.UltraWinInkProvider.Ink17.v9.1.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\Infragistics2.Win.UltraWinInkProvider.Ink17.v9.1.dll</HintPath>
     </Reference>
     <Reference Include="Infragistics2.Win.UltraWinInkProvider.v9.1">
-      <HintPath>..\..\..\L2\Infragistics2.Win.UltraWinInkProvider.v9.1.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\Infragistics2.Win.UltraWinInkProvider.v9.1.dll</HintPath>
     </Reference>
     <Reference Include="Infragistics2.Win.UltraWinListBar.v9.1">
-      <HintPath>..\..\..\L2\Infragistics2.Win.UltraWinListBar.v9.1.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\Infragistics2.Win.UltraWinListBar.v9.1.dll</HintPath>
     </Reference>
     <Reference Include="Infragistics2.Win.UltraWinListView.v9.1">
-      <HintPath>..\..\..\L2\Infragistics2.Win.UltraWinListView.v9.1.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\Infragistics2.Win.UltraWinListView.v9.1.dll</HintPath>
     </Reference>
     <Reference Include="Infragistics2.Win.UltraWinMaskedEdit.v9.1">
-      <HintPath>..\..\..\L2\Infragistics2.Win.UltraWinMaskedEdit.v9.1.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\Infragistics2.Win.UltraWinMaskedEdit.v9.1.dll</HintPath>
     </Reference>
     <Reference Include="Infragistics2.Win.UltraWinPrintPreviewDialog.v9.1">
-      <HintPath>..\..\..\L2\Infragistics2.Win.UltraWinPrintPreviewDialog.v9.1.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\Infragistics2.Win.UltraWinPrintPreviewDialog.v9.1.dll</HintPath>
     </Reference>
     <Reference Include="Infragistics2.Win.UltraWinSchedule.v9.1">
-      <HintPath>..\..\..\L2\Infragistics2.Win.UltraWinSchedule.v9.1.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\Infragistics2.Win.UltraWinSchedule.v9.1.dll</HintPath>
     </Reference>
     <Reference Include="Infragistics2.Win.UltraWinSpellChecker.v9.1">
-      <HintPath>..\..\..\L2\Infragistics2.Win.UltraWinSpellChecker.v9.1.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\Infragistics2.Win.UltraWinSpellChecker.v9.1.dll</HintPath>
     </Reference>
     <Reference Include="Infragistics2.Win.UltraWinStatusBar.v9.1">
-      <HintPath>..\..\..\L2\Infragistics2.Win.UltraWinStatusBar.v9.1.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\Infragistics2.Win.UltraWinStatusBar.v9.1.dll</HintPath>
     </Reference>
     <Reference Include="Infragistics2.Win.UltraWinTabbedMdi.v9.1">
-      <HintPath>..\..\..\L2\Infragistics2.Win.UltraWinTabbedMdi.v9.1.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\Infragistics2.Win.UltraWinTabbedMdi.v9.1.dll</HintPath>
     </Reference>
     <Reference Include="Infragistics2.Win.UltraWinTabControl.v9.1">
-      <HintPath>..\..\..\L2\Infragistics2.Win.UltraWinTabControl.v9.1.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\Infragistics2.Win.UltraWinTabControl.v9.1.dll</HintPath>
     </Reference>
     <Reference Include="Infragistics2.Win.UltraWinToolbars.v9.1">
-      <HintPath>..\..\..\L2\Infragistics2.Win.UltraWinToolbars.v9.1.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\Infragistics2.Win.UltraWinToolbars.v9.1.dll</HintPath>
     </Reference>
     <Reference Include="Infragistics2.Win.UltraWinTree.v9.1">
-      <HintPath>..\..\..\L2\Infragistics2.Win.UltraWinTree.v9.1.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\Infragistics2.Win.UltraWinTree.v9.1.dll</HintPath>
     </Reference>
     <Reference Include="Infragistics2.Win.v9.1">
-      <HintPath>..\..\..\L2\Infragistics2.Win.v9.1.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\Infragistics2.Win.v9.1.dll</HintPath>
     </Reference>
     <Reference Include="Infragistics2.Win.v9.1.Design">
-      <HintPath>..\..\..\L2\Infragistics2.Win.v9.1.Design.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\Infragistics2.Win.v9.1.Design.dll</HintPath>
     </Reference>
     <Reference Include="L2Manager">
-      <HintPath>..\..\..\L2\L2Manager.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\L2Manager.dll</HintPath>
     </Reference>
     <Reference Include="LATIR2Framework">
-      <HintPath>..\..\..\L2\LATIR2Framework.dll</HintPath>
-    </Reference>
-    <Reference Include="LATIR2GUIControls">
-      <HintPath>..\..\..\L2\LATIR2GUIControls.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\LATIR2Framework.dll</HintPath>
     </Reference>
     <Reference Include="LATIR2GuiManager">
-      <HintPath>..\..\..\L2\LATIR2GuiManager.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\LATIR2GuiManager.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualBasic.Compatibility">
       <Name>Microsoft.VisualBasic.Compatibility</Name>
       <Private>True</Private>
     </Reference>
-    <Reference Include="NetronLight, Version=1.0.3447.42049, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="NetronLight">
+      <HintPath>C:\LATIR4\Build\NetronLight.dll</HintPath>
+    </Reference>
+    <Reference Include="STDLATIRGUIControls, Version=1.0.6948.21096, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\LATIR\Generated\Generated Dlls\NetronLight.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\STDLATIRGUIControls.dll</HintPath>
     </Reference>
     <Reference Include="System">
       <Name>System</Name>
@@ -207,53 +210,53 @@
       <Name>System.XML</Name>
     </Reference>
     <Reference Include="TPLC">
-      <HintPath>..\..\..\L2\TPLC.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\TPLC.dll</HintPath>
     </Reference>
     <Reference Include="TPLCGUI, Version=1.0.5665.32655, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\L2\TPLCGUI.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\TPLCGUI.dll</HintPath>
     </Reference>
     <Reference Include="TPLD">
-      <HintPath>..\..\..\L2\TPLD.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\TPLD.dll</HintPath>
     </Reference>
     <Reference Include="TPLDGUI, Version=1.0.5665.32656, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\L2\TPLDGUI.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\TPLDGUI.dll</HintPath>
     </Reference>
     <Reference Include="TPLS">
-      <HintPath>..\..\..\L2\TPLS.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\TPLS.dll</HintPath>
     </Reference>
     <Reference Include="TPLSGUI, Version=1.0.5665.32657, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\L2\TPLSGUI.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\TPLSGUI.dll</HintPath>
     </Reference>
     <Reference Include="TPLT">
-      <HintPath>..\..\..\L2\TPLT.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\TPLT.dll</HintPath>
     </Reference>
     <Reference Include="TPLTGUI, Version=1.0.5665.32658, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\L2\TPLTGUI.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\TPLTGUI.dll</HintPath>
     </Reference>
     <Reference Include="TPN">
-      <HintPath>..\..\..\L2\TPN.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\TPN.dll</HintPath>
     </Reference>
     <Reference Include="TPNGUI, Version=1.0.5665.32659, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\L2\TPNGUI.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\TPNGUI.dll</HintPath>
     </Reference>
     <Reference Include="TPQ">
-      <HintPath>..\..\..\L2\TPQ.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\TPQ.dll</HintPath>
     </Reference>
     <Reference Include="TPQGUI, Version=1.0.5665.32659, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\L2\TPQGUI.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\TPQGUI.dll</HintPath>
     </Reference>
     <Reference Include="TPSRV">
-      <HintPath>..\..\..\L2\TPSRV.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\TPSRV.dll</HintPath>
     </Reference>
     <Reference Include="TPSRVGUI, Version=1.0.5665.32660, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\L2\TPSRVGUI.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\TPSRVGUI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -377,6 +380,9 @@
     <None Include="app.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="latir_sites.XML.zzz">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>

@@ -1,16 +1,19 @@
 Imports System.IO
 Imports System.Threading
+Imports LATIR2
+
 
 Public MustInherit Class TVDriver
 #Region "properties"
 
 
-    Private mMyManager As LATIR2.Manager
-    Public Property MyManager As LATIR2.Manager
+    Private mMyManager As Manager
+    Public Property MyManager As Manager
+
         Get
             Return mMyManager
         End Get
-        Set(value As LATIR2.Manager)
+        Set(value As Manager)
             mMyManager = value
         End Set
     End Property

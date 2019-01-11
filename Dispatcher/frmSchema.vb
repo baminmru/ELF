@@ -51,7 +51,7 @@ Public Class frmSchema
         Else
             fname = System.IO.Path.GetDirectoryName(Me.GetType().Assembly.Location()) + "\schema\" & Guid.NewGuid.ToString() & ".bmp"
 
-            Module1.Session.SaveFileFromField(fname, "TPLS_INFO", "schema_image", ds_id)
+            Module1.Session.GetProvider().SaveFileFromField(Module1.Session.Connection, fname, "TPLS_INFO", "schema_image", ds_id)
             Try
                 picSchema.Load(fname)
             Catch ex As Exception

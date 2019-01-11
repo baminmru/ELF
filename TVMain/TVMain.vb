@@ -3,6 +3,7 @@ Imports System.IO
 Imports System.Reflection
 Imports System.Xml
 Imports LATIR2.Utils
+Imports LATIR2
 
 Public Class TVMain
 
@@ -10,8 +11,8 @@ Public Class TVMain
     Public Event TransportStatus(ByVal Action As UnitransportAction, ByVal MSG As String)
 
     Public WithEvents TVD As TVDriver
-    Public MANAGER As LATIR2.Manager
-    Public TheSession As LATIR2.Session
+    Public MANAGER As Manager
+    Public TheSession As Session
     Public SrvID As Guid = Guid.Empty
     Dim PortID As Short
     Dim m_RequestInterval As Integer
@@ -610,7 +611,7 @@ Public Class TVMain
     End Function
 
     ' инициализация библиотеки
-    Public Function Init(ByVal MyManager As LATIR2.Manager, ByVal aSrvid As Guid) As Boolean
+    Public Function Init(ByVal MyManager As Manager, ByVal aSrvid As Guid) As Boolean
         DeviceReady = False
         MANAGER = MyManager
         TheSession = MANAGER.Session

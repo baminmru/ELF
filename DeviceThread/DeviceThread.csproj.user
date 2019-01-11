@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <StartWorkingDirectory>C:\LATIR2\Generated\Generated Dlls\</StartWorkingDirectory>
+    <StartWorkingDirectory>C:\LATIR4\Build\</StartWorkingDirectory>
     <StartAction>Project</StartAction>
     <StartArguments>-S {8246B51F-079B-11E4-87EC-E8039A0069B7} -D {A46FCD6E-3416-11E4-9402-E8039A0069B7}</StartArguments>
   </PropertyGroup>

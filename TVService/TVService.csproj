@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -15,7 +15,7 @@
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
     <OldToolsVersion>3.5</OldToolsVersion>
-    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -31,6 +31,7 @@
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -42,6 +43,7 @@
     <WarningLevel>4</WarningLevel>
     <UseVSHostingProcess>false</UseVSHostingProcess>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -52,10 +54,11 @@
     <WarningLevel>4</WarningLevel>
     <UseVSHostingProcess>false</UseVSHostingProcess>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="L2Manager">
-      <HintPath>..\..\..\L2\L2Manager.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\L2Manager.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration.Install" />
@@ -64,25 +67,25 @@
     <Reference Include="System.ServiceProcess" />
     <Reference Include="System.Xml" />
     <Reference Include="TPLC">
-      <HintPath>..\..\..\L2\TPLC.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\TPLC.dll</HintPath>
     </Reference>
     <Reference Include="TPLD">
-      <HintPath>..\..\..\L2\TPLD.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\TPLD.dll</HintPath>
     </Reference>
     <Reference Include="TPLS">
-      <HintPath>..\..\..\L2\TPLS.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\TPLS.dll</HintPath>
     </Reference>
     <Reference Include="TPLT">
-      <HintPath>..\..\..\L2\TPLT.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\TPLT.dll</HintPath>
     </Reference>
     <Reference Include="TPN">
-      <HintPath>..\..\..\L2\TPN.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\TPN.dll</HintPath>
     </Reference>
     <Reference Include="TPQ">
-      <HintPath>..\..\..\L2\TPQ.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\TPQ.dll</HintPath>
     </Reference>
     <Reference Include="TPSRV">
-      <HintPath>..\..\..\L2\TPSRV.dll</HintPath>
+      <HintPath>C:\LATIR4\Build\TPSRV.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

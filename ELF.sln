@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TVMain", "TVMain\TVMain.vbproj", "{0C7D9D95-1165-4C46-8346-748E4D276CFD}"
 EndProject
@@ -38,6 +38,8 @@ EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DrvVKT4", "DrvVKT4\DrvVKT4.vbproj", "{4F74DC3D-F0A9-45C8-9B71-7376EB72E3F5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TVService", "TVService\TVService.csproj", "{78F9CEBD-C5FE-4A93-93F5-FDF9423E0634}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "L2Manager", "..\..\..\LATIR4\objmanager\L2Manager.vbproj", "{C2AED02B-2ED8-497A-B79E-AFC4E5967F29}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -199,8 +201,23 @@ Global
 		{78F9CEBD-C5FE-4A93-93F5-FDF9423E0634}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{78F9CEBD-C5FE-4A93-93F5-FDF9423E0634}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{78F9CEBD-C5FE-4A93-93F5-FDF9423E0634}.Release|x86.ActiveCfg = Release|Any CPU
+		{C2AED02B-2ED8-497A-B79E-AFC4E5967F29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2AED02B-2ED8-497A-B79E-AFC4E5967F29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2AED02B-2ED8-497A-B79E-AFC4E5967F29}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{C2AED02B-2ED8-497A-B79E-AFC4E5967F29}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{C2AED02B-2ED8-497A-B79E-AFC4E5967F29}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C2AED02B-2ED8-497A-B79E-AFC4E5967F29}.Debug|x86.Build.0 = Debug|Any CPU
+		{C2AED02B-2ED8-497A-B79E-AFC4E5967F29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2AED02B-2ED8-497A-B79E-AFC4E5967F29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2AED02B-2ED8-497A-B79E-AFC4E5967F29}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{C2AED02B-2ED8-497A-B79E-AFC4E5967F29}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{C2AED02B-2ED8-497A-B79E-AFC4E5967F29}.Release|x86.ActiveCfg = Release|Any CPU
+		{C2AED02B-2ED8-497A-B79E-AFC4E5967F29}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {795EEF21-2A5D-466C-B583-7E1F7E5F860A}
 	EndGlobalSection
 EndGlobal
